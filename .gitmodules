@@ -1,3 +1,6 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project.git
+[submodule "Project/191220087-钱思辰"]
+	path = Project/191220087-钱思辰
+	url = git@github.com:PetraEcho/NJU-SE2021-autumn-Lab3.git
