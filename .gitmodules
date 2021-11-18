@@ -1,3 +1,6 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project.git
+[submodule "Project/191098191-水兵"]
+	path = Project/191098191-水兵
+	url = git@github.com:Shbinging/Simple-File-Manager-6.8.7.git
