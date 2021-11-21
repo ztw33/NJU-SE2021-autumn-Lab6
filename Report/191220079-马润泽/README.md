@@ -61,25 +61,25 @@
 
 1）在lab3-SimpleExplorer文件夹下新建test.txt文件并将其添加至暂存区，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\add.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/add.png)
 
 使用git status命令可以看到暂存区内有等待提交的变化：新文件text.txt。
 
 2）在lab3-SimpleExplorer文件夹下修改文件REANME.md文件中的内容，具体操作为在该文件末尾添加四行并在最后一行添加my test字符串，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\modify.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/modify.png)
 
 使用git diff命令可以看到文件更改过的位置与具体更改的内容。
 
 3）在lab3-SimpleExplorer文件夹下将步骤1）中的操作进行提交，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\commit.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/commit.png)
 
 可以看到提交成功，且使用git log命令查看日志，日志中记录下了该操作。
 
 4）想要回退到指定版本，则在日志中查看该版本的编号后使用git reset + 版本号进行版本回退，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\reset.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/reset.png)
 
 使用git log命令查看日志发现确实已回退到该版本。其中git reset --hard指将工作区也一起回退，此时可以发现在lab3-SimpleExplorer文件夹下的test.txt已经消失。
 
@@ -89,9 +89,14 @@
 
 1）在不同的分支上进行修改并最后将其合并至主分支，查看日志文件并绘制点线图，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\log.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/log.png)
 
 2）为稳定版本添加tag标签并更新至远程仓库，截图如下：
 
-![](C:\Users\14336\Desktop\SE\exp6\NJU-SE2021-autumn-Lab6\Report\191220079-马润泽\ref\tag.png)
+![](https://raw.githubusercontent.com/Mars-Z777/NJU-SE2021-autumn-Lab6/main/Report/191220079-%E9%A9%AC%E6%B6%A6%E6%B3%BD/ref/tag.png)
 
+3）关于Pull Request
+
+​		Pull Request 是一种通知机制。你修改了他人的代码，将你的修改通知原来的作者，希望他合并你的修改，这就是 Pull Request。
+
+​		完成实验后向原作者
