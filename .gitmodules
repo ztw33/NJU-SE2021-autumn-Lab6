@@ -4,3 +4,6 @@
 [submodule "Project/191220079-马润泽"]
 	path = Project/191220079-马润泽
 	url = https://github.com/Mars-Z777/lab3-SimpleExplorer.git
+[submodule "Project/181860014-丁世纪"]
+	path = Project/181860014-丁世纪
+	url = https://github.com/dingshiji/simple-file-manager
