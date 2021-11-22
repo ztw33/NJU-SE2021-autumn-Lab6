@@ -7,6 +7,7 @@
     git status
 
 可以查看当前的文件状态，是否有新的修改
+
 ![pic1](ref/pic1.png)
 
 ---
@@ -65,12 +66,15 @@
 ---
 
 git merge结果如下：
+
 ![pic5](ref/pic5.png)
+
 可见没有合并冲突，不需要额外处理
 
 ---
 
 git log --graph结果如下：
+
 ![pic6](ref/pic6.png)
 
 ---
