@@ -20,7 +20,7 @@
 
 ​		利用git init创建仓库，并用git add remote将本地仓库和远端的SE3仓库关联起来。接着，使用git checkout -b color，创建color分支。结束后，git的状态如下：
 
-​		![image-20211122180742296](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122180742296.png)
+​	 ![image-20211122180742296](ref/image-20211122180742296.png)
 
 ​		接着，打开预订要修改的array.xml文件，做出一些修改并commit。代码修改前：
 
@@ -43,33 +43,33 @@
 
 ​	修改后如上。进行add，git状态如下：
 
-![image-20211122181100002](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122181100002.png)
+![image-20211122181100002](ref/image-20211122181100002.png)
 
 ​	显示array.xml被修改了，再进行commit操作。
 
-![image-20211122181214702](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122181214702.png)
+![image-20211122181214702](ref/image-20211122181214702.png)
 
-​	![image-20211122181243263](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122181243263.png)
+​	![image-20211122181243263](ref/image-20211122181243263.png)
 
 ​     这操作也被log记录下来了。接着，回滚到修改前的状态。
 
-​		![image-20211122181405258](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122181405258.png)
+​		![image-20211122181405258](ref/image-20211122181405258.png)
 
 ​		成功。经过一大串代码修改，color分支的工作最终完成。进行add后，git状态如下：
 
-![image-20211122181853860](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122181853860.png)
+![image-20211122181853860](ref/image-20211122181853860.png)
 
 ​		commit之后，将color分支merge回master。
 
-![image-20211122182044088](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122182044088.png)
+![image-20211122182044088](ref/image-20211122182044088.png)
 
 ​		以同样的方式对“权限描述优化”做管理。一切修改结束后，给稳定版本打上v1.0的tag。
 
-![image-20211122182747752](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122182747752.png)
+![image-20211122182747752](ref/image-20211122182747752.png)
 
 ​		最后，将修改push至远端仓库。
 
-![image-20211122182643748](C:\Users\张乐简\AppData\Roaming\Typora\typora-user-images\image-20211122182643748.png)
+![image-20211122182643748](ref/image-20211122182643748.png)
 
 ## 反思
 
