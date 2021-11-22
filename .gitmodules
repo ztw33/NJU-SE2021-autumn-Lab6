@@ -13,3 +13,6 @@
 [submodule "Project/181840064-高明晨"]
 	path = Project/181840064-高明晨
 	url = https://github.com/waterflowing/lab3-MaterialFiles
+[submodule "Project/191220066-刘京龙"]
+	path = Project/191220066-刘京龙
+	url = https://github.com/Jinglong-Liu/lab3-AmazeFileManager
