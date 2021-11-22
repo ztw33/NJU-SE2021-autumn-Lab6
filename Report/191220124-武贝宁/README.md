@@ -86,7 +86,7 @@
 
 修改后编译运行，可以看到已经将子任务1和子任务2的修改合并了。
 
-<img src="https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/16.png?raw=true" alt="16.png" style="zoom:50%;" />
+<img src="https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/16.png?raw=true" alt="16.png" style="zoom: 33%;" />
 
 
 
@@ -98,7 +98,7 @@
 
 修改后可以看到子任务3中做的改动也已经成功合并了。
 
-<img src="https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/18.png?raw=true" alt="18" style="zoom:50%;" />
+<img src="https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/18.png?raw=true" alt="18" style="zoom: 33%;" />
 
 `git log --graph`执行结果如下：
 
