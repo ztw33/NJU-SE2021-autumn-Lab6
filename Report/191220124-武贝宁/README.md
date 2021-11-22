@@ -6,11 +6,11 @@
 
 ## 实验内容
 
-#### 安装git，在本地将你的开源项目目录初始化为git 仓库(如已有.git 文件夹请先删除)
+### 1.安装git，在本地将你的开源项目目录初始化为git 仓库(如已有.git 文件夹请先删除)
 
-init后，用git add .命令将当项目中所有文件存入主分支（是为原始代码）
+`git init`后，用`git add .`命令将当项目中所有文件存入主分支（是为原始代码）
 
-### 1.在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用git diff, git log, git status 等命令展示操作前后的区别
+### 2.在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用git diff, git log, git status 等命令展示操作前后的区别
 
 这里新建一个文件夹test，并进行init用于演示。
 
@@ -44,9 +44,9 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 
 
-### 2.根据实验三针对几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发，最终将所有修改合并到master 分支上；如有冲突请尝试解决。在报告中展示你的操作，并使用git log --graph 命令展示分支合并图
+### 3.根据实验三针对几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发，最终将所有修改合并到master 分支上；如有冲突请尝试解决。在报告中展示你的操作，并使用git log --graph 命令展示分支合并图
 
-<1>子任务1：添加了一个跳转到关于界面的按钮
+#### <1>子任务1：添加了一个跳转到关于界面的按钮
 
 ![7.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/7.jpg?raw=true)
 
@@ -54,13 +54,13 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 ![8.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/8.png?raw=true)
 
-<2>子任务2：将文件名添加了浅黄背景色，并放大了字体。
+#### <2>子任务2：将文件名添加了浅黄背景色，并放大了字体。
 
 ![9.jpg](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/9.jpg?raw=true)
 
 ![10.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/10.png?raw=true)
 
-<子任务3>添加了一个跳转到分享界面的按钮
+#### <子任务3>添加了一个跳转到分享界面的按钮
 
 ![11.jpg](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/11.jpg?raw=true)
 
@@ -68,7 +68,7 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 
 
-##### 然后进行代码的合并
+#### 然后进行代码的合并
 
 合并Modify1时成功。
 
@@ -104,13 +104,13 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 ![19.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/19.png?raw=true)
 
-### 3.给你的某个稳定版本的代码打上标签
+### 4.给你的某个稳定版本的代码打上标签
 
 ![20.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/20.png?raw=true)
 
 合并后，将所有分支都打上了v1.0.0的标签。
 
-### 4.注册github 账号，在账号中创建远程仓库(权限请设置为public)；把本地的所有分支和标签推送到远端
+### 5.注册github 账号，在账号中创建远程仓库(权限请设置为public)；把本地的所有分支和标签推送到远端
 
 这里因为我之前已经注册了账号，同时在作业刚开始做的时候就已经创建了远程仓库并关联了，所以这里就不再展示具体操作了。
 
@@ -118,11 +118,11 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 ![21.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/21.png?raw=true)
 
-### 5.使用pull request 提交自己的代码和报告(作业提交说明里细说)
+### 6.使用pull request 提交自己的代码和报告
 
+略
 
-
-### 6.在报告中回答以下问题：
+### 7.在报告中回答以下问题：
 
 - #### 使用git 的好处？
 
@@ -140,7 +140,7 @@ init后，用git add .命令将当项目中所有文件存入主分支（是为�
 
 - #### 如果你额外学习并实践了关于git/github 的其他进阶操作(如merge 和rebase 的区别、reset 和revert 的区别、stash, cherry-pick 的使用等)，可在报告中展示
 
-##### reset和revert的区别
+#### reset和revert的区别
 
 reset是将head指针直接指向之前的某一次commit，之后的commit会消失（当然还是能够恢复的，但是log里已经看不到了）
 
@@ -154,11 +154,11 @@ revert则是创建一次新的commit，其中的内容是之前某一次commit�
 
 初始状态有两个commit，其中Modify 1修改了test.txt文件的内容。
 
-然后我们使用git revert命令进行回退，可以看到这里生成了一个新的commit Revert "Modify 1"，而此时test.txt文件的内容也回到了Initial commit。
+然后我们使用`git revert`命令进行回退，可以看到这里生成了一个新的commit` Revert "Modify 1"`，而此时test.txt文件的内容也回到了Initial commit。
 
 ![23.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/23.png?raw=true)
 
-如果我们使用git reset命令进行回退，可以看到Initial commit之后的所有commit都“消失“了
+如果我们使用`git reset`命令进行回退，可以看到Head指针指向的位置发生了改变，Initial commit之后的所有commit都“消失“了
 
 ![24.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/24.png?raw=true)
 
