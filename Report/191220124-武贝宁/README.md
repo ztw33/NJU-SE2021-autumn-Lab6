@@ -2,10 +2,6 @@
 
 191220124 武贝宁
 
-
-
-## 实验内容
-
 ### 1.安装git，在本地将你的开源项目目录初始化为git 仓库(如已有.git 文件夹请先删除)
 
 `git init`后，用`git add .`命令将当项目中所有文件存入主分支（是为原始代码）
@@ -140,7 +136,7 @@
 
 - #### 如果你额外学习并实践了关于git/github 的其他进阶操作(如merge 和rebase 的区别、reset 和revert 的区别、stash, cherry-pick 的使用等)，可在报告中展示
 
-#### reset和revert的区别
+  - #### reset和revert的区别
 
 reset是将head指针直接指向之前的某一次commit，之后的commit会消失（当然还是能够恢复的，但是log里已经看不到了）
 
@@ -164,3 +160,56 @@ revert则是创建一次新的commit，其中的内容是之前某一次commit�
 
 
 
+### 8.在本机安装jenkins，并在全局工具配置和系统设置中配置好JDK 地址、Gradle 地址、ANDROID_HOME 地址和JAVA_HOME 地址
+
+上网查询相关教程，成功在windows系统中安装jenkins，端口号设为7921，这样以后就可以通过域名`localhost:7921`进行访问。
+
+![25.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/25.png?raw=true)
+
+点击Manage Jenkins进入Global Tool Configuration界面进行配置。
+
+首先是jdk的配置，这里选用的版本是`java1.8.0_231`
+
+![26.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/26.png?raw=true)
+
+然后配置gradle，这里我选用的版本号是5.4.1，与项目保持一致。
+
+![27.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/27.png?raw=true)
+
+`JAVA_HOME`和`ANDROID_HOME`之前已经配置过了，在这里我顺带配置了一下`GRADLE_HOME`。（好像就构建项目来说不需要，但还是顺带做了一下）
+
+首先在本地文件中找到gradle的目录，然后添加系统变量，再将`%GRADLE_HOME%\bin`添加进环境变量。
+
+![28.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/28.png?raw=true)
+
+打开cmd，验证发现配置成功。
+
+![29.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/29.png?raw=true)
+
+
+
+- #### 新建任务，在源码管理中填写自己项目的github 地址，对项目进行一次构建
+
+  新建一个任务名为`NJU-SE-lab3-AnExplorer`，类型为Freestyle project。
+
+  ![30.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/30.png?raw=true)
+
+  填写我们项目的github地址，并且在Credentials中填写自己github的账号密码，作为登录凭据。
+
+  ![31.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/31.png?raw=true)
+
+  然后就可以点击Build Now进行构建了。
+
+  点击控制台输出可以看到构建过程的信息，结果构建成功。
+
+  ![32.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/32.png?raw=true)
+
+- #### 修改代码，再次推送到github 仓库中，再次对项目进行构建
+
+因为我在使用jenkins之前已经将代码修改任务完成了，因此这里就随便修改了一点（如图，只向一个文件中添加了两行空行）
+
+![33.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/33.png?raw=true)
+
+然后再次进行项目构建。
+
+![34.png](https://github.com/Baykin5/NJU-SE2021-autumn-Lab6/blob/main/Report/191220124-%E6%AD%A6%E8%B4%9D%E5%AE%81/ref/34.png?raw=true)
