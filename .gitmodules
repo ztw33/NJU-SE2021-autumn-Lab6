@@ -22,3 +22,6 @@
 [submodule "Project/191220162-张乐简"]
 	path = Project/191220162-张乐简
 	url = https://github.com/CAR-hash/SE3
+[submodule "Project/191220176-赵智宇"]
+	path = Project/191220176-赵智宇
+	url = https://github.com/tinywisdom/lab3-MaterialFiles.git
