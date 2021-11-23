@@ -1,6 +1,37 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
+<<<<<<< HEAD
 	url = https://github.com/ztw330/example-project.git
 [submodule "Project/191220072-卢润邦"]
 	path = Project/191220072-卢润邦
 	url = https://github.com/saul-worseman/191220072-lab3-6--filemanager-0.5
+=======
+	url = https://github.com/ztw330/example-project
+[submodule "Project/191220124-武贝宁"]
+	path = Project/191220124-武贝宁
+	url = https://github.com/Baykin5/lab3-AnExplorer-4.1.1
+[submodule "Project/191220079-马润泽"]
+	path = Project/191220079-马润泽
+	url = https://github.com/Mars-Z777/lab3-SimpleExplorer.git
+[submodule "Project/181860014-丁世纪"]
+	path = Project/181860014-丁世纪
+	url = https://github.com/dingshiji/simple-file-manager
+[submodule "Project/191220062-刘东旭"]
+	path = Project/191220062-刘东旭
+	url = https://github.com/nju-ldx/Simple-File-Manager-6.8.7
+[submodule "Project/181840064-高明晨"]
+	path = Project/181840064-高明晨
+	url = https://github.com/waterflowing/lab3-MaterialFiles
+[submodule "Project/191220066-刘京龙"]
+	path = Project/191220066-刘京龙
+	url = https://github.com/Jinglong-Liu/lab3-AmazeFileManager
+[submodule "Project/191098026-陈杨"]
+	path = Project/191098026-陈杨
+	url = https://github.com/Direction-cy/sw-03
+[submodule "Project/191220162-张乐简"]
+	path = Project/191220162-张乐简
+	url = https://github.com/CAR-hash/SE3
+[submodule "Project/191220176-赵智宇"]
+	path = Project/191220176-赵智宇
+	url = https://github.com/tinywisdom/lab3-MaterialFiles.git
+>>>>>>> upstream/main
