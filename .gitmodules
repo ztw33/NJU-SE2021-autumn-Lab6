@@ -1,11 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
-<<<<<<< HEAD
 	url = https://github.com/ztw330/example-project.git
 [submodule "Project/191220072-卢润邦"]
 	path = Project/191220072-卢润邦
 	url = https://github.com/saul-worseman/191220072-lab3-6--filemanager-0.5
-=======
 	url = https://github.com/ztw330/example-project
 [submodule "Project/191220124-武贝宁"]
 	path = Project/191220124-武贝宁
@@ -34,4 +32,3 @@
 [submodule "Project/191220176-赵智宇"]
 	path = Project/191220176-赵智宇
 	url = https://github.com/tinywisdom/lab3-MaterialFiles.git
->>>>>>> upstream/main
