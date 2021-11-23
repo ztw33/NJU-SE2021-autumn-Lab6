@@ -12,7 +12,7 @@
 
 首先在`github`上建立一个`repo`，然后复制下面的命令将本地仓库和远程仓库进行一个关联。
 
-![image-20211119210859743](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211119210859743.png)
+![image-20211119210859743](ref/image-20211119210859743.png)
 
 ### git基础操作展示
 
@@ -22,73 +22,73 @@
 
   使用如下图所示的命令从当前分支**新建并切换**一个新的分支，因为之前已经建立了，所以报错。
 
-![image-20211123140308254](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123140308254.png)
+![image-20211123140308254](ref/image-20211123140308254.png)
 
 + git branch
 
-  使用如下命令查看所有branch情况，如下图，我已经新建了两个branch，当前处于second-branch![image-20211123142125215](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123142125215.png)
+  使用如下命令查看所有branch情况，如下图，我已经新建了两个branch，当前处于second-branch![image-20211123142125215](ref/image-20211123142125215.png)
 
 + git commit
 
   写的时候发现有个返回按钮没加，于是顺手commit一下，暂存到local。
 
-  ![image-20211123142824003](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123142824003.png)
+  ![image-20211123142824003](ref/image-20211123142824003.png)
 
 + git diff
 
   展示second-change和main分支的区别，下面略去细节，这个意思是second-change的第1行起23行与main的第一行起51行有差别
 
-  ![image-20211123143117898](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123143117898.png)
+  ![image-20211123143117898](ref/image-20211123143117898.png)
 
 + git log
 
   使用如下命令查看log记录，可以用下方向键浏览，按q退出，亦可输出重定向某个txt
 
-  ![image-20211123143619703](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123143619703.png)
+  ![image-20211123143619703](ref/image-20211123143619703.png)
 
 + git status
 
   如下图，该命令用于显示工作目录和暂存区的状态，因为我刚刚commit了，所以现在很干净
 
-  ![image-20211123144238903](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123144238903.png)
+  ![image-20211123144238903](ref/image-20211123144238903.png)
 
 + git reset
 
   **后悔药**，如下图，根据`hashid`，可以回退到我的bug fixed的版本。
 
-  ![image-20211123144607887](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123144607887.png)
+  ![image-20211123144607887](ref/image-20211123144607887.png)
 
   更多option可以参考ide提供的ui界面
 
-  ![image-20211123144710449](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123144710449.png)
+  ![image-20211123144710449](ref/image-20211123144710449.png)
 
 + git merge
 
   如下图，我将修改字体颜色的分支merge到main中了，接着将second-change也merge进来，因为没有冲突，所以可以直接merge。
 
-  ![image-20211123144834444](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123144834444.png)
+  ![image-20211123144834444](ref/image-20211123144834444.png)
 
-  ![image-20211123144950815](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123144950815.png)
+  ![image-20211123144950815](ref/image-20211123144950815.png)
 
 + git log --graph
 
   下面是完整的log图，比较线性
 
-  ![image-20211123145146782](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123145146782.png)
+  ![image-20211123145146782](ref/image-20211123145146782.png)
 
 + git push
 
   最后push到远程仓库，奇怪的是，这里可以使用git push，好像从21年几月起一直要用token。
 
-  ![image-20211123150747088](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123150747088.png)
+  ![image-20211123150747088](ref/image-20211123150747088.png)
 
 + git tag
 
   给merge后的版本打个tag，然后再push，这个时候因为没有更新的commit所以git push的参数不太一样（主要是最后演示push的时候忘了）
 
-  ![image-20211123200943345](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123200943345.png)
+  ![image-20211123200943345](ref/image-20211123200943345.png)
 
-​				![image-20211123201238504](C:\Users\runbanglu\AppData\Roaming\Typora\typora-user-images\image-20211123201238504.png)
+​				![image-20211123201238504](ref/image-20211123201238504.png)
 
 
 
