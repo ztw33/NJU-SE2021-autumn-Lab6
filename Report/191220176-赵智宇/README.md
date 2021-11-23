@@ -1,4 +1,4 @@
-![](ref\image002.gif)
+![](ref/image002.gif)
 
 <div align = "center"><span style='color:black;background:背景颜色;font-size:70px;font-family:华文行楷;'>计算机科学与技术系</span></div>
 
@@ -51,35 +51,35 @@ log, git status 等命令展示操作前后的区别
 
 ### 五、实验过程与结果说明
 + 为了演示，在d盘新建目录git_test，用`git init`命令初始化仓库，出现`.git`文件夹
-   + ![](ref\git_init.png) 
+   + ![](ref/git_init.png) 
 
 + 在该目录下新建`for_test.txt`文件，此时输入`git status`命令，显示此时没有`commit`记录，并提示有修改未被加载到暂存区
-   + ![](ref\git _status_1.png) 
+   + ![](ref/git _status_1.png) 
 
 + 此时输入`git add`命令，将修改加载到暂存区，并再输入`git status`命令，此时提示，暂存区有未提交的变化
-  +  ![](ref\git_status_2.png) 
+  +  ![](ref/git_status_2.png) 
 
 + 此时，在`for_test.txt`文件输入两行内容，再输入`git diff`命令，提示工作目录和暂存区文件有不同（当然，`git diff`命令还有很多其他参数可加，这里不再进一步展示了）
-  + ![](ref\for_test.png) 
-  + ![](ref\git_diff.png) 
+  + ![](ref/for_test.png) 
+  + ![](ref/git_diff.png) 
 
 + 随后调用`git commit`命令，提交修改，再输入`git status`命令，显示提交成功，并且工作区干净
-  + ![](ref\git_status_3.png) 
+  + ![](ref/git_status_3.png) 
 
 + 一开始，在进行实验三时，并没有遵照实验六的指导，并没有为每一个子任务创建一个分支，全部在`master`分支上进行，因此我在这里截图展示一下之前的`git log`,随后新建仓库快速重复实验三的过程
-   + ![](ref\8.png) 
+   + ![](ref/8.png) 
 
 + 重做实验三时，新建了三个分支，分别为`button_icon`,`button_colour`,`new_testline`，分别进行修改，完成后提交，并且并入`master`分支，由于并没有涉及对同一个文件的改变，并没有出现冲突的情况。在实验过程中，每一个分支都可以用`git reset`命令回退版本。
-   + ![](ref\9.png) 
-   + ![](ref\10.png) 
-   + ![](ref\11.png) 
+   + ![](ref/9.png) 
+   + ![](ref/10.png) 
+   + ![](ref/11.png) 
 
 + 最后，展示`git log --graph`
-  + ![](ref\log_graph.png) 
+  + ![](ref/log_graph.png) 
 
 + 接下来是对过去的一些提交打上标签，这里先查询打印历次提交的信息和校验和，随后进行打上标签的操作，并且推动到远端仓库
-   + ![](ref\log_line.png) 
-   + ![](ref\git_tag.png) 
+   + ![](ref/log_line.png) 
+   + ![](ref/git_tag.png) 
    + ![](ref/push_tag.png) 
 
 + 最后是对`fork`源仓库提出`pull request`的申请，请求管理人员审查并且进行代码的合并。这里进行时我没能完全理解`pull request`的意义，在自己的远端仓库未更新时直接提出了PR，后经助教提醒才意识到本地还没有进行`git push`操作，在这个过程中，我也是体会到了“PR前先更新源仓库”的重要性。
