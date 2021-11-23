@@ -1,7 +1,3 @@
----
-typora-root-url: ./
----
-
 ![](ref\image002.gif)
 
 <div align = "center"><span style='color:black;background:背景颜色;font-size:70px;font-family:华文行楷;'>计算机科学与技术系</span></div>
@@ -84,7 +80,7 @@ log, git status 等命令展示操作前后的区别
 + 接下来是对过去的一些提交打上标签，这里先查询打印历次提交的信息和校验和，随后进行打上标签的操作，并且推动到远端仓库
    + ![](ref\log_line.png) 
    + ![](ref\git_tag.png) 
-   + ![](ref\push_tag.png) 
+   + ![](.\ref\push_tag.png) 
 
 + 最后是对`fork`源仓库提出`pull request`的申请，请求管理人员审查并且进行代码的合并。这里进行时我没能完全理解`pull request`的意义，在自己的远端仓库未更新时直接提出了PR，后经助教提醒才意识到本地还没有进行`git push`操作，在这个过程中，我也是体会到了“PR前先更新源仓库”的重要性。
 
