@@ -39,9 +39,10 @@
     <br>&nbsp&nbsp&nbsp&nbsp
     实验时间：
     <u>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    2021.11.22
+    2021.11.24
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</u>
     </font></b><br></p>
+
 
 
 
@@ -212,13 +213,17 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
 #### 5.使用pull request 提交的代码和报告
 
-[*]
+在fork分支下点击`Create pull request` 然后将push的远程仓库提交PR。
+
+![](ref/pull request1.png)
+
+待原仓库所有者批准后即可成功pull request
+
+![](ref/pull request2.png)
 
 
 
-
-
-#### 5. 相关问题回答
+#### 6. 相关问题回答
 
 
 
@@ -259,11 +264,22 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
   
 
-#### 6. git其他功能
+#### 7. git其他功能
 
-##### 1）`git rebase` : 把分叉的提交历史“整理”成一条直线，看上去更直观。缺点是本地的分叉提交已经被修改过了。
+##### 1）`git rebase`和`git merge` 的区别 
 
-##### 2) `git stash` : 
+`git rebase` 把分叉的提交历史“整理”成一条直线，看上去更直观。缺点是本地的分叉提交已经被修改过了。
+
+而`git merge` 会把保留所有分支commit，只是把每个分支末端合并。
+
+
+##### 2) `git reset` 和`git revert` 的区别
+
+1. git revert是用一次新的commit来回滚之前的commit，git reset是直接删除指定的commit。
+2. 在回滚这一操作上看，效果差不多。但是在日后继续merge以前的老版本时有区别。因为git  revert是用一次逆向的commit“中和”之前的提交，因此日后合并老的branch时，导致这部分改变不会再次出现，但是git  reset是之间把某些commit在某个branch上删除，因而和老的branch再次merge时，这些被回滚的commit应该还会被引入。
+3. git reset 是把HEAD向后移动了一下，而git revert是HEAD继续前进，只是新的commit的内容和要revert的内容正好相反，能够抵消要被revert的内容。
+
+##### 3) `git stash` 
 
 使用起因为【Git】pull错误：error: Your local changes to the following files would be overwritten by merge。
 
@@ -271,6 +287,27 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
 ![](ref/git stash.png)
 
-[*]
+##### 4) `git cherry-pick [版本号]` 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+当我们需要在本地合入其他分支的提交时，如果我们不想对整个分支进行合并，而是只想将某一次提交合入到本地当前分支上，那么就要使用`git cherry-pick`了。
+
+![](ref/cherry pick.png)
+
+如上图，起初的分支结构是这样的：
+
+a→b									(master)
+
+↓
+
+c→d→e→f→g					(feature1)
+
+想要只把feature1分支的g这个点的提交合到master的后面，使用`git cherry-pick [g的提交版本号]` 命令后就可以只将g并到b后面了:
+
+a→b→g								(master)
+
+↓
+
+c→d→e→f→g					(feature1)
+
+
+
