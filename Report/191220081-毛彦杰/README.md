@@ -137,23 +137,23 @@
 
 使用`git status`查看当前仓库状态，可见test.txt被修改过了，但还没有提交修改。
 
-![](ref/git status.png)
+![](ref/git_status.png)
 
 使用`git diff`查看做了什么修改,可以发现是加上了内容hello world
 
-![](ref/git diff.png)
+![](ref/git_diff.png)
 
 再次`git add .` `git commit -m "test2"` 进行提交，通过 `git log` 可见当前有两次提交，当前处于的提交版本是test2
 
-![](ref/git log2.png)
+![](ref/git_log2.png)
 
 使用`git reset --hard HEAD^` 回退到上一个版本，使用`git reset --hard 版本号` 回退到指定版本，版本号可在git log中查看，如上图红色框框出的部分。执行完git reset命令后，通过git log可以看到现在已经回到了test1版本。
 
-![](ref/git reset.png)
+![](ref/git_reset.png)
 
 此时再打开test.txt可以发现之前添加的内容已经消失
 
-![](ref/text modify2.png)
+![](ref/text_modify2.png)
 
 
 
@@ -161,39 +161,39 @@
 
 使用`git switch -c dev` 命令创建并切换到dev分支(不稳定的测试版本分支),使用`git branch` 查看分支信息如图
 
-![](ref/dev branch.png)
+![](ref/dev_branch.png)
 
 再`git switch -c feature1`创建并切换到feture1分支进行第一个子模块的开发
 
-![](ref/feature1 branch.png)
+![](ref/feature1_branch.png)
 
 feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
-![](ref/feature1 on branch.png)
+![](ref/feature1_on_branch.png)
 
 `git switch dev` 切换回dev分支，再使用`git merge --no-ff -m "feature1 complete" feature1` 在禁用Fast Forward的情况下将feature1合并到dev中，同时提交。
 
-![](ref/feature1 complete.png)
+![](ref/feature1_complete.png)
 
 使用`git log --graph --pretty=oneline --abbrev-commit` 查看精简版图形化分支如下图所示，其中`--pretty=oneline` 参数是将每条日志都只显示一行，`--abbrev-commit` 参数是使得每个版本号只精简显示最前面几个字符，而不全部显示。
 
 
 
-![](ref/feature1 git log graph.png)
+![](ref/feature1_git_log_graph.png)
 
 
 
 同理，建立feature2和feature3分支并在最后一起合并到dev分支上，再次检查确定没有问题后合并到master分支，视为发布的稳定版本。使用命令`git log --graph --pretty=oneline --abbrev-commit` 查看精简版分支图如下所示：
 
-![](ref/git log graph.png)
+![](ref/git_log_graph.png)
 
 为master分支上的最终版本打上标签：
 
-![](ref/git tag.png)
+![](ref/git_tag.png)
 
 最后删除feature1,feature2,feature3分支：
 
-![](ref/git branch delete.png)
+![](ref/git_branch_delete.png)
 
 
 
@@ -207,7 +207,7 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
 使用`git push --tags` 将所有标签进行推送
 
-![](ref/git push.png)
+![](ref/git_push.png)
 
 
 
@@ -215,11 +215,11 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
 在fork分支下点击`Create pull request` 然后将push的远程仓库提交PR。
 
-![](ref/pull request1.png)
+![](ref/pull_request1.png)
 
 待原仓库所有者批准后即可成功pull request
 
-![](ref/pull request2.png)
+![](ref/pull_request2.png)
 
 
 
@@ -285,13 +285,13 @@ feature1开发完后，`git add .` + `git commit` 提交到feature1分支上
 
 想要保存本地修改，同时将远程仓库拉取下来进行合并，故使用`git stash` 把本地快照，然后再进行git pull操作。
 
-![](ref/git stash.png)
+![](ref/git_stash.png)
 
 ##### 4) `git cherry-pick [版本号]` 
 
 当我们需要在本地合入其他分支的提交时，如果我们不想对整个分支进行合并，而是只想将某一次提交合入到本地当前分支上，那么就要使用`git cherry-pick`了。
 
-![](ref/cherry pick.png)
+![](ref/cherry_pick.png)
 
 如上图，起初的分支结构是这样的：
 
