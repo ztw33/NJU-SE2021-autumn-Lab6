@@ -43,3 +43,6 @@
 [submodule "Project/181860075-邱沐阳"]
 	path = Project/181860075-邱沐阳
 	url = https://github.com/qiumuyang/SE2021-Lab6
+[submodule "Project/181860081-宋子辰"]
+	path = Project/181860081-宋子辰
+	url = https://github.com/szc0486/Simple-File-Manager-6.8.7
