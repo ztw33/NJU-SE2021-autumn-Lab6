@@ -298,6 +298,10 @@ Pull request是我们在github上参与别人项目的方式，我们fork别人�
 
 ![](./ref/PR/1.png)
 
+我在本地fetch并rebase远端，存在冲突，解决后，提交即可
+
+![](./ref/PR/2.png)
+
 
 ## 8.回答问题
 
