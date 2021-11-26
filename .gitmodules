@@ -52,3 +52,6 @@
 [submodule "Project/191830187-叶家升"]
 	path = Project/191830187-叶家升
 	url = https://github.com/yegcjs/njuselab3
+[submodule "Project/191220121-吴光远"]
+	path = Project/191220121-吴光远
+	url = https://github.com/SkywalkerWgy/NJU-SE2021-AmazeFileManager-Experiment3.git
