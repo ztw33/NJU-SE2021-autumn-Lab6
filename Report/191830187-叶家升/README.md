@@ -35,7 +35,7 @@
 
 6. 通过`git log`查看提交记录，看到最近一次提交记录为刚才的add hellogit.txt
 
-   ![image-20211126000239747](C:\Users\Yeaaa\AppData\Roaming\Typora\typora-user-images\image-20211126000239747.png)
+   ![git_log](ref/git_log.png))
 
 7. 修改`hellogit.txt`中的内容，通过`git diff`查看修改情况
 
