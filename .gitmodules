@@ -46,6 +46,9 @@
 [submodule "Project/181860081-宋子辰"]
 	path = Project/181860081-宋子辰
 	url = https://github.com/szc0486/Simple-File-Manager-6.8.7
+[submodule "Project/191220111-王凯文"]
+	path = Project/191220111-王凯文
+	url = https://github.com/kevin999wang/lab3-AmazeFileManager
 [submodule "Project/191830187-叶家升"]
 	path = Project/191830187-叶家升
 	url = https://github.com/yegcjs/njuselab3
