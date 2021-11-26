@@ -58,3 +58,6 @@
 [submodule "Project/191220063-刘昊坤"]
 	path = Project/191220063-刘昊坤
 	url = https://github.com/TheGreatAutomata/NJU-SE2021-Lab3
+[submodule "Project/191220109-王珺"]
+	path = Project/191220109-王珺
+	url = https://github.com/KW-NJU/NJU-SE2021-autumn-Lab3
