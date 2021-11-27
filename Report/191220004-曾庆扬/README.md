@@ -10,17 +10,17 @@
 
 `git log`：显示当前分支的版本历史
 
-![image-20211122211740460](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122211740460.png)
+![image-20211122211740460](ref/image-20211122211740460.png)
 
 `git status`：显示有变更的文件（在某次`git add`之后，`git commit`之前）
 
-![image-20211122212901973](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122212901973.png)
+![image-20211122212901973](ref/image-20211122212901973.png)
 
 `git diff --cached` ：查看暂存库与当前版本的差异
 
 不加`--cached`参数则`git diff`指令没有显示任何内容
 
-![image-20211122213905760](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122213905760.png)
+![image-20211122213905760](ref/image-20211122213905760.png)
 
 ### 本地创建和合并分支
 
@@ -28,49 +28,49 @@
 
 `git checkout -b b1 `：创建并跳转到分支b1
 
-![image-20211122234237799](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122234237799.png)
+![image-20211122234237799](ref/image-20211122234237799.png)
 
 `git branch `：查看所有分支
 
-![image-20211122234321382](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122234321382.png)
+![image-20211122234321382](ref/image-20211122234321382.png)
 
 `git merge b1`：合并分支b1和master
 
-![image-20211122214724383](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122214724383.png)
+![image-20211122214724383](ref/image-20211122214724383.png)
 
 `git log --graph`：查看合并后的分支
 
-![image-20211122214740340](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211122214740340.png)
+![image-20211122214740340](ref/image-20211122214740340.png)
 
 **将所有修改合并到master分支上**
 
 `git log --graph`：展示分支合并图
 
-![image-20211123002109239](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123002109239.png)
+![image-20211123002109239](ref/image-20211123002109239.png)
 
 `git merge b2`：合并分支b2
 
-![image-20211123002215440](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123002215440.png)
+![image-20211123002215440](ref/image-20211123002215440.png)
 
 `git branch -d b1`：删除分支b1
 
-![image-20211123002426976](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123002426976.png)
+![image-20211123002426976](ref/image-20211123002426976.png)
 
 `git branch -d b2`：删除分支b2
 
-![image-20211123002541558](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123002541558.png)
+![image-20211123002541558](ref/image-20211123002541558.png)
 
 `git log --graph`：展示最后的分支合并图
 
-![image-20211123002626499](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123002626499.png)
+![image-20211123002626499](ref/image-20211123002626499.png)
 
 ### 创建标签
 
 `git tag v1.0 ce56b67`：为最后一个版本创建标签
 
-![image-20211123103542525](C:\Users\10513\AppData\Roaming\Typora\typora-user-images\image-20211123103542525.png)
+![image-20211123103542525](ref/image-20211123103542525.png)
 
-## 思考题
+### 思考题
 
 - 使用 git 的好处？
 
@@ -92,4 +92,61 @@
   - 在本次实验的实际开发中，通过对每一个子任务创建分支再进行开发，能够使不同的子任务都在原框架上进行而不互相影响，最终将所有修改在合并到总分支上。
   - Git的创建、切换、合并、删除分支都非常快速，节约时间提升效率。
 
-  
+
+## Jenkins
+
+1. 安装Jenkins
+
+   ![image-20211126103904932](ref/image-20211126103904932.png)
+
+2. 配置JDK地址，Gradle地址和JAVA_HOME地址
+
+   **JDK**
+
+   [本地系统设置中已配置]
+
+   在全局工具中配置：
+
+   ![image-20211126105234559](ref/image-20211126105234559.png)
+
+   **Gradle**
+
+   在本地系统中配置：
+
+   添加系统变量
+
+   ![image-20211126103611624](ref/image-20211126103611624.png)
+
+   添加PATH
+
+   <img src="ref/image-20211126103639406.png" alt="image-20211126103639406" style="zoom: 200%;" />
+
+   验证环境变量是否配置成功：
+
+   ![image-20211126103539800](ref/image-20211126103539800.png)
+
+   在全局工具中配置：
+
+   ![image-20211126105613146](ref/image-20211126105613146.png)
+
+3. 填写github地址，对项目进行一次构建
+
+   **配置**
+
+   ![image-20211126111342471](ref/image-20211126111342471.png)
+
+   **Bulid now**
+
+   ![image-20211126111500708](ref/image-20211126111500708.png)
+
+4. 修改代码再次推送到github仓库中，再次对项目进行构建
+
+   `git push -u origin master`
+   
+   ![image-20211127093440956](C:/Users/10513/AppData/Roaming/Typora/typora-user-images/image-20211127093440956.png)
+   
+   **Build now**
+   
+   ![image-20211127093606662](C:/Users/10513/AppData/Roaming/Typora/typora-user-images/image-20211127093606662.png)
+   
+   实验结果：修改代码前后，构建项目均成功
