@@ -143,10 +143,10 @@
 
    `git push -u origin master`
    
-   ![image-20211127093440956](C:/Users/10513/AppData/Roaming/Typora/typora-user-images/image-20211127093440956.png)
+   ![image-20211127093440956](ref/image-20211127093440956.png)
    
    **Build now**
    
-   ![image-20211127093606662](C:/Users/10513/AppData/Roaming/Typora/typora-user-images/image-20211127093606662.png)
+   ![image-20211127093606662](ref/image-20211127093606662.png)
    
    实验结果：修改代码前后，构建项目均成功
