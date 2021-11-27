@@ -7,3 +7,6 @@
 [submodule "Project/191220037-胡雨阳"]
 	path = Project/191220037-胡雨阳
 	url = https://github.com/huyyyyIan/lab3-AmazeFileManager
+[submodule "Project/191220037-"]
+	path = Project/191220037-胡雨阳
+	url = https://github.com/huyyyyIan/lab3-AmazeFileManager
