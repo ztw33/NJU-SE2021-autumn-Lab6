@@ -52,7 +52,7 @@
 
    ![](ref/标签.PNG)
    
-   ![git push](ref/git push.PNG)
+   ![](ref/git push.png)
    
    
 
