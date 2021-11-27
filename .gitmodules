@@ -67,3 +67,6 @@
 [submodule "Project/191220078-马润"]
 	path = Project/191220078-马润
 	url = https://github.com/chmr7/SE_lab_3.git
+[submodule "Project/191220037-胡雨阳"]
+	path = Project/191220037-胡雨阳
+	url = https://github.com/huyyyyIan/lab3-AmazeFileManager
