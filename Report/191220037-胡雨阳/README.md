@@ -30,7 +30,7 @@
 
 1. 修改文件属性场景时，同理建立并切换PropertiesModule分支；修改并调试场景完毕，利用git status可以看到被修改的文件；此时输入git diff，显示出工作区与暂存区的共同文件
 
-   ![](ref/属性模块1.PNG)
+   ![属性模块1](ref/属性模块1.PNG)
 
    ![属性模块2](ref/属性模块2.PNG)
 
@@ -44,15 +44,15 @@
 
 1. 全部修改完成后，查看分支情况，可以看到目前存在的三个分支，利用git merge合并两个支线到main；此时再查看分支图，可以看到分支的合并历史
 
-   ![](ref/合并分支.PNG)
+   ![合并分支](ref/合并分支.PNG)
 
    ![合并分支2](ref/合并分支2.PNG)
 
 2. 利用git tag打上v2.0的稳定版本标签，并使用git push提交
 
-   ![](ref/标签.PNG)
+   ![标签](ref/标签.PNG)
    
-   ![](ref/git push.PNG)
+   ![git push](ref/git push.PNG)
    
    
 
