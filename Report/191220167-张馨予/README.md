@@ -8,51 +8,51 @@
 
 首先使用`git init`命令，初始化本地仓库。
 
-![](ref\1.png)
+![](ref/1.png)
 
 最初的lab6文件夹为空。在其中创建一个`test.txt`文件，其中内容如下：
 
-<img src="ref\2.png" style="zoom:67%;" />
+<img src="ref/2.png" style="zoom:67%;" />
 
 接下来执行`git log`指令。由于此时没有执行任何commit操作，因此提示当前分支还没有任何提交。
 
-![](ref\3.png)
+![](ref/3.png)
 
 接着执行`git status`指令。可以看到git bash提示说在当前分支下还没有任何提交，但是有一个untracked file test.txt。这是由于test.txt文件是在仓库初始化后才被创建的，而且当前并未被添加到暂存区，因此不能被追踪到。
 
-![](ref\4.png)
+![](ref/4.png)
 
 下面执行`git add -A`操作，将修改的文件添加到暂存区。-A参数表示提交所有变化。
 
-![](ref\5.png)
+![](ref/5.png)
 
 再次执行`git status`指令，可以看到待提交的变化下多了一条：
 
-![](ref\6.png)
+![](ref/6.png)
 
 执行`git commit -m "<一些说明>"`指令，将当前暂存区的文件实际保存到仓库的历史记录中。在上传到远程仓库后，修改的文件后面会显示双引号中的说明。
 
-![](ref\7.png)
+![](ref/7.png)
 
 再次执行`git log`，`git status`操作，结果如下。可以看到提交日志中多了一条记录，内容为刚刚执行的commit操作中的说明部分；status中显示当前没有待添加到暂存区或者待提交的任务。
 
-![](ref\8.png)
+![](ref/8.png)
 
 现在修改test.txt文件中的内容，删去一个感叹号，并保存文件，执行git diff指令，结果如下。可以看到该指令可以显示出当前未保存到暂存区的变化。
 
-![](ref\9.png)
+![](ref/9.png)
 
 将该变化保存到暂存区并提交后，当前提交日志如下：
 
-![](ref\10.png)
+![](ref/10.png)
 
 接下来执行`git reset --hard HEAD^`指令，将当前仓库中内容回退到上一个版本。查看test.txt。可以看到被删除的感叹号回来了。查看提交日志，删除感叹号的提交记录不在了。
 
-![](ref\11.png)
+![](ref/11.png)
 
 假设我后悔回退到当前版本，则可以使用`git reflog`命令查看我的每个命令的`commit id`，再使用`git reset --hard commit_id`命令，回到回退前的版本。
 
-![](ref\12.png)
+![](ref/12.png)
 
 
 
@@ -60,11 +60,11 @@
 
 在实验三中，用`git branch <分支名>`创建分支，用`git checkout <分支名>`切换分支，用`git branch`查看分支。由于实验三中有三处修改，因此创建了三个分支。
 
-![](ref\13.png)
+![](ref/13.png)
 
 在实验过程中，每完成一个分支就使用`git merge`操作将该分支合并到master分支上。最后的分支合并图如下：
 
-![](ref\14.png)
+![](ref/14.png)
 
 在合并后，用`git tag <标签内容>`指令为master分支打上了标签"Final_Version"，在上方日志中可以看到。
 
