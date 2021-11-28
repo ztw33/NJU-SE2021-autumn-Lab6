@@ -1,6 +1,3 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project.git
-[submodule "Project/lab3-filemanager0.5"]
-	path = Project/lab3-filemanager0.5
-	url = https://github.com/ZhangYi-ZHY/lab3-filemanager0.5.git
