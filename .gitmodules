@@ -28,3 +28,6 @@
 [submodule "Project/191220176-赵智宇"]
 	path = Project/191220176-赵智宇
 	url = https://github.com/tinywisdom/lab3-MaterialFiles.git
+[submodule "Project/191220010-陈祥宇"]
+	path = Project/191220010-陈祥宇
+	url = https://github.com/chenxiangyu01/exp6-test
