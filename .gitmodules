@@ -97,3 +97,6 @@
 [submodule "Project/191220142-叶起厚"]
 	path = Project/191220142-叶起厚
 	url = https://github.com/ye191220142/lab3-AmazeFileManager.git
+[submodule "Project/191220023-丁子千"]
+	path = Project/191220023-丁子千
+	url = git@github.com:dzqdudley/Simple-Explorer.git
