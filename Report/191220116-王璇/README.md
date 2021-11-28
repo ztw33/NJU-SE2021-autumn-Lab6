@@ -20,6 +20,16 @@
 
 
 
+## 遇到困难
+
+问题：failed to push some refs to
+
+解决方案：git push -u origin main
+
+参考资料：https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
+
+
+
 ##问题
 
 ###使用git的好处
