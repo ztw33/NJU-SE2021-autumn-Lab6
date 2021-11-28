@@ -82,3 +82,6 @@
 [submodule "Project/191098191-水兵"]
 	path = Project/191098191-水兵
 	url = git@github.com:Shbinging/Simple-File-Manager-6.8.7.git
+[submodule "Project/191220023-丁子千"]
+	path = Project/191220023-丁子千
+	url = git@github.com:dzqdudley/Simple-Explorer.git
