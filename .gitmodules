@@ -46,6 +46,9 @@
 [submodule "Project/191220072-卢润邦"]
 	path = Project/191220072-卢润邦
 	url = https://github.com/saul-worseman/191220072-lab3-6--filemanager-0.5
+[submodule "Project/191220137-严思远"]
+	path = Project/191220137-严思远
+	url = https://github.com/FibonaccciYan/Simple-File-Manager-6.8.7
 [submodule "Project/191220081-毛彦杰"]
 	path = Project/191220081-毛彦杰
 	url = https://github.com/Aesopd/ExampleAndroidProject
