@@ -112,3 +112,6 @@
 [submodule "Project/191220064-刘宏宇"]
 	path = Project/191220064-刘宏宇
 	url = https://github.com/neverland-lhy/lab3-filemanager-0.5
+[submodule "Project/191220076-吕玉龙"]
+	path = Project/191220076-吕玉龙
+	url = https://github.com/Cyrus-k/NJU_SE2021_Lab6.git
