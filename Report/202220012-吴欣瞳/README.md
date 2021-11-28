@@ -6,7 +6,7 @@
 
 • 在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用 git diff, git log, git status 等命令展示操作前后的区别 
 
-![]https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/2.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/2.PNG)
 
 ![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/3.PNG)
 
