@@ -4,7 +4,9 @@
 
 在git仓库中使用`git checkout -b` 创建并切换至新分支
 
-![img](ref/clip_image002.gif)修改代码后，使用`git status`查看状态，查看到有修改后未加入暂存区的文件
+![img](ref/clip_image002.gif)
+
+修改代码后，使用`git status`查看状态，查看到有修改后未加入暂存区的文件
 
 ![img](ref/clip_image004.jpg)
 
@@ -24,11 +26,11 @@
 
 ![img](ref/clip_image012.jpg)
 
-使用git tag给稳定版本打上标签
+使用`git tag`给稳定版本打上标签
 
 ![img](ref/clip_image014.gif)
 
-最后使用git log –graph查看所有分支以及合并的标签
+最后使用`git log –-graph`查看所有分支以及合并的标签
 
 ![img](ref/clip_image002-1638094491419.gif)
 
