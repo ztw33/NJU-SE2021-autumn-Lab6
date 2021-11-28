@@ -65,7 +65,7 @@ n2上push
 ![](https://github.com/chenxiangyu01/NJU-SE2021-autumn-Lab6/blob/main/Report/191220010-%E9%99%88%E7%A5%A5%E5%AE%87/ref/n2%E4%B8%8Apush.png)
 
 合并分支
-![]https://github.com/chenxiangyu01/NJU-SE2021-autumn-Lab6/blob/main/Report/191220010-%E9%99%88%E7%A5%A5%E5%AE%87/ref/%E5%90%88%E5%B9%B6%E5%88%86%E6%94%AF.png)
+![](https://github.com/chenxiangyu01/NJU-SE2021-autumn-Lab6/blob/main/Report/191220010-%E9%99%88%E7%A5%A5%E5%AE%87/ref/%E5%90%88%E5%B9%B6%E5%88%86%E6%94%AF.png)
 
 git log --graph
 ![](https://github.com/chenxiangyu01/NJU-SE2021-autumn-Lab6/blob/main/Report/191220010-%E9%99%88%E7%A5%A5%E5%AE%87/ref/git%20log--graph.png)
@@ -80,15 +80,15 @@ git push
 ![](https://github.com/chenxiangyu01/NJU-SE2021-autumn-Lab6/blob/main/Report/191220010-%E9%99%88%E7%A5%A5%E5%AE%87/ref/%E6%9F%A5%E7%9C%8B%E6%A0%87%E7%AD%BE.png)
 
 
-#回答问题
+# 回答问题
 1.使用git的好处   
-十分方便的管理控制版本，建立分支，利于多人协作开发；熟悉操作后。开发效率更高
+十分方便的管理控制版本，建立分支，利于多人协作开发；熟悉操作后。开发效率更高   
 2.使用远程仓库的好处   
-利于代码备份，防止代码丢失。方便与其他人一同协作完成代码。
-3.在开发中使用分支的好处？你在实际开发中有哪些体会和经验？   
-使用分支可以将问题细化，一次完成一个小问题。实际开发时，使用分支对整体功能分解，落实到一个个小问题，相对更清晰。
-4.reset和 revert的区别   
-用于版本回退，但reset会将本次commit消除，revert会保留此次commit
+利于代码备份，防止代码丢失。方便与其他人一同协作完成代码。   
+3.在开发中使用分支的好处？你在实际开发中有哪些体会和经验？      
+使用分支可以将问题细化，一次完成一个小问题。实际开发时，使用分支对整体功能分解，落实到一个个小问题，相对更清晰。   
+4.reset和 revert的区别      
+用于版本回退，但reset会将本次commit消除，revert会保留此次commit   
 
 
 
