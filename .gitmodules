@@ -1,6 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191220141-叶怀泽"]
+	path = Project/191220141-叶怀泽
+	url = https://github.com/ZhangYi-ZHY/191220141_Yehuaize.git
 [submodule "Project/191220091-沈童菲"]
 	path = Project/191220091-沈童菲
 	url = https://github.com/stfklav/lab3-File-Manager-Pro
@@ -43,6 +46,9 @@
 [submodule "Project/191220072-卢润邦"]
 	path = Project/191220072-卢润邦
 	url = https://github.com/saul-worseman/191220072-lab3-6--filemanager-0.5
+[submodule "Project/191220137-严思远"]
+	path = Project/191220137-严思远
+	url = https://github.com/FibonaccciYan/Simple-File-Manager-6.8.7
 [submodule "Project/191220081-毛彦杰"]
 	path = Project/191220081-毛彦杰
 	url = https://github.com/Aesopd/ExampleAndroidProject
@@ -121,6 +127,9 @@
 [submodule "Project/191220010-陈祥宇"]
 	path = Project/191220010-陈祥宇
 	url = https://github.com/chenxiangyu01/exp6-test
+[submodule "Project/191220059-林龙杰"]
+	path = Project/191220059-林龙杰
+	url = https://github.com/LinMumullj/191220059--.git
 [submodule "Project/191220112-王鹏"]
 	path = Project/191220112-王鹏
 	url = https://github.com/Roc136/MaterialFiles
