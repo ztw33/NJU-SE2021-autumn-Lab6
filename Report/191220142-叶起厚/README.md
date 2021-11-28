@@ -6,11 +6,11 @@
 
 `git diff`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\diff.png)
+![](ref\diff.png)
 
 `git status`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\status.png)
+![](ref\status.png)
 
 ### 回退操作
 
@@ -18,13 +18,13 @@
 
   `git reset file`
 
-  ![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\reset_file.png)
+  ![](ref\reset_file.png)
 
 - 返回上一次commit
 
   `git reset --hard [hash]`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\reset_commit.png)
+![](ref\reset_commit.png)
 
 ### 分支创建、切换与删除
 
@@ -34,31 +34,31 @@
 
 `git branch`：查看分支
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\branch.png)
+![](ref\branch.png)
 
 ### 分支合并
 
 `git merge`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\merge.png)
+![](ref\merge.png)
 
 ### 查看合并情况
 
 `git log --graph`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\log.png)
+![](ref\log.png)
 
 ### 打标签
 
 `git tag`
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\tag.png)
+![](ref\tag.png)
 
 ### 添加缓存并提交
 
 `git add`、`git commit`、`git push`：
 
-![](D:\Workspace2\SE\E6\NJU-SE2021-autumn-Lab6\Report\191220142-叶起厚\ref\push.png)
+![](ref\push.png)
 
 ## 问题
 
