@@ -1,6 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191220091-沈童菲"]
+	path = Project/191220091-沈童菲
+	url = https://github.com/stfklav/lab3-File-Manager-Pro
 [submodule "Project/191180164-杨茂琛"]
 	path = Project/191180164-杨茂琛
 	url = https://github.com/syhien/SElab3.git
@@ -112,3 +115,9 @@
 [submodule "Project/191220064-刘宏宇"]
 	path = Project/191220064-刘宏宇
 	url = https://github.com/neverland-lhy/lab3-filemanager-0.5
+[submodule "Project/191220076-吕玉龙"]
+	path = Project/191220076-吕玉龙
+	url = https://github.com/Cyrus-k/NJU_SE2021_Lab6.git
+[submodule "Project/191220010-陈祥宇"]
+	path = Project/191220010-陈祥宇
+	url = https://github.com/chenxiangyu01/exp6-test
