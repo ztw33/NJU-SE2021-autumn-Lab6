@@ -1,6 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191240073-张涛"]
+	path = Project/191240073-张涛
+	url = https://github.com/DRSalieri/AmazeFileManager
 [submodule "Project/191180133-王一鸣"]
 	path = Project/191180133-王一鸣
 	url = https://github.com/entropydec/lab3-filemanager-pro.git
@@ -82,6 +85,18 @@
 [submodule "Project/191098191-水兵"]
 	path = Project/191098191-水兵
 	url = git@github.com:Shbinging/Simple-File-Manager-6.8.7.git
+[submodule "Project/202220012-吴欣瞳"]
+	path = Project/202220012-吴欣瞳
+	url = https://github.com/hogwartsfailure66/lab3-AmazeFileManager
+[submodule "Project/191830058-黄铭昊"]
+	path = Project/191830058-黄铭昊
+	url = https://github.com/BakaSea/AnExplorer
+[submodule "Project/191250004-曹雨森"]
+	path = Project/191250004-曹雨森
+	url = https://github.com/Flying-Tom/lab3-AnExplorer
+[submodule "Project/191220142-叶起厚"]
+	path = Project/191220142-叶起厚
+	url = https://github.com/ye191220142/lab3-AmazeFileManager.git
 [submodule "Project/191220023-丁子千"]
 	path = Project/191220023-丁子千
 	url = git@github.com:dzqdudley/Simple-Explorer.git
