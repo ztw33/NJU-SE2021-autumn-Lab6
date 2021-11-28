@@ -222,3 +222,12 @@ I use Git to manage my experimental project called 'filemanager-0.5'.
 
 ​    
 
+## 三、远程仓库的提交
+
+在Github上创建仓库`stfklav/lab3-File-Manager-Pro`，将它和本地仓库关联：
+
+<img src="ref/31.png" style="zoom:80%;" />
+
+将本地的三个分支推送至远程仓库：
+
+<img src="ref/32.png" style="zoom:80%;" />
