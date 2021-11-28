@@ -26,7 +26,7 @@ typora-root-url: ref
 >
 > `git remote -v`显示所有远程仓库
 
-![2](2.png)
+![2](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/2.png)
 
 > 说明：
 >
@@ -34,11 +34,11 @@ typora-root-url: ref
 >
 > 需要注意的是，有时候github的链接不稳定，需要手动添加sshkey来辅助链接：可以参考[CDSN:windows git：添加SSH key.](https://blog.csdn.net/weixin_43344725/article/details/83388291)来添加SSHKEY
 
-<img src="15.png" alt="15" style="zoom: 50%;" />
+<img src="https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/15.png" alt="15" style="zoom: 50%;" />
 
 ###### 修改和提交
 
-![](4.png)
+![](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/4.png)
 
 > 说明：
 >
@@ -75,9 +75,9 @@ typora-root-url: ref
 
 ###### 回退
 
-<img src="12.png" alt="12" style="zoom: 80%;" />
+<img src="https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/12.png" alt="12" style="zoom: 80%;" />
 
-<img src="5.png" style="zoom:67%;" />
+<img src="https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/5.png" style="zoom:67%;" />
 
 > 说明：
 >
@@ -108,21 +108,21 @@ git diff 有两个主要的应用场景。
   $ git diff [first-branch]...[second-branch]
   ```
 
-![11](11.png)
+![11](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/11.png)
 
-![13](13.png)
+![13](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/13.png)
 
-![14](14.png)
+![14](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/14.png)
 
 `git status`:
 
-![10](10.png)
+![10](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/10.png)
 
 ##### 分支开发
 
-![6](6.png)
+![6](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/6.png)
 
-![7](8.png)
+![7](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/8.png)
 
 创建分支命令：`git branch (branchname)`
 
@@ -136,7 +136,7 @@ git diff 有两个主要的应用场景。
 >
 > `git log --graph`:拓扑图查看历史中什么时候出现了分支、合并
 >
-> <img src="7.png" alt="8" style="zoom: 67%;" />
+> <img src="https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/7.png" alt="8" style="zoom: 67%;" />
 
 ##### GIT相关问答
 
