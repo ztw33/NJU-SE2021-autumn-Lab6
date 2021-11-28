@@ -109,3 +109,6 @@
 [submodule "Project/191220073-罗昊"]
 	path = Project/191220073-罗昊
 	url = git@github.com:platanifolia/lab3-AmazeFileManager.git
+[submodule "Project/191220064-刘宏宇"]
+	path = Project/191220064-刘宏宇
+	url = https://github.com/neverland-lhy/lab3-filemanager-0.5
