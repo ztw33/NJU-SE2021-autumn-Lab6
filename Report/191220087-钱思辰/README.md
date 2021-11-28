@@ -16,7 +16,7 @@ typora-root-url: ref
 
 ###### ------>下载远程仓库内容
 
-![1](1.png)
+![1](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/1.png)
 
 > 说明：
 >
