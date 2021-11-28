@@ -115,3 +115,6 @@
 [submodule "Project/191220076-吕玉龙"]
 	path = Project/191220076-吕玉龙
 	url = https://github.com/Cyrus-k/NJU_SE2021_Lab6.git
+[submodule "Project/191220010-陈祥宇"]
+	path = Project/191220010-陈祥宇
+	url = https://github.com/chenxiangyu01/exp6-test
