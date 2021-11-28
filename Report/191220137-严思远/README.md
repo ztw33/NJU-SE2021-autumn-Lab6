@@ -56,13 +56,55 @@
 
 ## 3.根据实验三针对几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发，最终将所有修改合并到master 分支上；如有冲突请尝试解决。在报告中展示你的操作，并使用git log --graph 命令展示分支合并图
 
++ ### 子任务一：
+
+    将“search”、“add to favourite"和“remove from favourite"的显示方式由“ifRoom”改为“always”：
+
+    ![11.jpg](./ref/11.jpg)
+    ![12.jpg](./ref/12.jpg)
+
++ ### 子任务二：
+
+    增加“changes”按钮，点击该按钮会跳转到“changes description”界面：
+
+    ![13.jpg](./ref/13.jpg)
+    ![14.jpg](./ref/14.jpg)
+
++ ### 合并分支：
+
+    + 首先合并`branch1`：
+
+    ![15.jpg](./ref/15.jpg)
+
+    合并成功！
+
+    + 再合并`branch2`：
+
+    ![16.jpg](./ref/16.jpg)
+
+    此时在`app/src/main/res/menu/menu.xml`文件中出现了冲突。
+    
+    打开该文件查看冲突，发现是因为`branch1`中没有添加“changes” item以及`branch2`中没有修改“search”、“add to favourite"和“remove from favourite"的显示方式，于是对应修改后，再次使用`git add`和`git commit`命令，结果如下：
+
+    ![17.jpg](./ref/17.jpg)
+
+    至此，所有分支都合并完成。使用`git log --graph`命令：
+
+    ![18.jpg](./ref/18.jpg)
+
 ## 4.给你的某个稳定版本的代码打上标签
+
+合并完成后，打上`v1.0.0`的标签：
+
+![19.jpg](./ref/19.jpg)
 
 ## 5.注册github 账号，在账号中创建远程仓库(权限请设置为public)；把本地的所有分支和标签推送到远端
 
+略。
+
 ## 6.使用pull request 提交自己的代码和报告
 
-略
+略。
 
 ## 7.在报告中回答以下问题：
 
@@ -80,6 +122,12 @@
     便于多人针对不同任务进行合作开发，各人只需专注于当前任务而不必考虑其他分支的影响，最终统一合并、处理冲突即可。
 
 ## 8.如果你额外学习并实践了关于git/github 的其他进阶操作(如merge 和rebase 的区别、reset 和revert 的区别、stash, cherry-pick 的使用等)，可在报告中展示
+
+merge 和rebase 的区别：
+
++ merge会保留两个分支公共的提交，并与两者最新的提交进行三方合并，生成一个新的提交；
+
++ rebase会把操作分支的修改合并到目标分支上，并舍弃操作分支上的提交，最终的提交记录会变成一条线
 
 ## 9.额外内容：使用Jenkins进行持续集成开发
 
@@ -105,3 +153,7 @@
     ![extra-3.jpg](./ref/extra-3.jpg)
 
 + ### 修改代码再次推送到 github 仓库中，再次对项目进行构建
+
+    再次执行构建结果如下：
+
+    ![extra-4.jpg](./ref/extra-4.jpg)
