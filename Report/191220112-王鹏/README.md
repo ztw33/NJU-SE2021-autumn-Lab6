@@ -102,7 +102,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 解决冲突后的内容（二者都保留）：
 
-![](ref\CONFLICT-fix.png)
+![](ref/CONFLICT-fix.png)
 
 原因是第二个分支的修改和第三个分支的修改对同一个文件的同一部分做了修改，解决冲突后重新提交并合并
 
