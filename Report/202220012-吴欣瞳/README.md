@@ -42,7 +42,9 @@ git diff是比较文件在暂存区和工作区的差异
 
 • 使用 pull request 提交自己的代码和报告
 
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/13.PNG)
 
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/14.PNG)
 
 • 在报告中回答以下问题： 
 
