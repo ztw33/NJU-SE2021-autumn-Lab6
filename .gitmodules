@@ -1,6 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191240073-张涛"]
+	path = Project/191240073-张涛
+	url = https://github.com/DRSalieri/AmazeFileManager
 [submodule "Project/191180133-王一鸣"]
 	path = Project/191180133-王一鸣
 	url = https://github.com/entropydec/lab3-filemanager-pro.git
