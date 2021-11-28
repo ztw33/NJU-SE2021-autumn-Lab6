@@ -8,33 +8,33 @@
 
 ![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/2.PNG)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/3.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/3.PNG)
 
 git status是与比较上次提交之后的差异
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/7.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/7.PNG)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/4.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/4.PNG)
 
 git diff是比较文件在暂存区和工作区的差异
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/5.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/5.PNG)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/6.PNG)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/6.PNG)
 
 • 根据实验三针对几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发，最终将所有修改合并到 master 分支上；如有冲突请尝试解决。在报 告中展示你的操作，并使用 git log --graph 命令展示分支合并图 
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/8.png)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/8.png)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/9.png)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/9.png)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/10.png)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/10.png)
 
 • 给你的某个稳定版本的代码打上标签
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/11.png)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/11.png)
 
-![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/tree/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/12.png)
+![](https://github.com/hogwartsfailure66/NJU-SE2021-autumn-Lab6/blob/main/Report/202220012-%E5%90%B4%E6%AC%A3%E7%9E%B3/ref/12.png)
 
 • 注册 github 账号，在账号中创建远程仓库 (权限请设置为 public)；把本地的所有分支和标签推送到远端 
 
