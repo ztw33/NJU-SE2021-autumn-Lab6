@@ -36,7 +36,9 @@
 
 ## 3.实验过程
 
-### 3.1初始化仓库![capture_20211123162209384](ref\capture_20211123162209384.bmp)
+### 3.1初始化仓库
+
+<img src="ref\capture_20211123162209384.bmp" alt="capture_20211123162209384" style="zoom: 50%;" />
 
 在github网站上创建lab3的repository。
 
@@ -76,7 +78,7 @@
 
 最后再次add，commit。
 
-![capture_20211123202042761](ref\capture_20211123202042761.bmp)
+<img src="ref\capture_20211123202042761.bmp" alt="capture_20211123202042761" style="zoom:50%;" />
 
 ### 3.6查看提交记录
 
