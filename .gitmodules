@@ -100,6 +100,9 @@
 [submodule "Project/191220023-丁子千"]
 	path = Project/191220023-丁子千
 	url = git@github.com:dzqdudley/Simple-Explorer.git
+[submodule "Project/191220160-张峻"]
+	path = Project/191220160-张峻
+	url = https://github.com/jungle-gym-ac/Simple-File-Manager-6.8.7
 [submodule "Project/191220073-罗昊"]
 	path = Project/191220073-罗昊
 	url = git@github.com:platanifolia/lab3-AmazeFileManager.git
