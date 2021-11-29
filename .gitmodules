@@ -2,3 +2,6 @@
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project.git
 
+[submodule "Project/191220169-张洋彬"]
+	path = Project/191220169-张洋彬
+	url = https://github.com/bbzunyi/lab3-AnExplorer.git
