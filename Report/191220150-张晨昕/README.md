@@ -6,37 +6,37 @@
 
 首先将开源项目初始化为git仓库:  
 
-![avatar](/ref/1.png)  
+![avatar](ref/1.png)  
 
 我们将修改后的内容进行git add . 操作，结果显示加入了很多文件。  
 
-![avatar](/ref/2.png)  
+![avatar](ref/2.png)  
 
 此时尝试git status,发现系统用绿色进行提示，这个命令的作用是查看在上次提交之后是否对文件进行过再次更改。  
 
-![avatar](/ref/3.png)  
+![avatar](ref/3.png)  
 
 然后使用git commit指令，进行提交。随后我进行了git push指令将初始的代码从本地仓库上传到了github中。  
 
-![avatar](/ref/4.png)  
+![avatar](ref/4.png)  
 
 此时，使用git log指令可以查看版本信息。此指令展示了历次commit的版本信息，可以进行追踪版本。  
 
-![avatar](/ref/5.png)  
+![avatar](ref/5.png)  
 
 我将更新后，完成了实验3的代码进行修改，再进行一次commit，以达到上传的目的；此时，我对回退功能进行了实验。  
 
 使用git reset HEAD^ 命令，可以将commit回退到上一次，可以类似的进行多次回退，这里我回退了一次，如下图：  
 
-![avatar](/ref/6.png)  
+![avatar](ref/6.png)  
 
 同时，我在这里展示git diff 指令，其比较了工作区与最后一次commit的共同文件并发现了有改动的文件部分，如下图：  
 
-![avatar](/ref/7.png)  
+![avatar](ref/7.png)  
 
 在这里，我建立一个新的分支并命名为v1，将改动使用git add .指令加入到新的分支:  
 
-![avatar](/ref/8.png)  
+![avatar](ref/8.png)  
 
 接下来，先将更改在v1分支下commit;并通过git log --graph 指令看到此时commit指向v1.根据实验要求，我将此分支合并到master中。  
 
@@ -44,7 +44,7 @@
 
 根据提示信息，没有发生冲突，所以我在这里不需要解决冲突。这一过程对应的步骤有图片展示如下：（git log --graph分支合并图请见下一步）  
 
-![avatar](/ref/9.png)  
+![avatar](ref/9.png)  
 
 接下来，要进行添加版本号的操作，因为目前版本已经完成了实验3，是一个稳定的版本。为了进行此操作，需要在当下的commit中先获取到  
 
@@ -52,7 +52,7 @@ commit id，并将此id对应的版本添加v1.0的版本号。分别使用到�
 
 可以看到我们目前的版本已经成功地打上了v1.0的版本号，图如下：  
 
-![avatar](/ref/10.png)  
+![avatar](ref/10.png)  
 
 综上，已完成修改，提交，回退操作，演示了git diff,git log,git status,进行了分支创建，分支合并，并在最后一张图中展示了分支合并图与版本号的打上，此次实验完成。  
 
