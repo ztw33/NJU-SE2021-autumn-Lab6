@@ -136,3 +136,6 @@
 [submodule "Project/191850139-马川腾"]
 	path = Project/191850139-马川腾
 	url = git@github.com:shallight/lab3-5-AnExplorer.git
+[submodule "Project/191220150-张晨昕"]
+	path = Project/191220150-张晨昕
+	url = https://github.com/Thousand-twin/lab3_6-Simple-File-Manager
