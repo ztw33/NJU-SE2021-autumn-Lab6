@@ -17,11 +17,9 @@
   
   ​     在完成三项更改后，使用`git merge work1` ,`git merge work2`,`git merge work3`三条指令融合所有修改，使用`git log --graph`查看，结果如下：
 
+![pics](https://raw.githubusercontent.com/bbzunyi/NJU-SE2021-autumn-Lab6/main/Report/191220169-张洋彬/ref/merge.png)
 
-
-
-
-![pics](https://raw.githubusercontent.com/bbzunyi/NJU-SE2021-autumn-Lab6/main/Report/191220169-张洋彬/ref/4.png)
+​	可见 work1、work2、work3都成功merge到了master分支上
 
 ## Pull Request
 
