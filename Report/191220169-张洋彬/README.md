@@ -43,7 +43,8 @@
 使用`git pull`指令更新绑定的子库（源代码），结果如下：
 ![pics](https://raw.githubusercontent.com/bbzunyi/NJU-SE2021-autumn-Lab6/main/Report/191220169-张洋彬/ref/changelines.png)
 
-###git diff
+### git diff
+
 > 首先明确3个概念，工作区（working tree），暂存区（index/stage）与本地仓库（repository）
 >
 > 1.git diff:查看working tree和index的区别
