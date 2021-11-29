@@ -8,13 +8,17 @@
 
 2. 使用git branch查看全部分支和当前分支
 
-   ![b](C:\Users\Computer\Desktop\191850139-马川腾\ref\b.png)
+   ![b](ref/b.png)
 
-3. 使用git status查看当前文件状态![status](C:\Users\Computer\Desktop\191850139-马川腾\ref\status.png)
+3. 使用git status查看当前文件状态![status](ref/status.png)
 
-4. 使用git merge将分支与主干合并![merge](C:\Users\Computer\Desktop\191850139-马川腾\ref\merge.png)
+4. 使用git merge将分支与主干合并![merge](ref/merge.png)
 
-5. 使用git log --graph显示合并过程![log](C:\Users\Computer\Desktop\191850139-马川腾\ref\log.png)
+5. 使用git log --graph显示合并过程![log](ref/log.png)
+
+6. 使用git tag添加标签
+
+   ![tag](ref/tag.png)
 
 
 
