@@ -6,27 +6,27 @@
 
 初始化仓库并首次提交，然后使用git log 查看记录：
 
-![](ref\0.png)
+![](ref/0.png)
 
 尝试修改文件（修改最上面的注释）：
 
-![](ref\1.png)
+![](ref/1.png)
 
 使用git status查看
 
-![](ref\2.png)
+![](ref/2.png)
 
 此时工作区已经发生变化，使用git diff查看变化：
 
-![](ref\3.png)
+![](ref/3.png)
 
 使用git add . 和 git commit 提交，再使用git log查看提交记录：
 
-![](ref\4.png)
+![](ref/4.png)
 
 可以看到git历史已经被记录，接下来使用git reset --hard重置代码：
 
-![](ref\5.png)
+![](ref/5.png)
 
 再查看git log时，发现提交记录已经清除。
 
@@ -34,35 +34,35 @@
 
 首先创建一个分支并切换到该分支上：
 
-![](ref\6.png)
+![](ref/6.png)
 
 在本次实验中我实现了文本编辑器功能，首先创建文本编辑器界面，新建一个activity和对应的layout文件，然后使用git status查看：
 
-![](ref\7.png)
+![](ref/7.png)
 
 可以看到，有两个新文件已经被创建了。
 
 将修改commit后，切换回master分支，并将创建的editor分支merge进来：
 
-![](ref\8.png)
+![](ref/8.png)
 
 这样分支就merge成功了，本次merge操作没有产生冲突。
 
 使用git log --graph 展示分支合并图：
 
-![](ref\9.png)
+![](ref/9.png)
 
 给该版本打上标签：
 
-![](ref\10.png)
+![](ref/10.png)
 
-![](ref\11.png)
+![](ref/11.png)
 
 在push的时候加上tag参数即可将tag添加到github：
 
-![](ref\12.png)
+![](ref/12.png)
 
-![](ref\13.png)
+![](ref/13.png)
 
 #### 3.问题
 
