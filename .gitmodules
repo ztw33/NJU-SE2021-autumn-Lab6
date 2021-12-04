@@ -160,3 +160,6 @@
 [submodule "Project/191220046-赖烨文"]
 	path = Project/191220046-赖烨文
 	url = https://github.com/hollowopk/SimpleExplorer
+[submodule "Project/191220128-谢治民"]
+	path = Project/191220128-谢治民
+	url = https://github.com/191220128/Simple-File-Manager-6.8.7.git
