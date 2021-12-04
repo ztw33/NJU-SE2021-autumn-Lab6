@@ -64,7 +64,73 @@
 
 ![](ref/13.png)
 
-#### 3.问题
+#### 3.探索git其他操作
+
+##### merge和rebase：
+
+如图，此时共存在2个分支，且各有一次commit
+
+![](ref/14.png)
+
+此时，若将branch1分支合并到main上，使用git merge：
+
+![](ref/15.png)
+
+则合并后：
+
+![](ref/16.png)
+
+可以看到，merge将两个分支的修改合并到了一起
+
+而若是使用git rebase：
+
+![](ref/18.png)
+
+![](ref/17.png)
+
+git rebase并不会进行合并分支，而只是提取当前分支的修改，并将其复制到目标分支的最新提交后面。
+
+##### reset和revert：
+
+首先假设在main分支上有多次commit：
+
+![](ref/19.png)
+
+此时假设我们想回退到标号为c2的commit，尝试使用reset：
+
+![](ref/22.png)
+
+![](ref/21.png)
+
+可以看到，git reset将当前分支的HEAD移动到了指定的commit上，以达到撤销的效果。
+
+如果使用git revert，则效果如下：
+
+![](ref/23.png)
+
+![](ref/20.png)
+
+从图中可以看出，git revert时用一次新的commit来回滚到之前的commit，新commit的内容与要revert的内容相反，刚好抵消要被revert的内容。
+
+##### cherry-pick：
+
+git cherry-pick命令复制一个提交节点并在当前分支做一次完全一样的新提交
+
+如图，我们有两个分支，其中branch1分支在main基础上多一次commit：
+
+![](ref/24.png)
+
+此时我们切换回main，并执行一次cherry-pick，将编号为c2的commit复制到main上：
+
+![](ref/25.png)
+
+![](ref/26.png)
+
+可以看到，在main分支上我们复制了一份C2 commit并将改动应用于分支上。
+
+
+
+#### 4.问题
 
 ##### 使用git的好处：
 
