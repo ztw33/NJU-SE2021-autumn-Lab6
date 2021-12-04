@@ -160,3 +160,6 @@
 [submodule "Project/191220088-秦嘉余"]
 	path = Project/191220088-秦嘉余
 	url = https://github.com/solitarynew/lab3-SimpleExplorer
+[submodule "Project/191220046-赖烨文"]
+	path = Project/191220046-赖烨文
+	url = https://github.com/hollowopk/SimpleExplorer
