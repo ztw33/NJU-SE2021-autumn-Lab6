@@ -157,3 +157,6 @@
 [submodule "Project/191220080-马英硕"]
 	path = Project/191220080-马英硕
 	url = https://github.com/PandaAwAke/lab3-FileManagerPro.git
+[submodule "Project/191220088-秦嘉余"]
+	path = Project/191220088-秦嘉余
+	url = https://github.com/solitarynew/lab3-SimpleExplorer
