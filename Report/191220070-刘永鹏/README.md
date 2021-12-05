@@ -55,25 +55,25 @@
 
 使用Git log查看版本号，使用git reset 将头指针指向最初版本。
 
-![1](ref\1.png)
+![1](ref/1.png)
 
-![2](ref\2.png)
+![2](ref/2.png)
 
 现在，修改一个文件，并将修改用Git记录：
 
-![3](ref\3.png)
+![3](ref/3.png)
 
 ##### git diff
 
 在修改后但还未提交修改前，使用git diff语句，将显示出修改但未保存的内容：
 
-![4](ref\4.png)
+![4](ref/4.png)
 
 ##### git status
 
 git status将显示修改但未提交的文件，以及.gitignore中声明忽略的文件：
 
-![5](ref\5.png)
+![5](ref/5.png)
 
 同时，如果本地git已经关联到远程仓库，该命令还将显示本地项目版本与远端的差别。
 
@@ -81,21 +81,21 @@ git status将显示修改但未提交的文件，以及.gitignore中声明忽略
 
 git log 将查看历史提交记录：
 
-![6](ref\6.png)
+![6](ref/6.png)
 
 #### 并行开发与merge
 
 首先，在本地新建一个文件夹模拟远端仓库，并把项目分成相同的两份，模拟两个同步开发者：
 
-![7](ref\7.png)
+![7](ref/7.png)
 
 在本地建立一个分支：
 
-![8](ref\8.png)
+![8](ref/8.png)
 
 将本地代码上传到rootRep
 
-![9](ref\9.png)
+![9](ref/9.png)
 
 在该分支上修改某个文件，但暂时先不提交
 
@@ -103,33 +103,33 @@ git log 将查看历史提交记录：
 
 现在，尝试提交修改：首先，git pull与远程仓库同步：
 
-![10](ref\10.png)
+![10](ref/10.png)
 
 因为上次newbranch上传后还没有新的提交，因此显示Already up to date。如果有新的提交，本地git pull将会让本地项目同步远程仓库的修改(merge)。如果merge发生冲突(conflict)，通常是因为远程的提交中包含了本地也同时修改的文件，此时需要手动解决冲突的文件。
 
 git会将冲突的代码全部放在冲突文件中，如下图：
 
-![11](ref\11.png)
+![11](ref/11.png)
 
 (VS Code对冲突格式有特殊解析)
 
 git pull无误，那么现在使用git add\git commit\git push三连，将newbranch的修改上传到rootRep。
 
-![12](ref\12.png)
+![12](ref/12.png)
 
-![13](ref\13.png)
+![13](ref/13.png)
 
 上面是对newbranch的操作，对master分支执行相同操作，结果也相同，没有发生冲突：因为两个分支并没有修改同一份文件。
 
 git log --graph:
 
-![14](ref\14.png)
+![14](ref/14.png)
 
 这里为什么分支图为一条直线呢？因为我实际操作时，是先在原分支上完成修改后，再创建了新的分支。这样新的分支的origin就直接连在了原有分支的head上，相当于续写了原有分支。
 
 两条分支并行开发时，使用 git log --graph的结果应当如下图所示：
 
-![15](ref\15.png)
+![15](ref/15.png)
 
 ##### git reset/revert
 
@@ -142,23 +142,23 @@ git log --graph:
 
 而git revert则仅仅删除掉了有问题版本的修改。当然，git revert更容易出现conflicts。
 
-<img src="ref\16.png" alt="16" style="zoom:50%;" />
+<img src="ref/16.png" alt="16" style="zoom:50%;" />
 
-<img src="ref\17.png" alt="image-20211205204126323" style="zoom:50%;" />
+<img src="ref/17.png" alt="image-20211205204126323" style="zoom:50%;" />
 
 在前面的步骤中，我使用git reset --hard 将项目版本回退到了最初版本，这次，使用git revert:
 
-![18](ref\18.png)
+![18](ref/18.png)
 
 可以看到，git要求我们要commit本次提交，为本次commit撰写注释。也就是说，revert操作被视为提交了一个新的版本
 
-![19](ref\19.png)
+![19](ref/19.png)
 
-![20](ref\20.png)
+![20](ref/20.png)
 
 revert成功，现在，用git log查看一下版本：
 
-![22](ref\22.png)
+![22](ref/22.png)
 
 如图：revert确实创建了一个新的commit(带有tag的是revert之前的版本)，而reset只会讲指针回指，从而删除后续修改的版本。
 
@@ -168,7 +168,7 @@ merge操作更加常见，它将两个分支如下合并为一个分支。
 
 使用git rebase，相当于将子分支上的所有操作，在主分支上复刻一遍，
 
-![23](ref\23.png)
+![23](ref/23.png)
 
 初始仓库
 
@@ -188,36 +188,36 @@ merge操作更加常见，它将两个分支如下合并为一个分支。
 
 在Jenkins官网下载Jenkins，将其配置在8080端口：
 
-![image-20211205211518065](ref\27.png)
+![image-20211205211518065](ref/27.png)
 
 点击new item,选择自由风格项目
 
-![image-20211205211625724](ref\28.png)
+![image-20211205211625724](ref/28.png)
 
 导入本地代码并构建：
 
-![image-20211205211706452](ref\29.png)
+![image-20211205211706452](ref/29.png)
 
-![image-20211205211752170](ref\30.png)
+![image-20211205211752170](ref/30.png)
 
-![image-20211205211833037](ref\31.png)
+![image-20211205211833037](ref/31.png)
 
 push新的commit再次构建：
 
-![image-20211205211914582](ref\32.png)
+![image-20211205211914582](ref/32.png)
 
 #### 上传到远程仓库
 
 首先，删除上一步中创建的分支：
 
-![image-20211205200052009](ref\33.png)
+![image-20211205200052009](ref/33.png)
 
 给项目最终版打上标签：
 
-![image-20211205202506484](ref\34.png)
+![image-20211205202506484](ref/34.png)
 
 在github上为了上传作业，新建一个文件夹，并将原github上fork好的项目clone下来：
 
-![image-20211205202520892](ref\35.png)
+![image-20211205202520892](ref/35.png)
 
 配置好目录格式，上传即可。
