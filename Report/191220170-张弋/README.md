@@ -29,19 +29,19 @@
 
    **修改：**
 
-   ![image-20211206162602585](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206162602585.png)
+   ![image-20211206162602585](ref/image-20211206162602585.png)
 
    **暂存并用git status命令进行查看：**
 
-   ![image-20211206163119610](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206163119610.png)
+   ![image-20211206163119610](ref/image-20211206163119610.png)
 
    **提交并用git status、git log命令进行查看：**
 
-   ![image-20211206163653046](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206163653046.png)
+   ![image-20211206163653046](ref/image-20211206163653046.png)
 
    **回退并用git diff命令进行查看，再次修改文件后再次用git diff命令查看：**
 
-   ![image-20211206164034275](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206164034275.png)
+   ![image-20211206164034275](ref/image-20211206164034275.png)
 
    
 
@@ -49,27 +49,27 @@
 
    **操作过程（子任务以其中一个为例）：**
 
-   ![image-20211206191112305](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206191112305.png)
+   ![image-20211206191112305](ref/image-20211206191112305.png)
 
-   ![image-20211206193702799](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206193702799.png)
+   ![image-20211206193702799](ref/image-20211206193702799.png)
 
    **分支合并图（没有发生冲突）：**
 
-   ![image-20211206193751154](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206193751154.png)
+   ![image-20211206193751154](ref/image-20211206193751154.png)
 
    
 
 4. 给你的某个稳定版本的代码打上标签
 
-   ![image-20211206194216872](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206194216872.png)
+   ![image-20211206194216872](ref/image-20211206194216872.png)
 
    
 
 5. 注册 github 账号，在账号中创建远程仓库 (权限请设置为 public)；把本地的所有分支和标签推送到远端
 
-   ![image-20211206202247795](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206202247795.png)
+   ![image-20211206202247795](ref/image-20211206202247795.png)
 
-   ![image-20211206202318004](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206202318004.png)
+   ![image-20211206202318004](ref/image-20211206202318004.png)
 
    
 
@@ -95,4 +95,4 @@
 
    ​	在我的开源项目的修改中，出现了第三个修改的分支的编写错误的问题，我学习了丢弃分支，重新编写的操作
 
-   ![image-20211206194918648](C:\Users\86176\AppData\Roaming\Typora\typora-user-images\image-20211206194918648.png)
+   ![image-20211206194918648](ref/image-20211206194918648.png)
