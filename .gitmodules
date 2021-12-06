@@ -1,11 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
-<<<<<<< HEAD
-	url = https://github.com/ztw330/example-project.git
+	url = https://github.com/ztw330/example-project
 [submodule "Project/181860089-田晓滨"]
 	path = Project/181860089-田晓滨
 	url = https://github.com/txb181860089/lab3-SimpleExplorer-2.3.1
-=======
 	url = https://github.com/ztw330/example-project
 [submodule "Project/191220087-钱思辰"]
 	path = Project/191220087-钱思辰
@@ -175,4 +173,3 @@
 [submodule "Project/191220070-刘永鹏"]
 	path = Project/191220070-刘永鹏
 	url = https://github.com/SH-Hattrick/SimpleExplorer.git
->>>>>>> upstream/main
