@@ -6,21 +6,21 @@
 
     git diff
 
-![](ref/git_diff.jpg)
+![](ref/git_diff.JPG)
 
     git log
 
-![](ref/git_log.jpg)
+![](ref/git_log.JPG)
 
 
     git status
 
-![](ref/git_status.jpg)
+![](ref/git_status.JPG)
 
 也展示下回退的情况
     git reset
 
-![](ref/git_reset.jpg)
+![](ref/git_reset.JPG)
 
 ## 实验3中的git 使用
 
@@ -34,13 +34,13 @@
 
     git commit -am "update"
 
-![](ref/git_commit.jpg)
+![](ref/git_commit.JPG)
 
 切换回main 分支
 
     git checkout main
 
-![](ref/git_checkout.jpg)
+![](ref/git_checkout.JPG)
 
 进行merge操作
 
@@ -52,13 +52,13 @@
 
     git log --graph
 
-![](ref/git_log_graph.jpg)
+![](ref/git_log_graph.JPG)
 
 ## 打上标签
 
     git tag v1.0
 
-![](ref/git_tag.jpg)
+![](ref/git_tag.JPG)
 
 ## 问题回答
 
