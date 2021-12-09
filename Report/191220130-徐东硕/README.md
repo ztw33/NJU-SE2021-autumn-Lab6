@@ -3,7 +3,7 @@
 1. `git init` 将项目文件夹初始化为一个git仓库
 2. `git add .` 将项目文件夹下所有的文件纳入git控制并且存储到暂存区
 3. `git commit -m 'init'` 将当前暂存区内的内容提交到版本仓库
-4. `git log`查看结果
+4. `git log`查看结果  
 ![](ref/1.png)
 5. `git remote add origin https://github.com/ComaX21/lab3-SimpleExplorer.git` 将本地git仓库与github远程仓库关联
 6. `git branch -M main` 修改当前master分支名称为main
@@ -12,12 +12,12 @@
 
 ## 开发中：
 ### 一. 修正编译产生的warning
-1. `git status` 显示git仓库状态
+1. `git status` 显示git仓库状态  
 ![](ref/2.png)
-3. `git diff` 显示当前工作区相对于暂存区内容的变化
-![](ref/3.png)
+3. `git diff` 显示当前工作区相对于暂存区内容的变化  
+![](ref/3.png)  
 4. `git add explorer/build.gradle` 将当前工作区的变化存到暂存区
-5. 再次执行`git status`和`git diff`
+5. 再次执行`git status`和`git diff`  
 ![](ref/4.png)
 6. `git commit -m "fix warning"` 提交暂存区的修改
 
@@ -26,9 +26,9 @@
 2. `git checkout login` 切换到login分支
 3. 在login分支上开发登录功能完成后提交到login分支上
 4. `git checkout main` 切换到main分支
-5. `git merge login` 将login分支merge到main分支
+5. `git merge login` 将login分支merge到main分支  
 ![](ref/5.png)
-6. `git log --graph` 查看分支树
+6. `git log --graph` 查看分支树  
 ![](ref/6.png)
 
 ## 开发后：
