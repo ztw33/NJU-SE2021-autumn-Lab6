@@ -178,3 +178,6 @@
 [submodule "Project/191220042-蒋梓栩"]
 	path = Project/191220042-蒋梓栩
 	url = https://github.com/191220042/AnExplorer-4.1.1
+[submodule "Project/191220130-徐东硕"]
+	path = Project/191220130-徐东硕
+	url = https://github.com/ComaX21/lab3-SimpleExplorer.git
