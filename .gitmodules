@@ -181,3 +181,6 @@
 [submodule "Project/191220130-徐东硕"]
 	path = Project/191220130-徐东硕
 	url = https://github.com/ComaX21/lab3-SimpleExplorer.git
+[submodule "Project/191220051-李萌"]
+	path = Project/191220051-李萌
+	url = https://github.com/Slepha/se-lab6
