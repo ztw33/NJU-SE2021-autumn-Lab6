@@ -170,3 +170,14 @@ git diff 有两个主要的应用场景。
 
 reset是彻底回退到指定的commit版本，该commit后的所有commit都将被清除；而revert仅是撤销指定commit的修改，并不影响后续的commit。reset执行后不会产生记录，revert执行后会产生记录。
 
+
+
+##### Jenkins的使用
+
+到官网下载相关内容，然后对Jenkins进行安装和配置，再对github项目进一步配置即可。
+
+完成配置后的结果截图：
+
+![16](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/16.png)
+
+![17](https://github.com/PetraEcho/NJU-SE2021-autumn-Lab6/blob/main/Report/191220087-钱思辰/ref/17.png)
