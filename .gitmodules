@@ -3,7 +3,7 @@
 	url = https://github.com/ztw330/example-project
 [submodule "Project/191220153-张丁楚"]
 	path = Project/191220153-张丁楚
-	url = https://github.com.cnpmjs.org/zhangdingchu/example-lab3-filemanager0.5
+	url = https://github.com/zhangdingchu/example-lab3-filemanager0.5
 [submodule "Project/181860089-田晓滨"]
 	path = Project/181860089-田晓滨
 	url = https://github.com/txb181860089/lab3-SimpleExplorer-2.3.1
