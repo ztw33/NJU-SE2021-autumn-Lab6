@@ -44,12 +44,14 @@
 1. 安装 git，在本地将你的开源项目目录初始化为 git 仓库
    
     如下图为初始化效果：
+
    ![1](./ref/1.png)
    ![2](./ref/2.png)
 
 2. 在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用 git diff, git log, git status 等命令展示操作前后的区别
    
-   初始提交（文件夹里为空）：![3](./ref/3.png)
+   初始提交（文件夹里为空）：
+   ![3](./ref/3.png)
 
     第二次提交（初始版本的APP）：
     ![4](./ref/4.png)
@@ -57,29 +59,38 @@
 
     将初始版本的开源APP更改为实验三修改的开源APP后（即修改了原先的代码后）：
 
-    git diff:![7](./ref/7.png)
+    git diff:
+    ![7](./ref/7.png)
 
-    git status:![8](./ref/8.png)
+    git status:
+    ![8](./ref/8.png)
 
-    git log:![9](./ref/9.png)
+    git log:
+    ![9](./ref/9.png)
 
     git add .
     ![10](./ref/10.png)
 
-    git diff:![11](./ref/11.png)
+    git diff:
+    ![11](./ref/11.png)
 
-    git status:![13](./ref/13.png)
+    git status:
+    ![13](./ref/13.png)
 
-    git log:![12](./ref/12.png)
+    git log:
+    ![12](./ref/12.png)
 
     git commit -m "second":
     ![14](./ref/14.png)
 
-    git diff:![15](./ref/15.png)
+    git diff:
+    ![15](./ref/15.png)
 
-    git status:![16](./ref/16.png)
+    git status:
+    ![16](./ref/16.png)
 
-    git log:![17](./ref/17.png)
+    git log:
+    ![17](./ref/17.png)
 
     版本回退：
     git reset --hard eba5754:
@@ -88,9 +99,11 @@
     git diff:
     ![19](./ref/19.png)
 
-    git status:![20](./ref/20.png)
+    git status:
+    ![20](./ref/20.png)
 
-    git log:![21](./ref/21.png)
+    git log:
+    ![21](./ref/21.png)
 
     总结：在修改完代码后，使用git diff会产生提交的版本和现在修改的版本的不同，会把所有修改的部分都使用红色字体标出来。
 
