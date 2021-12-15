@@ -51,58 +51,76 @@
 2. 在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用 git diff, git log, git status 等命令展示操作前后的区别
    
    初始提交（文件夹里为空）：
+
    ![3](./ref/3.png)
 
     第二次提交（初始版本的APP）：
+
     ![4](./ref/4.png)
 
 
     将初始版本的开源APP更改为实验三修改的开源APP后（即修改了原先的代码后）：
 
     git diff:
+
     ![7](./ref/7.png)
 
     git status:
+
     ![8](./ref/8.png)
 
     git log:
+
     ![9](./ref/9.png)
 
-    git add .
+    git add .:
+
     ![10](./ref/10.png)
 
     git diff:
+
     ![11](./ref/11.png)
 
     git status:
+
     ![13](./ref/13.png)
 
     git log:
+
     ![12](./ref/12.png)
 
     git commit -m "second":
+
     ![14](./ref/14.png)
 
     git diff:
+
     ![15](./ref/15.png)
 
     git status:
+
     ![16](./ref/16.png)
 
     git log:
+
     ![17](./ref/17.png)
 
     版本回退：
+
     git reset --hard eba5754:
+
     ![18](./ref/18.png)
 
     git diff:
+
     ![19](./ref/19.png)
 
     git status:
+
     ![20](./ref/20.png)
 
     git log:
+
     ![21](./ref/21.png)
 
     总结：在修改完代码后，使用git diff会产生提交的版本和现在修改的版本的不同，会把所有修改的部分都使用红色字体标出来。
@@ -128,6 +146,7 @@
     我创建了四个分支（加上master）。操作如下：
 
     （1）建立除master以外的三个分支：
+
     ![27](./ref/27.png)
 
     ![28](./ref/28.png)
@@ -135,59 +154,75 @@
     ![29](./ref/29.png)
 
     （2）进入bran1分支，对代码进行修改，然后提交。
+
     ![30](./ref/30.png)
 
     （3）进入bran2分支，做同上的操作。
+
     ![31](./ref/31.png)
 
     （4）对bran3分支做出同样的操作。
+
     ![32](./ref/32.png)
 
     （5）切换到master分支，进行merge合并bran1。
+
     ![33](./ref/33.png)
 
     （6）合并bran2：
+
     ![34](./ref/34.png)
 
     由此可见，产生了冲突。
 
     打开文件，查看冲突。
+
     ![35](./ref/35.png)
 
     将冲突修改：
+
     ![36](./ref/36.png)
 
     git add[相应的文件]
+
     ![37](./ref/37.png)
 
     提交
+
     ![38](./ref/38.png)
 
     （7）合并bran3，进行类似的操作。
 
     产生冲突：
+
     ![39](./ref/39.png)
 
     修改冲突：
+
     ![40](./ref/40.png)
 
     提交
+
     ![41](./ref/41.png)
 
     （8）使用 git log --graph 命令展示分支合并图
+
     ![42](./ref/42.png)
 
 4. 给你的某个稳定版本的代码打上标签。
    
    使用git tag命令打上标记。
+
    ![43](./ref/43.png)
 
 5. 注册 github 账号，在账号中创建远程仓库 (权限请设置为 public)；把本地的所有分支 和标签推送到远端
    
     (1)在账号中创建远程仓库.
+
     ![44](./ref/44.png)
 
     （2）推送：
+
     ![62](./ref/62.png)
 
 6. 使用git的好处：
@@ -276,33 +311,42 @@
     soft:仅仅是在本地库移动HEAD指针。
 
     添加一行注释。
+
     ![45](./ref/45.png)
 
     使用soft参数回退。
+
     ![46](./ref/46.png)
 
     发现工作区中的修改并没有改变。
+
     ![47](./ref/47.png)
 
     mixed:soft+重置暂存区。
 
     接上。使用git add .命令添加到暂存区。之后使用带参数mixed的reset命令。使用git status查看发现git add .被撤销了。
     但是工作区的代码是不变的。
+
     ![48](./ref/48.png)
 
     hard:mixed+重置工作区。
 
     使用带参数hard的reset命令。使用git status查看信息。发现工作区的代码也回退到了以前的版本。
+
     ![49](./ref/49.png)
 
     git revert:
 
     使用git revert回退到之前的某个版本。
+
     ![50](./ref/50.png)
 
-    解决冲突：![51](./ref/51.png)
+    解决冲突：
+
+    ![51](./ref/51.png)
 
     继续revert后发现多出来了一个commit。
+
     ![52](./ref/52.png)
 
     总结：
@@ -316,14 +360,17 @@
     （3）cherry-pick
 
     可以挑选一个或多个分支进行合并。
+
     ![53](./ref/53.png)
 
     解决完冲突后可以继续合并：
+
     ![54](./ref/54.png)
     ![55](./ref/55.png)
     ![56](./ref/56.png)
 
     也可以放弃合并，回归原始状态。--abort
+
     ![57](./ref/57.png).
 
     总结：cherry-pick可以将多个分支合并起来，如果有冲突，再解决完冲突之后可以--continue继续合并，也可以--abort终止合并。
@@ -339,14 +386,17 @@
     命令如下：git rebase cherry2.
 
     产生冲突修改后：git add . +git rebase --continue.
+
     ![58](./ref/58.png).
 
     查看分支结果可得：
 
     合并完成后结果：
+
     ![59](./ref/59.png).
 
     未合并两者的结果：
+
     ![60](./ref/60.png).
 
     ![61](./ref/61.png).
@@ -356,32 +406,39 @@
 10. 在本机安装 jenkins，并在全局工具配置和系统设置中配置好 JDK 地址、Gradle 地址、 ANDROID_HOME 地址和 JAVA_HOME 地址 • 新建任务，在源码管理中填写自己项目的 github 地址，对项目进行一次构建 • 修改代码再次推送到 github 仓库中，再次对项目进行构建
     
     (1)安装jenkins：
+
     ![63](./ref/63.png).
 
     （2）配置地址：
 
     JAVA_HOME 地址：
+
     ![64](./ref/64.png).
 
     Gradle 地址：（这里选择了直接Gradle自动安装）
+
     ![65](./ref/65.png).
 
     （3）新建任务：
 
     新建项目的配置：
+
     ![66](./ref/66.png).
 
     此处由于build失败，日志中写出无法连接origin,经查找办法，将https改为git得以解决
 
     第一次构建的结果：
+
     ![67](./ref/67.png).
 
     （4）修改代码再次推送到 github 仓库中，再次对项目进行构建。
     
     推送如下：
+
     ![68](./ref/68.png).
 
     再次构建：
+    
     ![69](./ref/69.png).
 
 
