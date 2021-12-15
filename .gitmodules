@@ -1,7 +1,6 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
-	url = https://github.com/ztw330/example-project.git
 [submodule "Project/191220153-张丁楚"]
 	path = Project/191220153-张丁楚
 	url = https://github.com.cnpmjs.org/zhangdingchu/example-lab3-filemanager0.5
@@ -195,4 +194,3 @@
 	path = Project/191220152-张城铨
 	url = https://github.com/Andres-Nju/SimpleExplorer-2.3.1.git
 
->>>>>>> downstream/main
