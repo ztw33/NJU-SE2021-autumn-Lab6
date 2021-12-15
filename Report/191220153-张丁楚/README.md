@@ -340,8 +340,36 @@
 
     总结：merge和rebase合并冲突的方式不一样，一个需要一个commit，而一个不需要。其次，rebase再合并完成后会删掉一个commit，添加一个commit，而merge只会产生一个commit。
 
+10. 在本机安装 jenkins，并在全局工具配置和系统设置中配置好 JDK 地址、Gradle 地址、 ANDROID_HOME 地址和 JAVA_HOME 地址 • 新建任务，在源码管理中填写自己项目的 github 地址，对项目进行一次构建 • 修改代码再次推送到 github 仓库中，再次对项目进行构建
+    
+    (1)安装jenkins：
+    ![63](./ref/63.png).
 
+    （2）配置地址：
 
+    JAVA_HOME 地址：
+    ![64](./ref/64.png).
+
+    Gradle 地址：（这里选择了直接Gradle自动安装）
+    ![65](./ref/65.png).
+
+    （3）新建任务：
+
+    新建项目的配置：
+    ![66](./ref/66.png).
+
+    此处由于build失败，日志中写出无法连接origin,经查找办法，将https改为git得以解决
+
+    第一次构建的结果：
+    ![67](./ref/67.png).
+
+    （4）修改代码再次推送到 github 仓库中，再次对项目进行构建。
+    
+    推送如下：
+    ![68](./ref/68.png).
+
+    再次构建：
+    ![69](./ref/69.png).
 
 
 
