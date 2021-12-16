@@ -199,3 +199,6 @@
 [submodule "Project/191220133-徐思源"]
 	path = Project/191220133-徐思源
 	url = https://github.com/X-March/SELab.git
+[submodule "Project/191220013-陈奕诺"]
+	path = Project/191220013-陈奕诺
+	url = https://github.com/JudithChen-19122/AmazeFileManager-Extention.git
