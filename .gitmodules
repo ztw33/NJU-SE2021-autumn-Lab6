@@ -202,6 +202,7 @@
 [submodule "Project/191220013-陈奕诺"]
 	path = Project/191220013-陈奕诺
 	url = https://github.com/JudithChen-19122/AmazeFileManager-Extention.git
+
 [submodule "Project/191220108-王靖灵"]
 	path = Project/191220108-王靖灵
-	url = https://github.com/JanelieWang/File-By-Google.git
+	url = https://github.com/JanelieWang/File-By-Google
