@@ -24,7 +24,7 @@
 
 `git add [dir]`：添加指定目录到暂存区，包括子目录。
 
-![git add all](ref/git add all.png)
+![git add all](ref/git_add_all.png)
 
 #### **检查**
 
