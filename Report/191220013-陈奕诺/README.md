@@ -26,29 +26,31 @@
 
 依据要求，我们首先查看现在仓库的状态，输入命令行`git status` 查看状态
 
-![](\ref\2.png)
+![](./ref/2.png)
 
 可以看到有很多文件未被追踪，于是我们输入命令行`git add .` 将所有文件都加入其中
 
-![](\ref\3.png)
+![](./ref/3.png)
 
 这里的`warning`是由于不同操作系统上的换行符不同导致的，这里可以忽略。
 
 查看状态变成了待提交状态：
 
-![](\ref\4.png)
+![](./ref/4.png)
 
 接下来我们将我们的初始版本进行提交，将提交命名为`init`方便查询：
 
 输入命令行 `git commit -m "init" `
 
-![](\ref\5.png)
+![](./ref/5.png)
 
 查看状态：
 
-![](\ref\6.png)
+![](./ref/6.png)
 
 现在我们可以查看一下目前的`commit`状态，发现只有一个`init` 的`commit`。
+
+![](./ref/7.png)
 
 ###### 修改、提交、回退等过程的尝试
 
@@ -58,63 +60,63 @@
 
 我们现在查看状态可以看到：`CODE_OF_CONDUCT.md`被修改了但没有提交
 
-![](\ref\8.png)
+![](./ref/8.png)
 
 我们可以提交这一修改： 
 
-![](\ref\9.png)
+![](./ref/9.png)
 
 可以在日志中看到：前后两次的`commit` 其中我们可以看到标了HEAD的是当前的版本，可以用HEAD^表示上一版本，或者用版本号表示
 
-![](\ref\10.png)
+![](./ref/10.png)
 
 我们可以通过 ` git reset`来实现版本回退，参数可直接用版本号，或者用HEAD^表示上一版本，用HEAD^^表示上上版本，如下所示：
 
-![](\ref\11.png)
+![](./ref/11.png)
 
 此时查看文件发现恢复到了修改前的状态，且版本库中只剩下了`init`：
 
-![](\ref\12.png)
+![](./ref/12.png)
 
 ###### 分支相关基础操作：
 
 构建一个分支 `git branch <BranchName>`并切换到该分支`git switch <BranchName>`或者`git checkout <BranchName>`：
 
-![](\ref\13.png)
+![](./ref/13.png)
 
 现在我们同样修改一下`CODE_OF_CONDUCT.md`并提交给function1:在结尾加了一行`Branch Test Add Function1.`
 
-![](\ref\14.png)
+![](./ref/14.png)
 
-![](\ref\15.png)
+![](./ref/15.png)
 
 现在切换到master分支，发现文档中的修改消失了，这是由于function1分支的修改没有合并到master上，我们现在合并，合并后查看文档，可以看到末尾添加了修改的内容：
 
-![](\ref\16.png)
+![](./ref/16.png)
 
 现在我们可以删除function1这一分支。
 
-![](\ref\17.png)
+![](./ref/17.png)
 
 这是比较顺利的合并，有时我们会出现冲突：
 
-![](\ref\18.png)
+![](./ref/18.png)
 
 发现冲突在都修改了`CODE_OF_CONDUCT.md`，我们打开文档可以看到：
 
-![](\ref\19.png)
+![](./ref/19.png)
 
 我们依据冲突提示和要求，进行修改手动解决冲突，并提交即可。
 
-![](\ref\20.png)
+![](./ref/20.png)
 
 可以看到合并的关系图如下：
 
-![](\ref\21.png)
+![](./ref/21.png)
 
 接下来我们来进行一些标签的操作：
 
-![](\ref\22.png)
+![](./ref/22.png)
 
 截止到目前，我们已经学会了git管理的基本操作和一些管理技巧，下面我们将这些技巧运用到实验三的具体代码管理中。
 
@@ -122,11 +124,11 @@
 
 首先我们先将原代码上传到`github`上，新建的仓库为`JudithChen-19122/AmazeFileManager-Extention`
 
-![](\ref\23.png)
+![](./ref/23.png)
 
 为了方便管理，我们用一个dev分支来为后续的合并做准备。首先在dev进行一些配置，比如修改`build.gradle` 文件,并提交，为功能修改做好前期环境准备：
 
-![](\ref\24.png)
+![](./ref/24.png)
 
 接下来为每个子任务创建一个分支：
 
@@ -134,19 +136,19 @@
 
 在menu中添加查看home路径的控件`check_home_path`，并用dialog显示结果。
 
-![](\ref\25.png)
+![](./ref/25.png)
 
 在`function1`上进行相关代码的编写，并使用git管理。
 
-![](\ref\26.png)
+![](./ref/26.png)
 
 切换回dev分支，创建function2：
 
-![](\ref\27.png)
+![](./ref/27.png)
 
 在`function2`上进行相关代码的编写，并使用git管理。
 
-![](\ref\28.png)
+![](./ref/28.png)
 
 完成其他功能分支。
 
@@ -154,29 +156,29 @@
 
 先切换到dev分支，依次合并funcition1/2, 在合并function2时出现冲突：
 
-![](\ref\29.png)
+![](./ref/29.png)
 
 我们手动到文件里面进行整合：
 
 此时可以看到出现冲突的文件以及标红，并且指出了冲突的位置，我们手动整合一下：
 
-![](\ref\30.png)
+![](./ref/30.png)
 
-![](\ref\31.png)
+![](./ref/31.png)
 
 对其他冲突文件做类似的操作。
 
 完成后重新添加提交，实现合并：
 
-![](\ref\32.png)
+![](./ref/32.png)
 
 类似的我们完成后续分支的合并，可以得到合并关系图：
 
-![](\ref\33.png)
+![](./ref/33.png)
 
 添加合适的标签得到最终的合并关系图：
 
-![](\ref\34.png)
+![](./ref/34.png)
 
 ##### 4.git/github 的其他进阶操作
 
@@ -184,15 +186,15 @@
 
 合并前：
 
-![](\ref\35.png)
+![](./ref/35.png)
 
 rebase：
 
-![](\ref\36.png)
+![](./ref/36.png)
 
 merge:
 
-![](\ref\37.png)
+![](./ref/37.png)
 
 我们可以很清楚的看到，在合并时，merge 会将分支合并到当前分支的版本，并生成一个新的当前分支的版本，而rebase则不是，rebase 是基于两个分支的共同祖先，先合并分支，在进行分支在共同祖先之后的操作，也就是最后一步操作变成了"modify basic" 而不是merge。
 
@@ -200,15 +202,15 @@ merge:
 
 回退前：
 
-![](\ref\38.png)
+![](./ref/38.png)
 
 revert:
 
-![](\ref\39.png)
+![](./ref/39.png)
 
 reset:
 
-![](\ref\40.png)
+![](./ref/40.png)
 
 reset是在正常的commit历史中，删除了指定的commit，这时HEAD指向旧版的commit。
 
@@ -218,17 +220,17 @@ revert是在正常的commit历史中再commit一次，只不过是反向提交�
 
 `git stash`： 把已经`git add` 的改动搁置，后续通过`git stash apply`可以找回搁置的改动.
 
-![](\ref\41.png)
+![](./ref/41.png)
 
 git stash list 用来查看所有的搁置版本；如果想找回栈中的第2个，可以用 git stash apply stash@{1} ;如果想找回第1个，可以用 git stash pop;如果想删除一个stash，git stash drop <id> ;删除所有stash，git stash clear.
 
-![](\ref\42.png)
+![](./ref/42.png)
 
 cherry-pick:
 
 将代码从一个分支转移到另一个分支时，如果只需要部分代码变动（某几个提交），这时可以采用 Cherry pick。
 
-![](\ref\43.png)
+![](./ref/43.png)
 
 ### 4.思考题
 
@@ -250,17 +252,17 @@ cherry-pick:
 
 ##### 1.在本机安装 jenkins，并在全局工具配置和系统设置中配置好 JDK 地址、Gradle 地址、 ANDROID_HOME 地址和 JAVA_HOME 地址
 
-![](\ref\44.png)
+![](./ref/44.png)
 
 ##### 2.新建任务，在源码管理中填写自己项目的 github 地址，对项目进行一次构建
 
-![](\ref\45.png)
+![](./ref/45.png)
 
-![](\ref\46.png)
+![](./ref/46.png)
 
 ##### 3.修改代码再次推送到 github 仓库中，再次对项目进行构建
 
-![](\ref\47.png)
+![](./ref/47.png)
 
 ### 6.结论
 
