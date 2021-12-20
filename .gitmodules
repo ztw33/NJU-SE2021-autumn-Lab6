@@ -1,7 +1,6 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
-
-	url = https://github.com/ztw330/example-project.git
+	url = https://github.com/ztw330/example-project
 [submodule "Project/191220174-赵一霖"]
 	path = Project/191220174-赵一霖
 	url = https://github.com/zyilier/NJU_SE2021_191220174_lab3
@@ -218,4 +217,3 @@
 [submodule "Project/191220146-尹熙喆"]
 	path = Project/191220146-尹熙喆
 	url = https://github.com/changanyyy/lab3-AnExplorer
-
