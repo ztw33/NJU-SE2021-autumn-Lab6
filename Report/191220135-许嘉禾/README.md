@@ -116,3 +116,14 @@ git stash是储藏的意思，它会把所有未commit的修改（包括暂存�
 之后再输入git status，就会显示working tree clean。
 
 通过git stash pop命令恢复之前缓存的工作目录。
+
+### 7.cherry-pick
+cherry-pick用于将指定的提交应用于其他分支。
+
+例如 git cherry-pick a 就会把提交a应用于当前分支，在当前分支产生一个新的提交。
+
+cherry-pick也支持一次转移多个提交，例如 git cherry-pick a b 就会把a和b两个提交应用到当前分支，并生成两个对应的新提交。
+
+还可以转移一系列连续的提交，用命令 git cherry-pick a..b , 将a和b之间（不包括a）的所有提交转移到当前分支（须保证a在b之前）。命令 git cherry-pick a^..b，是将a和b之间（包括a）的所有提及转移。
+
+git cherry-pick后也可以跟分支名，表示将该分支的最新一次提交转移到当前分支。
