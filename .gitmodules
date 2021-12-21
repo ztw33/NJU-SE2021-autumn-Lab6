@@ -217,3 +217,6 @@
 [submodule "Project/191220146-尹熙喆"]
 	path = Project/191220146-尹熙喆
 	url = https://github.com/changanyyy/lab3-AnExplorer
+[submodule "Project/191220097-时欣"]
+	path = Project/191220097-时欣
+	url = git@github.com:Cindyxin228/lab3-AnExplorer.git
