@@ -221,5 +221,8 @@
 	path = Project/191220158-张津榕
 	url = https://github.com/Da-Gen-Dui-Zhang-Lai-La/lab3-MaterialFiles-1.3.1.git
 [submodule "Project/191220135-许嘉禾"]
-        path = Project/191220135-许嘉禾
-        url = https://github.com/SilenceXjh/lab3-MaterialFiles
+  path = Project/191220135-许嘉禾
+  url = https://github.com/SilenceXjh/lab3-MaterialFiles
+[submodule "Project/191220097-时欣"]
+	path = Project/191220097-时欣
+	url = git@github.com:Cindyxin228/lab3-AnExplorer.git
