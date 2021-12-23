@@ -226,3 +226,6 @@
 [submodule "Project/191220097-时欣"]
 	path = Project/191220097-时欣
 	url = git@github.com:Cindyxin228/lab3-AnExplorer.git
+[submodule "Project/201180188-李祺航"]
+	path = Project/201180188-李祺航
+	url = https://github.com/chill781/lab3-filemanager-0.5
