@@ -232,3 +232,6 @@
 [submodule "Project/191220002-蔡鸿彬"]
 	path = Project/191220002-蔡鸿彬
 	url = https://github.com/ChinoJunko/AnExplorer-4.1.1
+[submodule "Project/191220159-张久霖"]
+	path = Project/191220159-张久霖
+	url = https://github.com/maruNo1/SE_2021_autumn_lab6.git
