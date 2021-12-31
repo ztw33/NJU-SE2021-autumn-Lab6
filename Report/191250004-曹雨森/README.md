@@ -135,3 +135,47 @@ rebase会始终把最新的修改放到最前，逻辑上会比merge要清楚很
 git revert是通过一次逆向的commit来撤销之前的提交，会使git的HEAD指针继续前进，只是新的commit的内容和要revert的内容相反，因此日后合并分支时，会导致这部分改变不会再次出现
 
 git reset则是将撤销点后的操作都会回退到暂存区中，会使git的HEAD指针向后移动，因此当日后合并分支时，被回退的commit可能还会被引入
+
+
+---
+
+## Jenkins
+
+在本机安装 jenkins，并在全局工具配置和系统设置中配置好 JDK 地址、Gradle 地址、ANDROID_HOME 地址和 JAVA_HOME 地址
+
+- 安装
+  
+![](ref/10.png)
+
+- 注册进入主界面(因为不影响后续实验，这里就直接skip，用默认admin登入了)
+
+![](ref/11.png)
+
+![](ref/12.png)
+
+- 点击Manage Jenkins，并点击Global Tool Configuration进入配置界面
+
+  + 配置JDK 地址
+![](ref/13.png)
+
+  + 配置Gradle 地址
+![](ref/14.png)
+
+  + 配置ANDROID_HOME 地址(在`path`中添加`%ANDROID_HOME%\tools`)和 JAVA_HOME 地址(之前已经添加过)，此外还需配置git地址
+
+- 新建任务，在源码管理中填写自己项目的Github地址，对项目进行一次构建
+
+  + 新建一个类型为Freestyle project的job
+  
+![](ref/15.png)
+
+![](ref/16.png)
+
+  + 点击build now进行构建并成功
+
+![](ref/17.png)
+
+
+  + 进行修改后再次提交并推送到远程仓库(包括了lab3以后的修改)，再次build并成功
+
+![](ref/18.png)
