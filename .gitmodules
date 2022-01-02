@@ -241,3 +241,6 @@
 [submodule "Project/191220100-苏颖康"]
 	path = Project/191220100-苏颖康
 	url = https://github.com/DogLoveasdzz/SE2021-FileManagerPro.git
+[submodule "Project/191220015-陈媛"]
+	path = Project/191220015-陈媛
+	url = git@github.com:kakkakak/SE_Experiment6.git
