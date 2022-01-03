@@ -244,3 +244,6 @@
 [submodule "Project/191220015-陈媛"]
 	path = Project/191220015-陈媛
 	url = git@github.com:kakkakak/SE_Experiment6.git
+[submodule "Project/191220166-张昕宇"]
+	path = Project/191220166-张昕宇
+	url = https://github.com/RX580ZZZ/lab3-AmazeFileManager-3.6.3.git
