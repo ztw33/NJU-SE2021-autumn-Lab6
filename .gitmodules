@@ -247,3 +247,6 @@
 [submodule "Project/191220166-张昕宇"]
 	path = Project/191220166-张昕宇
 	url = https://github.com/RX580ZZZ/lab3-AmazeFileManager-3.6.3.git
+[submodule "Project/181860143-张政"]
+	path = Project/181860143-张政
+	url = https://github.com/181860143/nju_se
