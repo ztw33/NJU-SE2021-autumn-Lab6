@@ -6,39 +6,39 @@
 
 #####  1. filemanager-0.5 目录下执行git init，创建仓库
 
-<img src=".\ref\init.png" style="zoom:80%;" />
+<img src="ref/init.png" style="zoom:80%;" />
 
 ##### 2. 在master分支下进行首次commit
 
-<img src=".\ref\initial_commit.png" alt="image-20211118185857098" style="zoom:80%;" />
+<img src="ref/initial_commit.png" alt="image-20211118185857098" style="zoom:80%;" />
 
 ##### 3. 使用git log查看日志，此时有initial commit记录
 
-<img src=".\ref\initial_log.png" alt="image-20211118185957191" style="zoom:80%;" />
+<img src="ref/initial_log.png" alt="image-20211118185957191" style="zoom:80%;" />
 
 ##### 4. 修改源代码，（添加一个函数）
 
-<img src=".\ref\revise_code.png" alt="image-20211118190310027" style="zoom: 50%;" />
+<img src="ref/revise_code.png" alt="image-20211118190310027" style="zoom: 50%;" />
 
 ##### 5.使用git status查看修改的文件
 
-<img src=".\ref\git_status.png" alt="image-20211118190435470"  />
+<img src="ref/git_status.png" alt="image-20211118190435470"  />
 
 ##### 6. 使用git diff 比较文件不同，可以看到添加的函数
 
-<img src=".\ref\git_diff.png" alt="image-20211118190546232" style="zoom: 80%;" />
+<img src="ref/git_diff.png" alt="image-20211118190546232" style="zoom: 80%;" />
 
 ##### 7.将新的修改commit到master分支，可以看到log中有两条commit记录
 
-<img src=".\ref\git_log2.png" alt="image-20211118190657812" style="zoom: 67%;" />
+<img src="ref/git_log2.png" alt="image-20211118190657812" style="zoom: 67%;" />
 
 ##### 8.将代码回滚到initial版本，git log可以看到只有一条commit记录了
 
-![image-20211118190819523](.\ref\git_reset.png)
+![img.png](ref/git_reset.png)
 
 ##### 9. 工作区的代码也成功恢复到上一版本了
 
-<img src=".\ref\code2.png" alt="image-20211118190910357" style="zoom: 67%;" />
+<img src="ref/code2.png" alt="image-20211118190910357" style="zoom: 67%;" />
 
 
 
@@ -46,41 +46,41 @@
 
 ##### 1. git branch创建新的分支first_branch，并切换到新分支中。
 
-![image-20211118192026273](.\ref\git_branch.png)
+![image-20211118192026273](ref/git_branch.png)
 
 ##### 2. 在first_branch上提交代码
 
-![git_add_first_branch](.\ref\git_add_first_branch.png)
+![git_add_first_branch](ref/git_add_first_branch.png)
 
 ##### 3. 创建second_branch，并切换
 
-![second_branch](.\ref\second_branch.png)
+![second_branch](ref/second_branch.png)
 
 ##### 4. 在second_branch上提交
 
-![git_add_second_branch](.\ref\git_add_second_branch.png)
+![git_add_second_branch](ref/git_add_second_branch.png)
 
 ##### 5. 创建thrid_branch并切换
 
-![third_branch](.\ref\third_branch.png)
+![third_branch](ref/third_branch.png)
 
 ##### 6. 在thrid_branch上提交
 
-![git_add_third_branch](.\ref\git_add_third_branch.png)
+![git_add_third_branch](ref/git_add_third_branch.png)
 
 ##### 7. 合并分支
 
-![merge](.\ref\merge.png)
+![merge](ref/merge.png)
 
 ##### 8. git log --graph展示分支图
 
-![git_log_graph](.\ref\git_log_graph.png)
+![git_log_graph](ref/git_log_graph.png)
 
 
 
 ### 三 git为稳定版本打tag
 
-![git_tag](.\ref\git_tag.png)
+![git_tag](ref/git_tag.png)
 
 
 
