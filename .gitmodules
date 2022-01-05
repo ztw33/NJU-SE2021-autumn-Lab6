@@ -256,3 +256,6 @@
 [submodule "Project/191220181-朱恩伯"]
 	path = Project/191220181-朱恩伯
 	url = https://github.com/zeb-bot/se-lab3
+[submodule "Project/181860006-陈劭彬"]
+	path = Project/181860006-陈劭彬
+	url = https://github.com/ByRandom1/lab3-AnExplorer
