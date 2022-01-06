@@ -33,17 +33,17 @@
     
         - 在README.md文件中添加信息如下所示:
             
-            ![README](ref/README.png)
+            ![README](./ref/README.png)
 
         - 使用`git status`查看当前仓库状态：
 
-            ![git-status](ref/git-status.png)
+            ![git-status](./ref/git-status.png)
 
             README.md文件被修改过，且尚未添加到暂存区及提交到仓库；
 
         - 使用`git diff`查看修改情况：
 
-            ![git-diff](ref/git-diff.png)
+            ![git-diff](./ref/git-diff.png)
 
             README.md增加了4行内容，与实际修改一致；
 
@@ -51,19 +51,19 @@
 
         - `git add README.md`将修改添加到仓库暂存区，使用`git status`查看仓库状态：
 
-            ![git-status1](ref/git-status1.png)
+            ![git-status1](./ref/git-status1.png)
 
             README.md的修改尚未提交到仓库；
 
         - `git commit`将文件提交到仓库，使用`git log`查看提交日志：
 
-            ![git-log](ref/git-log.png)
+            ![git-log](./ref/git-log.png)
 
             有两次提交记录，HEAD指向最新的一次提交；
 
         - 之后查看仓库状态：
 
-            ![git-status2](ref/git-status2.png)
+            ![git-status2](./ref/git-status2.png)
 
             仓库中没有需要提交的修改，并且工作目录是干净的；
 
@@ -71,9 +71,9 @@
 
         - 使用`git reset`回退到init版本并查看提交日志：
 
-            ![git-reset](ref/git-reset.png)
+            ![git-reset](./ref/git-reset.png)
 
-            ![git-log1](ref/git-log1.png)
+            ![git-log1](./ref/git-log1.png)
 
             显示HEAD指向了init版本库，即回退到了最初版本。
 
@@ -81,7 +81,7 @@
 
     - 使用`git branch <name>`创建分支，查看所有分支如下：
 
-        ![git-branch](ref/git-branch.png)
+        ![git-branch](./ref/git-branch.png)
 
         显示共有四个分支，目前处于master分支，其中：
 
@@ -95,7 +95,7 @@
 
     - 切换到master分支，用`git merge <name>`将其余三个分支合并到master分支上，使用`git log --graph`查看分支合并图：
 
-        ![git-log--graph](ref/git-log--graph.png)
+        ![git-log--graph](./ef/git-log--graph.png)
 
 4. 给某个稳定版本的代码打上标签
 
@@ -131,11 +131,11 @@
         
         本地仓库中有master和dev两个分支，master有一次提交，dev分支有两次提交，如下所示：
 
-        ![git-log2](ref/git-log2.png)
+        ![git-log2](./ref/git-log2.png)
 
         使用`git cherry-pick 7f46012`将dev分支的第一次提交应用到master分支上，master分支会产生一个新的提交，如下所示：
 
-        ![git-log3](ref/git-log3.png)
+        ![git-log3](./ref/git-log3.png)
 
     - `stash`
 
@@ -147,19 +147,19 @@
 
         当前仓库中有master和dev两个分支，dev分支的工作状态如下：
 
-        ![git-status3](ref/git-status3.png)
+        ![git-status3](./ref/git-status3.png)
 
         欲先完成master分支的相关任务，使用`git stash`保存工作现场：
 
-        ![git-stash](ref/git-stash.png)
+        ![git-stash](./ref/git-stash.png)
 
         此时查看状态可以发现工作区是干净的:
 
-        ![git-status4](ref/git-status4.png)
+        ![git-status4](./ref/git-status4.png)
 
         完成master分支的任务后，回到dev分支，恢复工作现场：
 
-        ![git-stash-pop](ref/git-stash-pop.png)
+        ![git-stash-pop](./ref/git-stash-pop.png)
 
         之后可以继续dev分支的工作
 
