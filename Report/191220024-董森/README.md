@@ -63,4 +63,26 @@
 
 
 
-## 
+## 五、实验结果
+
+### 1、在本地尝试修改、提交、回退
+
+- 首先修改README.md文件，在其中添加一行 “五、实验结果”，使用`git diff`命令查看修改：
+
+![diff](ref\diff.png)
+
+- 使用`git add`命令将修改加入到暂存区中，并使用`git status`查看状态，可见有修改未被commit：
+
+![add](ref\add.png)
+
+- 使用`git commit`命令提交暂存区内容，然后使用`git log`查看版本状态，可见已经有了一个新的版本，并且HEAD指针也已经指向改版本：
+
+![commit](ref\commit.png)
+
+- 使用`git reset`命令进行版本回退，并使用`git log`查看版本信息，可见HEAD指针已经回退到上一版本了：
+
+  ![reset](D:\SoftwareEngineering\exp6\NJU-SE2021-autumn-Lab6\Report\191220024-董森\ref\reset.png)
+
+- 查看README.md文件，可见修改已被撤销
+
+  ![reset_result](ref\reset_result.png)
