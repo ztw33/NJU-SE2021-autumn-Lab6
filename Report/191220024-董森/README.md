@@ -71,23 +71,23 @@
 
 - 首先修改README.md文件，在其中添加一行 “五、实验结果”，使用`git diff`命令查看修改：
 
-![diff](ref\diff.png)
+![diff](ref/diff.png)
 
 - 使用`git add`命令将修改加入到暂存区中，并使用`git status`查看状态，可见有修改未被commit：
 
-![add](ref\add.png)
+![add](ref/add.png)
 
 - 使用`git commit`命令提交暂存区内容，然后使用`git log`查看版本状态，可见已经有了一个新的版本，并且HEAD指针也已经指向改版本：
 
-![commit](ref\commit.png)
+![commit](ref/commit.png)
 
 - 使用`git reset`命令进行版本回退，并使用`git log`查看版本信息，可见HEAD指针已经回退到上一版本了：
 
-  ![reset](D:\SoftwareEngineering\exp6\NJU-SE2021-autumn-Lab6\Report\191220024-董森\ref\reset.png)
+  ![reset](ref/reset.png)
 
 - 查看README.md文件，可见修改已被撤销(原来的那一行变成了"##"):
 
-  ![reset_result](ref\reset_result.png)
+  ![reset_result](ref/reset_result.png)
 
 #### 2、创建分支，分别修改然后合并
 
@@ -100,11 +100,11 @@
   > $ git checkout(switch) dev
   > ```
 
-  ![branch](ref\branch.png)
+  ![branch](ref/branch.png)
 
 - 使用`git switch main`命令切换回main分支，并使用`git status`和`git log`查看当前分支的状态，可见在UpdateActivity分支下的修改对main分支无影响：
 
-  ![switch](ref\switch.png)
+  ![switch](ref/switch.png)
 
 - 在main分支上完成修改并提交：
 
