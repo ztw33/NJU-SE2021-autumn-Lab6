@@ -43,3 +43,9 @@
 [submodule "Project/181860075-邱沐阳"]
 	path = Project/181860075-邱沐阳
 	url = https://github.com/qiumuyang/SE2021-Lab6
+[submodule "Project/lab3-filemanager-0.5"]
+	path = Project/lab3-filemanager-0.5
+	url = https://github.com/Curat-D/lab3-filemanager-0.5.git
+[submodule "Project/191220024-董森"]
+	path = Project/191220024-董森
+	url = https://github.com/Curat-D/lab3-filemanager-0.5.git
