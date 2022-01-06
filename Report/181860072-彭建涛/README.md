@@ -12,29 +12,25 @@
 
 ### 修改、提交、回退项目
 
-1. 提交项目![Screenshot from 2022-01-06 17-12-31](ref/Screenshot from 2022-01-06 17-12-31.png)
-
-2. 使用`git log`查询历史提交记录![Screenshot from 2022-01-06 17-13-37](ref/Screenshot from 2022-01-06 17-13-37.png)
-
-3. `git reset`回退历史版本![Screenshot from 2022-01-06 17-15-42](./ref/Screenshot from 2022-01-06 17-15-42.png)
-
-4. 使用`git reflog`向后查询版本并回退![Screenshot from 2022-01-06 17-18-12](./ref/Screenshot from 2022-01-06 17-18-50.png)
+1. 提交项目![Screenshot from 2022-01-06 17-12-31](ref/pic1.png)
+2. 使用`git log`查询历史提交记录![Screenshot from 2022-01-06 17-13-37](ref/pic2.png)
+3. `git reset`回退历史版本![Screenshot from 2022-01-06 17-15-42](./ref/pic3.png)
+4. 使用`git reflog`向后查询版本并回退![Screenshot from 2022-01-06 17-18-12](./ref/pic4.png)
+4. 回到回退之前的历史版本![Screenshot from 2022-01-06 17-30-42](./ref/pic5.png)
 
   ### 针对实验三几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发
 
   #### 创建两个额外分支分别表示主界面和菜单项的调整：
 
-  ![Screenshot from 2022-01-06 17-30-42](./ref/Screenshot from 2022-01-06 17-30-42.png)
+  ![pic7](ref/pic7.png)
 
-  #### 将两个子分支合并到main分支上：
-
-  ![Screenshot from 2022-01-06 17-29-56](./ref/Screenshot from 2022-01-06 17-29-56.png)
+  #### 将两个子分支合并到main分支上，使用`git log --graph`查看：  ![Screenshot from 2022-01-06 17-29-56](./ref/pic6.png)
 
 ### 为稳定版本打上标签
 
 `git tag finish`将当前版本标注为finish
 
-`git tag`查看标签：![Screenshot from 2022-01-06 18-06-23](./ref/Screenshot from 2022-01-06 18-06-23.png)
+`git tag`查看标签：![Screenshot from 2022-01-06 18-06-23](./ref/pic8.png)
 
 `git push --tags`:推送标签到远程仓库中
 
