@@ -1,6 +1,9 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191220144-尹凯"]
+	path = Project/191220144-尹凯
+	url = https://github.com/VtopLiver/MaterialFiles.git
 [submodule "Project/191220174-赵一霖"]
 	path = Project/191220174-赵一霖
 	url = https://github.com/zyilier/NJU_SE2021_191220174_lab3
@@ -217,6 +220,9 @@
 [submodule "Project/191220146-尹熙喆"]
 	path = Project/191220146-尹熙喆
 	url = https://github.com/changanyyy/lab3-AnExplorer
+[submodule "Project/191220138-杨飞洋"]
+	path = Project/191220138-杨飞洋
+	url = https://github.com/fengling-aat/SimpleExplorer
 [submodule "Project/191220158-张津榕"]
 	path = Project/191220158-张津榕
 	url = https://github.com/Da-Gen-Dui-Zhang-Lai-La/lab3-MaterialFiles-1.3.1.git
@@ -268,3 +274,12 @@
 [submodule "Project/181860068-欧阳欣"]
 	path = Project/181860068-欧阳欣
 	url = https://github.com/NJUOYX/AmazeFileManager
+[submodule "Project/191220024-董森"]
+	path = Project/191220024-董森
+	url = https://github.com/Curat-D/lab3-filemanager-0.5.git
+[submodule "Project/191220030-葛洲"]
+	path = Project/191220030-葛洲
+	url = https://github.com/0030gz/MaterialFiles-1.3.1
+[submodule "Project/191220031-顾本龙"]
+	path = Project/191220031-顾本龙
+	url = https://github.com/gu16/AnExplorer.git
