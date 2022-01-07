@@ -95,7 +95,7 @@
 
     - 切换到master分支，用`git merge <name>`将其余三个分支合并到master分支上，使用`git log --graph`查看分支合并图：
 
-        ![git-log--graph](./ef/git-log--graph.png)
+        ![git-log--graph](./ref/git-log--graph.png)
 
 4. 给某个稳定版本的代码打上标签
 
