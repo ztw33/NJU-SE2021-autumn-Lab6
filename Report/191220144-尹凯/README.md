@@ -4,7 +4,7 @@
 
 ## 本地操作实例
 
-![](ref\test.png)
+![](ref/test.png)
 
 前言：我将项目目录初始化为了git仓库，然后在GitHub上创建并关联了本地仓库，主分支为master分支，首先将未经修改的项目源码push了上去
 
@@ -12,7 +12,7 @@
 
 首先执行`git add *`操作，由于原来的项目已经被我push到远端，`git add`的缓冲区内只有test文件，所以我使用了`git status -s`来查看缓存区的内容；然后使用`git commit -m`操作来提交；执行`git log`操作可以看到提交的过程；单纯执行`git reset HEAD`可以删除缓存区的内容，而执行`git reset --soft HEAD^`操作则能够回滚到commit之前。
 
-![](ref\diff.png)
+![](ref/diff.png)
 
 此外，我还用`git diff`比较了实验三的最终版本的原版
 
@@ -20,13 +20,13 @@
 
 建立分支和提交的过程操作都比较类似，这里各举一例说明
 
-![](ref\createTask2.png)
+![](ref/createTask2.png)
 
 首先`git pull`拉取代码，然后使用`git checkout -b`创建并转到该分支，最后`git push`同步到远程仓库
 
 然后是提交操作
 
-![](ref\task3.png)
+![](ref/task3.png)
 
 执行`git add`将修改的内容放入缓存区,`git commit`提交，`git push`推送到远端
 
@@ -34,13 +34,13 @@
 
 开发完成后GitHub上的情况：
 
-![](ref\oldShow.png)
+![](ref/oldShow.png)
 
 ## 合并子分支
 
 操作同样比较类似，仍然举一例说明
 
-![](ref\2.png)
+![](ref/2.png)
 
 关键操作:`git merge`合并分支
 
@@ -48,11 +48,11 @@
 
 使用`git log --graph`展示合并结果：
 
-![](ref\merge.png)
+![](ref/merge.png)
 
 ## 打标签
 
-![](ref\tag.png)
+![](ref/tag.png)
 
 `git tag -a`操作标记，`git push`同步
 
