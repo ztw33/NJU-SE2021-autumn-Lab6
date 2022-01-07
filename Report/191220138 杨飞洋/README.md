@@ -267,11 +267,11 @@ git push -u origin --tags
 
    - **merge**
 
-     ![avatar](/ref/14.png)
+     ![avatar](ref/14.png)
 
    - **rebase**
 
-     ![avatar](/ref/15.png)
+     ![avatar](ref/15.png)
 
      
 
@@ -284,11 +284,11 @@ git push -u origin --tags
 
    - **revert**
 
-     ![avatar](/ref/16.png)
+     ![avatar](ref/16.png)
 
    - **reset**
 
-     ![avatar](/ref/17.png)
+     ![avatar](ref/17.png)
 
      
 
@@ -298,7 +298,7 @@ git push -u origin --tags
 
    **实践**
 
-   ![avatar](/ref/18.png)
+   ![avatar](ref/18.png)
 
 
 
