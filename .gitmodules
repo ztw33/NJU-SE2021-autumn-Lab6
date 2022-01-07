@@ -178,3 +178,6 @@
 [submodule "Project/191220042-蒋梓栩"]
 	path = Project/191220042-蒋梓栩
 	url = https://github.com/191220042/AnExplorer-4.1.1
+[submodule "Project/202220015-徐邹韬"]
+	path = Project/202220015-徐邹韬
+	url = https://github.com/xuzoutao/NJU-SE2021-lab3-app4
