@@ -269,7 +269,7 @@
 
 直接创建一个空项目即可，在项目配置中填好项目信息（GitHub上的项目地址）
 
-![Jenkins_github](ref/Jenkins_github.png)
+![Jenkins_github](ref/Jenkins_gitHub.png)
 
 #### 	4、构建项目
 
