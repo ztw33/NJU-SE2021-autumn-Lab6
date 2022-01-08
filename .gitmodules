@@ -298,3 +298,6 @@
 [submodule "Project/191220035-郭云昊"]
 	path = Project/191220035-郭云昊
 	url = https://github.com/skycloud36/lab3-file-manager-pro.git
+[submodule "Project/202220015-徐邹韬"]
+	path = Project/202220015-徐邹韬
+	url = https://github.com/xuzoutao/NJU-SE2021-lab3-app4
