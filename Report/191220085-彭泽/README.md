@@ -139,7 +139,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 >>>>>>> feature-exit-confirmation
 ```
 
-采用 feature-exit-confirmation 的依赖，故将来自`HEAD`的内容和标注删除。此外，这些标注会被 IDE 或 VS code 等文本编辑器识别，可以方便地选择：
+采用 feature-exit-confirmation 的依赖，故将来自`HEAD`的内容和标注删除。此外，这些标注会被 IDE 或文本编辑器识别，可以方便地选择：
 
 ![](ref/2022-01-08-22-12-37.png)
 
@@ -200,7 +200,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 合并 feature-user-info 时没有遇到冲突。
 
-### bug修复
+### bug 修复
 
 在合并了三个分支的 master 中尝试编译运行 APP，由于之前故意遗留的bug失败。定位到错误后，为了对其修正，新建 debug 分支：
 
@@ -217,6 +217,45 @@ git merge debug-undeleted-test-codes-in-see-ads
 ```
 
 之后在 master 中可以正常编译、运行 APP。
+
+### 添加 tag
+
+目前 master 可以视为一个稳定的版本，为其增加 tag：
+
+```bash
+git tag v0.1
+```
+
+### 向远程仓库推送
+
+使用如下命令将 master 分支推送至远程仓库：
+
+```bash
+git push origin master
+```
+
+然后将几个 feature 分支也推送至远程仓库：
+
+```bash
+git push origin feature-user-info
+git push origin feature-see-ads
+git push origin feature-exit-confirmation
+```
+
+将 tag 也推送到远程仓库
+
+```bash
+git push origin v0.1
+```
+
+或将所有分支和 tag 推送到远程仓库（如实验要求）：
+
+```bash
+git push origin --all
+git push origin --tags
+```
+
+## 实验结果和思考
 
 ### git log
 
@@ -316,44 +355,9 @@ git merge debug-undeleted-test-codes-in-see-ads
       Initial commit
 ```
 
-### 添加 tag
+### 远程仓库
 
-目前 master 可以视为一个稳定的版本，为其增加 tag：
-
-```bash
-git tag v0.1
-```
-
-### 向远程仓库推送
-
-使用如下命令将 master 分支推送至远程仓库：
-
-```bash
-git push origin master
-```
-
-然后将几个 feature 分支也推送至远程仓库：
-
-```bash
-git push origin feature-user-info
-git push origin feature-see-ads
-git push origin feature-exit-confirmation
-```
-
-将 tag 也推送到远程仓库
-
-```bash
-git push origin v0.1
-```
-
-或将所有分支和 tag 推送到远程仓库（如实验要求）：
-
-```bash
-git push origin --all
-git push origin --tags
-```
-
-之后可以在远程仓库处查看所有分支和 tag 的情况：
+将所有分支推送到远程仓库后可以在远程仓库处查看所有分支和 tag 的情况：
 
 ![](ref/2022-01-08-22-44-45.png)
 
@@ -361,7 +365,7 @@ git push origin --tags
 
 其中许多分支是实验4、5中增加的，playground 分支是实验3早期对 APP 代码进行试探性修改的分支。
 
-## 实验结果
+
 
 ### 使用 git 的好处
 
