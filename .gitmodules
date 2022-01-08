@@ -301,3 +301,6 @@
 [submodule "Project/202220015-徐邹韬"]
 	path = Project/202220015-徐邹韬
 	url = https://github.com/xuzoutao/NJU-SE2021-lab3-app4
+[submodule "Project/191220044-荆绍祖"]
+	path = Project/191220044-荆绍祖
+	url = https://github.com/46507276/example-lab3.git
