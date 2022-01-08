@@ -385,10 +385,10 @@ git 通过储存变化来储存各个版本，节约磁盘空间。
 
 ### 使用分支的好处
 
-在进行实验3/6时我学习了[a successful git branching model](https://nvie.com/posts/a-successful-git-branching-model/)中的分支使用方法，但因为实验3较为简单、不存在 release 等，故没有区分 master, dev 和 release 分支，仅为每个 feature 和每个 bug 的修复单独新建分支。
+在进行实验3/6时我学习了 [a successful git branching model](https://nvie.com/posts/a-successful-git-branching-model/) 中的分支使用方法，但因为实验3较为简单、不存在 release 等，故没有区分 master, dev 和 release 分支，仅为每个 feature 和每个 bug 的修复单独新建分支。
 
 分支使得多个版本可以互不干涉地同时存在，让源自同一份代码的两个版本可以用分支维护，也让不稳定版本的代码可以被提交但不会显示在稳定版本中。
 
-使用分支开发一个 feature 时，可以避免其他 feature 的提交的干涉，只需关注 feature 自身的代码和提交，直到 feature 完成并进行分支合并。这使得分工更好进行，因此和远程仓库间和 pull request 等都是以分支为基础实现的。
+使用分支开发一个 feature 时，可以避免其他 feature 的提交的干涉，只需关注 feature 自身的代码和提交，直到 feature 完成并进行分支合并。这使得分工更好进行，因此和远程仓库间的协作和 pull request 等都是以分支为基础。
 
 在实验时合并 feature-see-ads 到 master 后，发现 master 的提交记录类似直接在 master 分支上进行提交。查询资料后，知应当使用`--no-ff`选项让这次分支合并被直接显示。
