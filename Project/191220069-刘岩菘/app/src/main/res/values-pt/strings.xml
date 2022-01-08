@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple File Manager</string>
+    <string name="app_launcher_name">Gestor de ficheiros</string>
+    <string name="press_back_again">Prima novamente para sair</string>
+    <string name="go_to_home_folder">Ir para a pasta pessoal</string>
+    <string name="set_as_home_folder">Definir como pasta pessoal</string>
+    <string name="home_folder_updated">Pasta pessoal atualizada</string>
+    <string name="copy_path">Copiar caminho para a área de transferência</string>
+    <string name="path_copied">Caminho copiado</string>
+    <string name="select_audio_file">Selecione um ficheiro de áudio</string>
+    <string name="search_folder">Pesquisar pasta</string>
+    <string name="rooted_device_only">Esta operação apenas funciona em dispositivos com root</string>
+    <string name="recents">Recents</string>
+    <string name="show_recents">Mostrar recentes</string>
+
+    <!-- Open as -->
+    <string name="open_as">Abrir como</string>
+    <string name="text_file">Texto</string>
+    <string name="image_file">Imagem</string>
+    <string name="audio_file">Áudio</string>
+    <string name="video_file">Vídeo</string>
+    <string name="other_file">Outro tipo</string>
+
+    <!-- Compression -->
+    <string name="compress">Comprimir</string>
+    <string name="decompress">Descomprimir</string>
+    <string name="compress_as">Comprimir como</string>
+    <string name="compressing">A comprimir…</string>
+    <string name="decompressing">A descomprimir…</string>
+    <string name="compression_successful">Compressão terminada</string>
+    <string name="decompression_successful">Descompressão terminada</string>
+    <string name="compressing_failed">Falha ao comprimir</string>
+    <string name="decompressing_failed">Falha ao descomprimir</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">Gerir favoritos</string>
+    <string name="go_to_favorite">Ir para favorito</string>
+    <string name="favorites_activity_placeholder">Pode adicionar pastas como favoritos para um acesso mais rápido.</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">Editor de ficheiros</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">Ativar acesso root</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple File Manager Pro - Gestão de ficheiros</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Aplicação para gestão de ficheiros e pastas, sem anúncios e que respeita a sua privacidade</string>
+    <string name="app_long_description">
+        Um gestor de ficheiros para o dia a dia. Disponibiliza uma funcionalidade de pesquisa, personalização da pasta inicial e a seleção de pastas favoritas para um acesso mais fácil e rápido.
+
+        Esta aplicação contém diversas funcionalidade relacionadas com segurança tais como proteção contra edição ou remoção de ficheiros e pastas com palavra-passe ou até mesmo da aplicação. Pode optar entre os modos de padrão, PIn ou impressão digital para manter os seus dados seguros.
+
+        Este moderno gestor de ficheiros pemite a navegação nos armazenamentos (interno  externo), em unidades USB e também as ações típicas como root.
+
+        Disponibiliza todas as ações comuns como: mudar nome, copiar, mover, eliminar, partilhar, etc. Também pode ajudar a poupar algum espaço em disco pois permite a compressão e descompressão de arquivos.
+
+        claro que também consegue organizar as pastas e ficheiros de diversas formas, seja a ordenação pelos métodos ascendentes ou descendentes, tanto globalmente como por pasta.
+
+        Com apenas alguns toques pode analisar as propriedades dos ficheiros e das pastas que lhe mostram diversos campos como, por exemplo, tamanho do ficheiro, data da última modificação e até mesmo os valores EXIF das imagens e vídeos.
+
+        Para obter rapidamente o caminho de um ficheiro ou de uma pasta, toque longo no caminho para o adicionar à área de transferência.
+
+        Também pode criar atalhos no seu ecrã para aceder rapidamente aos seus itens favoritos.
+
+        Tem também incorporado um editor de ficheiros para que os possa imprimir, editar ou ler sem distrações.
+
+        A interface é em material design e tema escuro por definição, mas pode alterar os temas a seu gosto. Não requer acesso à Internet o que lhe confere mais privacidade, segurança e estabilidade.
+        
+        Não contém anúncios nem permissões desnecessárias. Disponibiliza um tema escuro e é totalmente \'open source\'.
+
+        <b>Consulte o conjunto completo das aplicações Simple Tools aqui:</b>
+        https://www.simplemobiletools.com
+
+        <b>Site específico da aplicação Simple File Manager Pro:</b>
+        https://www.simplemobiletools.com/filemanager
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Não encontrou todas as cadeias a traduzir? Existem mais algumas em
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

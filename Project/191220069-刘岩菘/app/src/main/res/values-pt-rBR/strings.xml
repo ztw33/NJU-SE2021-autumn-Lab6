@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple File Manager</string>
+    <string name="app_launcher_name">Gerenciador de Arquivos</string>
+    <string name="press_back_again">Aperte novamente o botão Voltar para sair</string>
+    <string name="go_to_home_folder">Ir para pasta principal</string>
+    <string name="set_as_home_folder">Definir como pasta principal</string>
+    <string name="home_folder_updated">Pasta principal atualizada</string>
+    <string name="copy_path">Copiar caminho para a área de transferência</string>
+    <string name="path_copied">Caminho copiado</string>
+    <string name="select_audio_file">Por favor, selecione um arquivo de áudio</string>
+    <string name="search_folder">Procurar pasta</string>
+    <string name="rooted_device_only">Esta operação só funciona em dispositivos rooteados</string>
+    <string name="recents">Recents</string>
+    <string name="show_recents">Show recents</string>
+
+    <!-- Open as -->
+    <string name="open_as">Abrir como</string>
+    <string name="text_file">Arquivo de Texto</string>
+    <string name="image_file">Arquivo de Imagem</string>
+    <string name="audio_file">Arquivo de Áudio</string>
+    <string name="video_file">Arquivo de Vídeo</string>
+    <string name="other_file">Outro arquivo</string>
+
+    <!-- Compression -->
+    <string name="compress">Compactar</string>
+    <string name="decompress">Descompactar</string>
+    <string name="compress_as">Compactar como</string>
+    <string name="compressing">Compactando…</string>
+    <string name="decompressing">Descompactando…</string>
+    <string name="compression_successful">Compactado com sucesso</string>
+    <string name="decompression_successful">Descompactado com sucesso</string>
+    <string name="compressing_failed">Compactação falhou</string>
+    <string name="decompressing_failed">Descompactação falhou</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">Gerenciar favoritos</string>
+    <string name="go_to_favorite">Ir para favorito</string>
+    <string name="favorites_activity_placeholder">Você pode adicionar pastas usadas com frequência aos favoritos para ter um acesso mais rápido.</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">Editor de Arquivos</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">Ativar o acesso root</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple File Manager Pro - Gerenciador de Arquivos</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Um gerenciador de arquivos leve, rápido, seguro e sem anúncios.</string>
+    <string name="app_long_description">
+        Um gerenciador de arquivos leve e rápido para uso diário. Ele oferece uma funcionalidade de busca fácil, você também pode personalizar a pasta principal e selecionar as pastas favoritas para acesso rápido.
+
+        O aplicativo contém várias funções poderosas relacionadas à segurança, como proteção por senha de itens ocultos, exclusão de arquivos ou o aplicativo inteiro. Você pode escolher entre usar um padrão, um pin ou uma impressão digital para manter seus dados privados.
+
+        Este moderno organizador de arquivos suporta a navegação rápida de arquivos raiz, cartões SD e dispositivos USB.
+
+        Para manter sua produtividade, ele obviamente tem todas as operações de arquivo padrão como renomear, copiar, mover, excluir, compartilhar, etc. Ele também pode ser usado para economizar alguma memória, já que permite compactar e descompactar também. Você pode criar facilmente novos arquivos e/ou pastas, se assim desejar.
+
+        Você pode obviamente organizar os arquivos de diversas formas diferentes, alternar entre crescente e decrescente, ou organizar uma pasta de forma específica.
+
+        Com apenas alguns cliques você também pode verificar as propriedades do arquivo ou pasta, que mostra vários campos como o tamanho do arquivo, data da última modificação, ou valores EXIF como a data de criação, modelo da câmera nas fotos, etc.
+
+        Para obter um caminho de um arquivo ou de uma pasta, você pode facilmente apertar e segurar sobre o caminho para selecioná-lo e copiá-lo para a área de transferência.
+
+        Você pode criar atalhos úteis na área de trabalho para acessar seus itens favoritos rapidamente.
+
+        Ele contém um editor de arquivos leve que você pode usar tanto para imprimir documentos, editá-los ou lê-los facilmente com gestos de zoom, sempre que necessário.
+
+        Ele vem com um design material e um tema escuro por padrão, fornece uma ótima experiência para o usuário para uma fácil utilização. A falta de acesso à Internet dá-lhe mais privacidade, segurança e estabilidade do que outros aplicativos.
+
+        Não contém anúncios nem permissões desnecessárias, disponibiliza personalizações de cores e é totalmente código aberto.
+
+        <b>Confira o conjunto completo de Ferramentas Simples aqui:</b>
+        https://www.simplemobiletools.com
+
+        <b>Site autônomo do Simple File Manager Pro:</b>
+        https://www.simplemobiletools.com/filemanager
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

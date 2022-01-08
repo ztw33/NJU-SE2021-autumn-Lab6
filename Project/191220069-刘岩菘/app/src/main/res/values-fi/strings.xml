@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple File Manager</string>
+    <string name="app_launcher_name">Tiedostonhallinta</string>
+    <string name="press_back_again">Paina takaisin-painiketta uudelleen lopettaaksesi</string>
+    <string name="go_to_home_folder">Mene kotikansioon</string>
+    <string name="set_as_home_folder">Aseta kotikansioksi</string>
+    <string name="home_folder_updated">Kotikansio päivitetty</string>
+    <string name="copy_path">Kopioi polku leikepöydälle</string>
+    <string name="path_copied">Polku kopioitu</string>
+    <string name="select_audio_file">Valitse äänitiedosto</string>
+    <string name="search_folder">Etsi kansio</string>
+    <string name="rooted_device_only">Tämä toiminto vaatii rootatun laitteen</string>
+    <string name="recents">Viimeaikaiset</string>
+    <string name="show_recents">Näytä viimeaikaiset</string>
+
+    <!-- Open as -->
+    <string name="open_as">Avaa...</string>
+    <string name="text_file">Tekstitiedostona</string>
+    <string name="image_file">Kuvatiedostona</string>
+    <string name="audio_file">Äänitiedostona</string>
+    <string name="video_file">Videotiedostona</string>
+    <string name="other_file">Jonakin muuna tiedostona</string>
+
+    <!-- Compression -->
+    <string name="compress">Pakkaa</string>
+    <string name="decompress">Pura</string>
+    <string name="compress_as">Pakkausmuoto</string>
+    <string name="compressing">Pakataan…</string>
+    <string name="decompressing">Puretaan…</string>
+    <string name="compression_successful">Pakkaaminen valmis</string>
+    <string name="decompression_successful">Purkaminen valmis</string>
+    <string name="compressing_failed">Pakkaaminen epäonnistui</string>
+    <string name="decompressing_failed">Purkaminen epäonnistui</string>
+
+    <!-- Favorites -->
+    <string name="manage_favorites">Hallitse suosikkeja</string>
+    <string name="go_to_favorite">Mene suosikkiin</string>
+    <string name="favorites_activity_placeholder">Voit lisätä usein käyttämiäsi kansiota suosikeiksi, jolloin niiden käyttö on helppoa mistä vain.</string>
+
+    <!-- File Editor -->
+    <string name="file_editor">Tiedostoeditori</string>
+
+    <!-- Settings -->
+    <string name="enable_root_access">Ota käyttöön root-ominaisuudet</string>
+
+    <!-- Strings displayed only on Google Play Store. Optional, but good to have -->
+    <!-- App title has to have less than 50 characters. If you cannot squeeze it, just remove a part of it -->
+    <string name="app_title">Simple File Manager Pro - Manage files easy &amp; fast</string>
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Helppo tiedostonhallinta turvallisesti yksityisyyttä kunnioittaen, ei mainoksia.</string>
+    <string name="app_long_description">
+        Kevyt, nopea tiedostonhallintasovellus jokapäiväiseen käyttöön. Sovellus tarjoaa näppärän hakutoiminnon. Voit myös valita kotihakemiston ja valita suosikkikansiot nopeaan käyttöön.
+
+        Sovellus sisältää useita tehokkaita turvallisuusominaisuuksia, kuten salasanasuojauksen piilotettujen kohteiden näyttämiseen, tiedostojen poistamiseen ja itse sovellukseen. Voit valita kuvion, PIN-koodin tai sormenjäljen pitääksesi tietosi yksityisenä.
+
+        Tämä moderni sovellus tukee root-kansion tiedostojen selausta, SD-kortteja sekä USB-laitteita.
+
+        Tuottavuuden takaamiseksi sovelluksessa on tietenkin kaikki standarditoiminnot kuten uudelleennimeäminen, kopiointi, siirtäminen, poistaminen, jakaminen jne. Sitä voi käyttää myös tilan säästämiseen, sillä sovelluksessa voit pakata ja purkaa tiedostoja. Voit halutessasi luoda helposti luoda uusia tiedostoja ja kansioita.
+
+        Voit tietenkin valita tietojen lajittelun useammalla eri arvolla, valita nousevan tai laskevan järjestyksen ja käyttää kansiokohtaista lajittelua.
+
+        Voit muutamalla painalluksella tarkistaa tiedoston tai kansion ominaisuudet; mm. tiedoston koko, viimeinen muokkauspäivä tai valokuvista EXIF-arvot kuten kuvanottopäivä, kameran malli jne.
+
+        Saat tiedoston tai kansion polun nopeasti painamalla kohdetta pitkään ja valitsemalla valikosta polon kopioinnin leikepöydälle.
+
+        Voit luoda käteviä pikakuvakkeita suosikkikohteillesi.
+
+        Sovellus sisältää kevyen tiedostojen muokkausmahdollisuuden, joten voit tulostaa, muokata tai lukea dokumentteja helposti, zoom-elein.
+
+        Sovellus on material-designing mukainen ja oletuksena tummalla teemalla. Se tarjoaa loistavan käyttökokemuksen ja helppokäyttöisyyden. Käyttö ei vaadi internetyhteyttä, joten sovelluksen vakaus sekä yksityisyytesi ja turvallisuutesi ovat paremmat kuin muissa sovelluksissa.
+
+        Ei sisällä mainoksia tai tarpeettomia käyttöoikeuksia. Sovellus on täysin vapaata lähdekoodia. Värimaailman voit mukauttaa mieluiseksesi.
+
+        <b>Katso täältä koko Simple Tools-sovelluskokoelma:</b>
+        https://www.simplemobiletools.com
+
+        <b>Simple File Manager Pro:n kotisivu</b>
+        https://www.simplemobiletools.com/filemanager
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

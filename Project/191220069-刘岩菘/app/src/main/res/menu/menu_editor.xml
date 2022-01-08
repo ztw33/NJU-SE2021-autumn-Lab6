@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_vector"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@drawable/ic_save_vector"
+        android:title="@string/save_as"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_open_with"
+        android:title="@string/open_with"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_print"
+        android:title="@string/print"
+        app:showAsAction="never"/>
+</menu>
