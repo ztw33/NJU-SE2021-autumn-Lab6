@@ -62,47 +62,47 @@
 
 1. ##### 安装 git，在本地将你的开源项目目录初始化为 git 仓库
 
-   初始化：![1](C:/Users/user/Desktop/ref/1.png)
+   初始化：![1](README.assets/1.png)
 
-   ![2](C:/Users/user/Desktop/ref/2.png)
+   ![2](README.assets/2.png)
 
 2. ##### 在本地尝试修改、提交、回退等过程，在报告中展示你的操作，并使用 git diff, git log, git status 等命令展示操作前后的区别
 
-   第一次提交：![3](C:/Users/user/Desktop/ref/3.png)
+   第一次提交：![3](ref/3.png)
 
-   第二次提交：![4](C:/Users/user/Desktop/ref/4.png)
+   第二次提交：![4](ref/4.png)
 
-   ![6](C:/Users/user/Desktop/ref/6.png)
+   ![6](ref/6.png)
 
    实验三对代码进行修改后
 
-   git diff：![7](C:/Users/user/Desktop/ref/7.png)
+   git diff：![7](ref/7.png)
 
-   git status:![8](C:/Users/user/Desktop/ref/8.png)
+   git status:![8](ref/8.png)
 
-   git log:![9](C:/Users/user/Desktop/ref/9.png)
+   git log:![9](ref/9.png)
 
-   git add . :![10](C:/Users/user/Desktop/ref/10.png)
+   git add . :![10](ref/10.png)
 
-   git diff & git log :![11](C:/Users/user/Desktop/ref/11.png)
+   git diff & git log :![11](ref/11.png)
 
-   git status :![12](C:/Users/user/Desktop/ref/12.png)
+   git status :![12](ref/12.png)
 
-   git log:![13](C:/Users/user/Desktop/ref/13.png)
+   git log:![13](ref/13.png)
 
-   git commit :![14](C:/Users/user/Desktop/ref/14.png)
+   git commit :![14](ref/14.png)
 
-   git diff & git status:![15](C:/Users/user/Desktop/ref/15.png)
+   git diff & git status:![15](ref/15.png)
 
-   git log:![16](C:/Users/user/Desktop/ref/16.png)
+   git log:![16](ref/16.png)
 
-   git reset:![17](C:/Users/user/Desktop/ref/17.png)
+   git reset:![17](ref/17.png)
 
-   git diff:![18](C:/Users/user/Desktop/ref/18.png)
+   git diff:![18](ref/18.png)
 
-   git status:![20](C:/Users/user/Desktop/ref/20.png)
+   git status:![20](ref/20.png)
 
-   git log:![19](C:/Users/user/Desktop/ref/19.png)
+   git log:![19](ref/19.png)
 
    ​	在修改完代码后，使用git diff会产生提交的版本和现在修改的版本的不同，会把所有修改的部分都使用红色字体标出来。使用git status后会用红字标明修改的文件和添加的文件（提交的版本与当前的版本）并提示你add和commit。git log会标明在当前提交版本中的HEAD指针的位置和当前提交过的版本的相关信息。在git add .后。使用git diff未出现提示。使用git status后会用绿字标明修改的文件和添加的文件（提交的版本与当前的版本）并提示commit。使用git status后会用提示你不需要提交，工作区已清空。git log会产生新提交后的版本的相关信息。
 
@@ -110,31 +110,31 @@
 
    我创建了三个分支，步骤如下
 
-   （1）建立除master之外的分支![21](C:/Users/user/Desktop/ref/21.png)
+   （1）建立除master之外的分支![21](ref/21.png)
 
-   （2）进入branch1并提交![23](C:/Users/user/Desktop/ref/23.png)
+   （2）进入branch1并提交![23](ref/23.png)
 
-   （3）进入branch2，对代码进行修改并提交![24](C:/Users/user/Desktop/ref/24.png)
+   （3）进入branch2，对代码进行修改并提交![24](ref/24.png)
 
-   ![25](C:/Users/user/Desktop/ref/25.png)
+   ![25](ref/25.png)
 
    （4）对branch3分支做出同样的操作
 
-   （5）切换到master分支，进行merge合并branch1、2、3![26](C:/Users/user/Desktop/ref/26.png)
+   （5）切换到master分支，进行merge合并branch1、2、3![26](ref/26.png)
 
-   ![](C:/Users/user/Desktop/ref/28.png)
+   ![](ref/28.png)
 
-   （6）使用 git log --graph 命令展示分支合并图![27](C:/Users/user/Desktop/ref/27.png)
+   （6）使用 git log --graph 命令展示分支合并图![27](ref/27.png)
 
 4. 给你的某个稳定版本的代码打上标签
 
-   使用git tag命令给版本打上标签![29](C:/Users/user/Desktop/ref/29.png)
+   使用git tag命令给版本打上标签![29](ref/29.png)
 
 5. ##### 注册 github 账号，在账号中创建远程仓库 (权限请设置为 public)；把本地的所有分支 和标签推送到远端
 
    （1）创建远程仓库
 
-   （2）推送![31](C:/Users/user/Desktop/ref/31.png)
+   （2）推送![31](ref/31.png)
 
 6. ##### 使用git的好处：
 
@@ -173,14 +173,15 @@
 
 10. ##### 在本机安装 jenkins，并在全局工具配置和系统设置中配置好 JDK 地址、Gradle 地址、 ANDROID_HOME 地址和 JAVA_HOME 地址 • 新建任务，在源码管理中填写自己项目的 github 地址，对项目进行一次构建 • 修改代码再次推送到 github 仓库中，再次对项目进行构建
 
-    - 安装jenkins![34](C:/Users/user/Desktop/ref/34.png)
+    - 安装jenkins![34](ref/34.png)
 
-    - 配置地址![35](C:/Users/user/Desktop/ref/35.png)
+    - 配置地址![35](ref/35.png)
 
-      ![36](C:/Users/user/Desktop/ref/36.png)
+      ![36](ref/36.png)
 
-    - 新建任务![37](C:/Users/user/Desktop/ref/37.png)
+    - 新建任务![37](ref/37.png)
 
-    - 对项目进行一次构建，修改代码再次推送到 github 仓库中，再次对项目进行构建<img src="C:/Users/user/Desktop/ref/38.png" alt="38" style="zoom: 80%;" />
+    - 对项目进行一次构建，修改代码再次推送到 github 仓库中，再次对项目进行构建<img src="README.assets/38.png" alt="38" style="zoom:80%;" />
 
     
+
