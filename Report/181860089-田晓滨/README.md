@@ -376,7 +376,7 @@ mixed模式下：HEAD改变，工作区不变，暂存区改变到HEAD指向的c
 
 ![image-20211127074944889](ref/image-20211127074944889.png)
 
-<img src="\ref/image-20211127075141360.png" alt="image-20211127075141360"  />
+<img src="ref/image-20211127075141360.png" alt="image-20211127075141360"  />
 
 可以看得出三条线路都是一开始从同一个点出发，然后各自commit。dev1线路先更新到与modified1一致的线路，接着与additem1线路先合并，然后再与addinterface1线路合并。
 
