@@ -1,6 +1,36 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project
+[submodule "Project/191220144-尹凯"]
+	path = Project/191220144-尹凯
+	url = https://github.com/VtopLiver/MaterialFiles.git
+[submodule "Project/191220174-赵一霖"]
+	path = Project/191220174-赵一霖
+	url = https://github.com/zyilier/NJU_SE2021_191220174_lab3
+[submodule "Project/191220153-张丁楚"]
+	path = Project/191220153-张丁楚
+	url = https://github.com/zhangdingchu/example-lab3-filemanager0.5
+[submodule "Project/181860089-田晓滨"]
+	path = Project/181860089-田晓滨
+	url = https://github.com/txb181860089/lab3-SimpleExplorer-2.3.1
+[submodule "Project/191220087-钱思辰"]
+	path = Project/191220087-钱思辰
+	url = git@github.com:PetraEcho/NJU-SE2021-autumn-Lab3.git
+[submodule "Project/191220169-张洋彬"]
+	path = Project/191220169-张洋彬
+	url = https://github.com/bbzunyi/lab3-AnExplorer.git
+[submodule "Project/191220141-叶怀泽"]
+	path = Project/191220141-叶怀泽
+	url = https://github.com/ZhangYi-ZHY/191220141_Yehuaize.git
+[submodule "Project/191220091-沈童菲"]
+	path = Project/191220091-沈童菲
+	url = https://github.com/stfklav/lab3-File-Manager-Pro
+[submodule "Project/191180164-杨茂琛"]
+	path = Project/191180164-杨茂琛
+	url = https://github.com/syhien/SElab3.git
+[submodule "Project/191240073-张涛"]
+	path = Project/191240073-张涛
+	url = https://github.com/DRSalieri/AmazeFileManager
 [submodule "Project/191180133-王一鸣"]
 	path = Project/191180133-王一鸣
 	url = https://github.com/entropydec/lab3-filemanager-pro.git
@@ -13,6 +43,9 @@
 [submodule "Project/181860014-丁世纪"]
 	path = Project/181860014-丁世纪
 	url = https://github.com/dingshiji/simple-file-manager
+[submodule "Project/191220008-陈南曈"]
+	path = Project/191220008-陈南曈
+	url = https://github.com/Australcnt/SimpleExplorer-2.3.1
 [submodule "Project/191220062-刘东旭"]
 	path = Project/191220062-刘东旭
 	url = https://github.com/nju-ldx/Simple-File-Manager-6.8.7
@@ -34,6 +67,9 @@
 [submodule "Project/191220072-卢润邦"]
 	path = Project/191220072-卢润邦
 	url = https://github.com/saul-worseman/191220072-lab3-6--filemanager-0.5
+[submodule "Project/191220137-严思远"]
+	path = Project/191220137-严思远
+	url = https://github.com/FibonaccciYan/Simple-File-Manager-6.8.7
 [submodule "Project/191220081-毛彦杰"]
 	path = Project/191220081-毛彦杰
 	url = https://github.com/Aesopd/ExampleAndroidProject
@@ -64,3 +100,213 @@
 [submodule "Project/191220171-张宇晨"]
 	path = Project/191220171-张宇晨
 	url = https://github.com/ZFirozen/lab6-simpleexplorer
+[submodule "Project/191220004-曾庆扬"]
+	path = Project/191220004-曾庆扬
+	url = https://github.com/kingyaaa/Simple-File-Manager.git
+[submodule "Project/191220078-马润"]
+	path = Project/191220078-马润
+	url = https://github.com/chmr7/SE_lab_3.git
+[submodule "Project/191220037-胡雨阳"]
+	path = Project/191220037-胡雨阳
+	url = https://github.com/huyyyyIan/lab3-AmazeFileManager
+[submodule "Project/191220167-张馨予"]
+	path = Project/191220167-张馨予
+	url = https://github.com/ComputerEscape/SE_2021_191220167
+[submodule "Project/191220136-许汤智"]
+	path = Project/191220136-许汤智
+	url = https://github.com/Xutangzhi/AnExplorer
+[submodule "Project/191250114-浦亮"]
+	path = Project/191250114-浦亮
+	url = https://github.com/shuilongzhihun/lab3-Simple-File-Manager
+[submodule "Project/191098191-水兵"]
+	path = Project/191098191-水兵
+	url = git@github.com:Shbinging/Simple-File-Manager-6.8.7.git
+[submodule "Project/202220012-吴欣瞳"]
+	path = Project/202220012-吴欣瞳
+	url = https://github.com/hogwartsfailure66/lab3-AmazeFileManager
+[submodule "Project/191830058-黄铭昊"]
+	path = Project/191830058-黄铭昊
+	url = https://github.com/BakaSea/AnExplorer
+[submodule "Project/191250004-曹雨森"]
+	path = Project/191250004-曹雨森
+	url = https://github.com/Flying-Tom/lab3-AnExplorer
+[submodule "Project/191220142-叶起厚"]
+	path = Project/191220142-叶起厚
+	url = https://github.com/ye191220142/lab3-AmazeFileManager.git
+[submodule "Project/191220023-丁子千"]
+	path = Project/191220023-丁子千
+	url = git@github.com:dzqdudley/Simple-Explorer.git
+[submodule "Project/191220160-张峻"]
+	path = Project/191220160-张峻
+	url = https://github.com/jungle-gym-ac/Simple-File-Manager-6.8.7
+[submodule "Project/191220073-罗昊"]
+	path = Project/191220073-罗昊
+	url = git@github.com:platanifolia/lab3-AmazeFileManager.git
+[submodule "Project/191220064-刘宏宇"]
+	path = Project/191220064-刘宏宇
+	url = https://github.com/neverland-lhy/lab3-filemanager-0.5
+[submodule "Project/191220076-吕玉龙"]
+	path = Project/191220076-吕玉龙
+	url = https://github.com/Cyrus-k/NJU_SE2021_Lab6.git
+[submodule "Project/191220010-陈祥宇"]
+	path = Project/191220010-陈祥宇
+	url = https://github.com/chenxiangyu01/exp6-test
+[submodule "Project/191220059-林龙杰"]
+	path = Project/191220059-林龙杰
+	url = https://github.com/LinMumullj/191220059--.git
+[submodule "Project/191220112-王鹏"]
+	path = Project/191220112-王鹏
+	url = https://github.com/Roc136/MaterialFiles
+[submodule "Project/191850139-马川腾"]
+	path = Project/191850139-马川腾
+	url = git@github.com:shallight/lab3-5-AnExplorer.git
+[submodule "Project/191220150-张晨昕"]
+	path = Project/191220150-张晨昕
+	url = https://github.com/Thousand-twin/lab3_6-Simple-File-Manager
+[submodule "Project/191870219-许希帆"]
+	path = Project/191870219-许希帆
+	url = https://github.com/Air111/SE-Lab
+[submodule "Project/191220173-张芷昕"]
+	path = Project/191220173-张芷昕
+	url = https://github.com/zzx-c/SE_2021_exp6
+[submodule "Project/191220165-张蔚"]
+	path = Project/191220165-张蔚
+	url = https://github.com/wwz0504/SE2021_Autumn
+[submodule "Project/191220080-马英硕"]
+	path = Project/191220080-马英硕
+	url = https://github.com/PandaAwAke/lab3-FileManagerPro.git
+[submodule "Project/191220088-秦嘉余"]
+	path = Project/191220088-秦嘉余
+	url = https://github.com/solitarynew/lab3-SimpleExplorer
+[submodule "Project/191220046-赖烨文"]
+	path = Project/191220046-赖烨文
+	url = https://github.com/hollowopk/SimpleExplorer
+[submodule "Project/191220128-谢治民"]
+	path = Project/191220128-谢治民
+	url = https://github.com/191220128/Simple-File-Manager-6.8.7.git
+[submodule "Project/191220070-刘永鹏"]
+	path = Project/191220070-刘永鹏
+	url = https://github.com/SH-Hattrick/SimpleExplorer.git
+[submodule "Project/191220170-张弋"]
+	path = Project/191220170-张弋
+	url = https://github.com/ZY546/lab3-SimpleFileManager
+[submodule "Project/191220042-蒋梓栩"]
+	path = Project/191220042-蒋梓栩
+	url = https://github.com/191220042/AnExplorer-4.1.1
+[submodule "Project/191220130-徐东硕"]
+	path = Project/191220130-徐东硕
+	url = https://github.com/ComaX21/lab3-SimpleExplorer.git
+[submodule "Project/191220051-李萌"]
+	path = Project/191220051-李萌
+	url = https://github.com/Slepha/se-lab6
+[submodule "Project/191220033-顾吟"]
+	path = Project/191220033-顾吟
+	url = https://github.com/Gu-Yin/lab3-6
+[submodule "Project/191220152-张城铨"]
+	path = Project/191220152-张城铨
+	url = https://github.com/Andres-Nju/SimpleExplorer-2.3.1.git
+[submodule "Project/191220133-徐思源"]
+	path = Project/191220133-徐思源
+	url = https://github.com/X-March/SELab.git
+[submodule "Project/191220013-陈奕诺"]
+	path = Project/191220013-陈奕诺
+	url = https://github.com/JudithChen-19122/AmazeFileManager-Extention.git
+[submodule "Project/191220108-王靖灵"]
+	path = Project/191220108-王靖灵
+	url = https://github.com/JanelieWang/File-By-Google
+[submodule "Project/191220034-郭怡宁"]
+	path = Project/191220034-郭怡宁
+	url = https://github.com/Hyacinth0211/lab3-Simple-Explorer
+[submodule "Project/191220083-蒙芷露"]
+	path = Project/191220083-蒙芷露
+	url = https://github.com/August0830/SEExp-MaterialFiles
+[submodule "Project/191220146-尹熙喆"]
+	path = Project/191220146-尹熙喆
+	url = https://github.com/changanyyy/lab3-AnExplorer
+[submodule "Project/191220092-沈逸飞"]
+	path = Project/191220092-沈逸飞
+	url = https://github.com/hamowanyi/lab6
+[submodule "Project/191220138-杨飞洋"]
+	path = Project/191220138-杨飞洋
+	url = https://github.com/fengling-aat/SimpleExplorer
+[submodule "Project/191220158-张津榕"]
+	path = Project/191220158-张津榕
+	url = https://github.com/Da-Gen-Dui-Zhang-Lai-La/lab3-MaterialFiles-1.3.1.git
+[submodule "Project/191220135-许嘉禾"]
+	path = Project/191220135-许嘉禾
+	url = https://github.com/SilenceXjh/lab3-MaterialFiles
+[submodule "Project/191220097-时欣"]
+	path = Project/191220097-时欣
+	url = git@github.com:Cindyxin228/lab3-AnExplorer.git
+[submodule "Project/201180188-李祺航"]
+	path = Project/201180188-李祺航
+	url = https://github.com/chill781/lab3-filemanager-0.5
+[submodule "Project/191220002-蔡鸿彬"]
+	path = Project/191220002-蔡鸿彬
+	url = https://github.com/ChinoJunko/AnExplorer-4.1.1
+[submodule "Project/191220159-张久霖"]
+	path = Project/191220159-张久霖
+	url = https://github.com/maruNo1/SE_2021_autumn_lab6.git
+[submodule "Project/191220016-陈致远"]
+	path = Project/191220016-陈致远
+	url = https://github.com/NJUCSczy/lab3-AnExplorer.git
+[submodule "Project/191220100-苏颖康"]
+	path = Project/191220100-苏颖康
+	url = https://github.com/DogLoveasdzz/SE2021-FileManagerPro.git
+[submodule "Project/191220015-陈媛"]
+	path = Project/191220015-陈媛
+	url = git@github.com:kakkakak/SE_Experiment6.git
+[submodule "Project/191220166-张昕宇"]
+	path = Project/191220166-张昕宇
+	url = https://github.com/RX580ZZZ/lab3-AmazeFileManager-3.6.3.git
+[submodule "Project/181860143-张政"]
+	path = Project/181860143-张政
+	url = https://github.com/181860143/nju_se
+[submodule "Project/181860057-刘翔宇"]
+	path = Project/181860057-刘翔宇
+	url = https://github.com/Liu-Xiang-yu/lab3-FileManagerPro
+[submodule "Project/191220181-朱恩伯"]
+	path = Project/191220181-朱恩伯
+	url = https://github.com/zeb-bot/se-lab3
+[submodule "Project/181860006-陈劭彬"]
+	path = Project/181860006-陈劭彬
+	url = https://github.com/ByRandom1/lab3-AnExplorer
+[submodule "Project/191220102-孙文戈"]
+	path = Project/191220102-孙文戈
+	url = https://github.com/OraOraOra0ra/SE-exp6
+[submodule "Project/181860072-彭建涛"]
+	path = Project/181860072-彭建涛
+	url = https://github.com/fiyqkrc/Material-Files
+[submodule "Project/181860068-欧阳欣"]
+	path = Project/181860068-欧阳欣
+	url = https://github.com/NJUOYX/AmazeFileManager
+[submodule "Project/191220024-董森"]
+	path = Project/191220024-董森
+	url = https://github.com/Curat-D/lab3-filemanager-0.5.git
+[submodule "Project/191220030-葛洲"]
+	path = Project/191220030-葛洲
+	url = https://github.com/0030gz/MaterialFiles-1.3.1
+[submodule "Project/191220031-顾本龙"]
+	path = Project/191220031-顾本龙
+	url = https://github.com/gu16/AnExplorer.git
+[submodule "Project/191220057-林芳麒"]
+	path = Project/191220057-林芳麒
+	url = https://github.com/aaaabang/Materials-File.git
+[submodule "Project/191830048-何健平"]
+	path = Project/191830048-何健平
+	url = https://github.com/KyokaiNoKanata/MaterialFiles.git
+[submodule "Project/191220185-朱嘉琦"]
+	path = Project/191220185-朱嘉琦
+	url = https://github.com/x33333xc/NJU-SE2021-Lab6
+[submodule "Project/191220035-郭云昊"]
+	path = Project/191220035-郭云昊
+	url = https://github.com/skycloud36/lab3-file-manager-pro.git
+[submodule "Project/202220015-徐邹韬"]
+	path = Project/202220015-徐邹韬
+	url = https://github.com/xuzoutao/NJU-SE2021-lab3-app4
+[submodule "Project/191220044-荆绍祖"]
+	path = Project/191220044-荆绍祖
+	url = https://github.com/46507276/example-lab3.git
+[submodule "Project/191220069-刘岩菘"]
+	path = Project/191220069-刘岩菘
+	url = https://github.com/Vladimirical/191220069--.git
