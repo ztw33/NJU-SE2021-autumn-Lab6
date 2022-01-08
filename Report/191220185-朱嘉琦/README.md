@@ -72,77 +72,77 @@
 
 在本地的项目代码中的README文件增加一行内容并保存：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\1.png)
+![](./ref/1.png)
 
 可以通过`git status`命令发现仓库内有修改后的文件：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\2.png)
+![](./ref/2.png)
 
 然后用`git diff`查看修改前后区别：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\3.png)
+![](./ref/3.png)
 
 `git commit`在本地提交之后，再`git diff `查看结果：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\4.png)
+![](./ref/4.png)
 
 然后用`git log `可以查看提交记录：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\5.png)
+![](./ref/5.png)
 
 此时再`git status`查看状态：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\6.png)
+![](./ref/6.png)
 
 然后尝试回退，根据需要回退的序列号，这里是b38bcd开头的版本，故`git reset b38bcd`:
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\7.png)
+![](./ref/7.png)
 
 这里unstaged changes即之前对README的修改，回退到原来的版本后README的修改还没有提交到仓库，这时候分别用`git diff`和`git status`查看修改和仓库状态：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\8.png)
+![](./ref/8.png)
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\9.png)
+![](./ref/9.png)
 
 然后`git log`可以查看当前版本是修改前的版本：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\10.png)
+![](./ref/10.png)
 
 #### 2. 根据实验三针对几个页面进行微调的任务，在本地为每个子任务创建一个分支并在各分支上进行开发，最终将所有修改合并到 master 分支上；如有冲突请尝试解决。在报告中展示你的操作，并使用 git log --graph 命令展示分支合并图
 
 首先创建一个新的分支，`git checkout -b modify_1`，创建一个名为modify_1的分支并切换，然后`git branch`查看当前分支，*表示当前分支：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\11.png)
+![](./ref/11.png)
 
 在modify_1上开发完成后提交，并切换回master，`git checkout -b modify_2`，进行第二个分支的开发：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\12.png)
+![](./ref/12.png)
 
 同样的操作创建第三个分支，现在主体开发完成，切换回master后会发现，在分支上进行的开发消失了，这是因为还没有对分支进行合并，所以现在需要进行分支的合并，`git merge modify_1`，并`git log --graph`查看合并过程
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\13.png)
+![](./ref/13.png)
 
 然后合并modify_2和modify_3:
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\14.png)
+![](./ref/14.png)
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\15.png)
+![](./ref/15.png)
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\16.png)
+![](./ref/16.png)
 
 #### 3. 给你的某个稳定版本的代码打上标签
 
 合并最后一个分支后已经是一个稳定版本了，为其打上标签，`git tag -a SimpleExplorerv1.0`
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\17.png)
+![](./ref/17.png)
 
 最后push到远程仓库`git push --tags`
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\18.png)
+![](./ref/18.png)
 
 可以在github上查看到新的tag
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\19.png)
+![](./ref/19.png)
 
 #### 4. 回答如下三个问题
 
@@ -173,17 +173,17 @@
 
 merge在合并不同分支时已经使用过，merge会将两个分支合并后，形成一个新的commit，现在尝试用rebase去合并分支，首先还是切换到modify_1分支，这里使用一个新命令`switch`，因为checkout命令不管是创建切换还是删除分支都是用的这一个命令，容易混淆，而switch相比直观很多
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\20.png)
+![](./ref/20.png)
 
 在这个分支中对README做出修改，将修改提交后，切换到master分支，尝试rebase，发现分支的commit直接被放到了master分支的commit内，也就是说modify_1中的commit也就消失了，而merge会把两个分支合并在一起，形成一个新的 commit 提交。
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\21.png)
+![](./ref/21.png)
 
 #### stash的使用
 
 `git stash`能够将所有未提交的修改（工作区和暂存区）保存至堆栈中，用于后续恢复当前工作目录，比如我正在开发一个新功能（这里README被修改了），然后突然有一个原程序中的bug需要紧急被修复，这是我应该暂停手上的工作先去解决bug，但是我手头的工作又没有完成不希望提交，这时候可以使用stash暂存这些修改：
 
-![](E:\zjq\SoftwareEngineering\NJU-SE2021-autumn-Lab6\Report\191220185-朱嘉琦\ref\22.png)
+![](./ref/22.png)
 
 
 
