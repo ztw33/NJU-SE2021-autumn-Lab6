@@ -289,6 +289,9 @@
 [submodule "Project/191830048-何健平"]
 	path = Project/191830048-何健平
 	url = https://github.com/KyokaiNoKanata/MaterialFiles.git
+[submodule "Project/191220185-朱嘉琦"]
+	path = Project/191220185-朱嘉琦
+	url = https://github.com/x33333xc/NJU-SE2021-Lab6
 [submodule "Project/191220035-郭云昊"]
 	path = Project/191220035-郭云昊
 	url = https://github.com/skycloud36/lab3-file-manager-pro.git
