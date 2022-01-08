@@ -220,6 +220,9 @@
 [submodule "Project/191220146-尹熙喆"]
 	path = Project/191220146-尹熙喆
 	url = https://github.com/changanyyy/lab3-AnExplorer
+[submodule "Project/191220092-沈逸飞"]
+	path = Project/191220092-沈逸飞
+	url = https://github.com/hamowanyi/lab6
 [submodule "Project/191220138-杨飞洋"]
 	path = Project/191220138-杨飞洋
 	url = https://github.com/fengling-aat/SimpleExplorer
@@ -289,6 +292,15 @@
 [submodule "Project/191830048-何健平"]
 	path = Project/191830048-何健平
 	url = https://github.com/KyokaiNoKanata/MaterialFiles.git
+[submodule "Project/191220185-朱嘉琦"]
+	path = Project/191220185-朱嘉琦
+	url = https://github.com/x33333xc/NJU-SE2021-Lab6
+[submodule "Project/191220035-郭云昊"]
+	path = Project/191220035-郭云昊
+	url = https://github.com/skycloud36/lab3-file-manager-pro.git
+[submodule "Project/202220015-徐邹韬"]
+	path = Project/202220015-徐邹韬
+	url = https://github.com/xuzoutao/NJU-SE2021-lab3-app4
 [submodule "Project/191220044-荆绍祖"]
 	path = Project/191220044-荆绍祖
 	url = https://github.com/46507276/example-lab3.git
