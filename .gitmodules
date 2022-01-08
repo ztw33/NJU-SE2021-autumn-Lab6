@@ -97,6 +97,9 @@
 [submodule "Project/191220109-王珺"]
 	path = Project/191220109-王珺
 	url = https://github.com/KW-NJU/NJU-SE2021-autumn-Lab3
+[submodule "Project/191220171-张宇晨"]
+	path = Project/191220171-张宇晨
+	url = https://github.com/ZFirozen/lab6-simpleexplorer
 [submodule "Project/191220004-曾庆扬"]
 	path = Project/191220004-曾庆扬
 	url = https://github.com/kingyaaa/Simple-File-Manager.git
