@@ -1,1 +1,0 @@
-# lab6_Simple_File_Manager
