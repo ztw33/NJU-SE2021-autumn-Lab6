@@ -4,3 +4,6 @@
 [submodule "Project/lab6_Simple_File_Manager"]
 	path = Project/lab6_Simple_File_Manager
 	url = https://github.com/Vladimirical/lab6_Simple_File_Manager.git
+[submodule "Project/191220069-刘岩菘"]
+	path = Project/191220069-刘岩菘
+	url = https://github.com/Vladimirical/191220069--.git
