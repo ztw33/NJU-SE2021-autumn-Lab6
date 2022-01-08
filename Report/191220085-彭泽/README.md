@@ -59,34 +59,36 @@ git commit -m "fix build problem"
 
 ```diff
 diff --git a/app/build.gradle b/app/build.gradle
-index 0f894ae..fe09156 100644
+index fe09156..0f894ae 100644
 --- a/app/build.gradle
 +++ b/app/build.gradle
-@@ -144,7 +144,6 @@ dependencies {
+@@ -144,6 +144,7 @@ dependencies {
      debugImplementation 'androidx.multidex:multidex:2.0.1'
  }
  
--/*
++/*
  android.signingConfigs.release.storeFile rootProject.file(props.keyStore)
  android.signingConfigs.release.storePassword props.keyStorePassword
  android.signingConfigs.release.keyAlias props.keyAlias
-@@ -154,4 +153,3 @@ if (getGradle().getStartParameter().getTaskRequests().toString().contains("Free"
+@@ -153,3 +154,4 @@ if (getGradle().getStartParameter().getTaskRequests().toString().contains("Free"
      apply plugin: 'com.google.gms.google-services'
      apply plugin: 'io.fabric'
  }
--*/
++*/
 diff --git a/build.gradle b/build.gradle
-index ee66513..855e7eb 100644
+index 855e7eb..ee66513 100644
 --- a/build.gradle
 +++ b/build.gradle
 @@ -7,7 +7,7 @@ buildscript {
          maven { url 'https://maven.fabric.io/public' }
      }
      dependencies {
--        classpath 'com.android.tools.build:gradle:3.5.2'
-+        classpath 'com.android.tools.build:gradle:3.5.0-beta04'
+-        classpath 'com.android.tools.build:gradle:3.5.0-beta04'
++        classpath 'com.android.tools.build:gradle:3.5.2'
          classpath 'com.google.gms:google-services:4.3.0'
          classpath 'io.fabric.tools:gradle:1.28.1'
+ 
+
 ```
 
 随后在git的辅助下进行实验3。在实验3中，我将对 AnExplorer 作出3项界面修改，分别是：增加用户信息页面和按钮、增加广告页面、增加退出询问。为此，新建三个feature分支分别进行开发：
