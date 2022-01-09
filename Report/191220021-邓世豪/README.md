@@ -56,6 +56,14 @@
 
 `git switch`命令进行分支的切换
 
-​		直接使用`git switch testbranch`可以切换到testbranch分支：![](D:\CourseMaterials\SoftwareEngineering\lab6\NJU-SE2021-autumn-Lab6\Report\191220021-邓世豪\ref\image8.png)
+​		直接使用`git switch testbranch`可以切换到testbranch分支：![](ref\image8.png)
 
 接下来我们在这个分支上来创建一个test.md文件来模拟使用分支来开发的情形。
+
+#### git merge
+
+`git merge`命令将两个或两个以上的开发历史加入(合并)一起
+
+​		此前我们创建了testbranch分支，在testbranch分支下创建新的文件test.md，并在其中加上一行内容：![](ref\image9.png)
+
+然后依次`git add`、`git commit` 将修改**提交**到**本地仓库**的testbranch分支下，然后我们切换到main主分支来进行分支的合并，使用命令`git merge testbranch`
