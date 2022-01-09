@@ -332,3 +332,6 @@
 	path = Project/191840104-黄盛
 	url = https://github.com/Hassium74/lab3-MaterialFiles.git
 
+[submodule "Project/191870191-王天翼"]
+	path = Project/191870191-王天翼
+	url = https://github.com/bulesky29/NJU-SE2021-autumn-Lab6.git
