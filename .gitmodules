@@ -313,3 +313,6 @@
 [submodule "Project/191220001-毕一帆"]
 	path = Project/191220001-毕一帆
 	url = git@github.com:junzhi-cn/njuse2021lab3.git
+[submodule "Project/191220038-黄新炜"]
+	path = Project/191220038-黄新炜
+	url = https://github.com/hxw226/lab3-4-MaterialFiles
