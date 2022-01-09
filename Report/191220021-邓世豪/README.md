@@ -56,5 +56,6 @@
 
 `git switch`命令进行分支的切换
 
-​		直接使用`git switch testbranch`可以切换到testbranch分支：
+​		直接使用`git switch testbranch`可以切换到testbranch分支：![](D:\CourseMaterials\SoftwareEngineering\lab6\NJU-SE2021-autumn-Lab6\Report\191220021-邓世豪\ref\image8.png)
 
+接下来我们在这个分支上来创建一个test.md文件来模拟使用分支来开发的情形。
