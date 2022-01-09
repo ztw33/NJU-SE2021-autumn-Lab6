@@ -322,3 +322,6 @@
 [submodule "Project/191220116-王璇"]
 	path = Project/191220116-王璇
 	url = https://github.com/WwangX/lab3-Simple-File-Manager-6.8.7
+[submodule "191870191-王天翼"]
+	path = 191870191-王天翼
+	url = https://github.com/bulesky29/NJU-SE2021-autumn-Lab6.git
