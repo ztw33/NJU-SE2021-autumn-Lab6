@@ -20,29 +20,29 @@
 
  * 实验报告的git使用
 
-   ![1](ref\1.png)
+   ![1](ref/1.png)
 
  * 实验三代码的git使用
 
    git push
 
-   ![3](ref\3.png)
+   ![3](ref/3.png)
 
    git checkout ; git add ; git commit ; git merge;
 
-   ![2](ref\2.png)
+   ![2](ref/2.png)
 
    git tag; git log
 
-   ![4](ref\4.png)
+   ![4](ref/4.png)
 
    git push
 
-   ![5](ref\5.png)
+   ![5](ref/5.png)
 
    git submodule add xxx
 
-   ![6](ref\6.png)
+   ![6](ref/6.png)
 
 
 
