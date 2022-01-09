@@ -97,6 +97,9 @@
 [submodule "Project/191220109-王珺"]
 	path = Project/191220109-王珺
 	url = https://github.com/KW-NJU/NJU-SE2021-autumn-Lab3
+[submodule "Project/191220074-罗禄宗"]
+	path = Project/191220074-罗禄宗
+	url = https://github.com/millsll/MaterialFiles-1.3.1
 [submodule "Project/191220171-张宇晨"]
 	path = Project/191220171-张宇晨
 	url = https://github.com/ZFirozen/lab6-simpleexplorer
@@ -310,6 +313,15 @@
 [submodule "Project/191220069-刘岩菘"]
 	path = Project/191220069-刘岩菘
 	url = https://github.com/Vladimirical/191220069--.git
+[submodule "Project/191220001-毕一帆"]
+	path = Project/191220001-毕一帆
+	url = git@github.com:junzhi-cn/njuse2021lab3.git
+[submodule "Project/191220038-黄新炜"]
+	path = Project/191220038-黄新炜
+	url = https://github.com/hxw226/lab3-4-MaterialFiles
+[submodule "Project/191220116-王璇"]
+	path = Project/191220116-王璇
+	url = https://github.com/WwangX/lab3-Simple-File-Manager-6.8.7
 [submodule "Project/191220085-彭泽"]
 	path = Project/191220085-彭泽
 	url = git@github.com:cdgyp/Exp3-AnExplorer.git
