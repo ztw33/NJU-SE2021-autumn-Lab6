@@ -328,3 +328,6 @@
 [submodule "Project/191220048-李广源"]
 	path = Project/191220048-李广源
 	url = https://github.com/li112358/lab3-FileManagerPro.git
+[submodule "Project/191840104-黄盛"]
+	path = Project/191840104-黄盛
+	url = https://github.com/Hassium74/lab3-MaterialFiles.git
