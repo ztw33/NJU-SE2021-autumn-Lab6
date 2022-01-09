@@ -20,29 +20,29 @@
 
  * 实验报告的git使用
 
-   
+   ![1](\ref\1.png)
 
  * 实验三代码的git使用
 
    git push
 
-   ![3](C:\Users\15347\Documents\assignment\SE\Ex6\NJU-SE2021-autumn-Lab6\Report\191240083-庄泽明\ref\3.png)
+   ![3](ref\3.png)
 
    git checkout ; git add ; git commit ; git merge;
 
-   ![2](C:\Users\15347\Documents\assignment\SE\Ex6\NJU-SE2021-autumn-Lab6\Report\191240083-庄泽明\ref\2.png)
+   ![2](\ref\2.png)
 
    git tag; git log
 
-   ![4](C:\Users\15347\Documents\assignment\SE\Ex6\NJU-SE2021-autumn-Lab6\Report\191240083-庄泽明\ref\4.png)
+   ![4](\ref\4.png)
 
    git push
 
-   ![5](C:\Users\15347\Documents\assignment\SE\Ex6\NJU-SE2021-autumn-Lab6\Report\191240083-庄泽明\ref\5.png)
+   ![5](\ref\5.png)
 
    git submodule add xxx
 
-   ![6](C:\Users\15347\Documents\assignment\SE\Ex6\NJU-SE2021-autumn-Lab6\Report\191240083-庄泽明\ref\6.png)
+   ![6](\ref\6.png)
 
 
 
