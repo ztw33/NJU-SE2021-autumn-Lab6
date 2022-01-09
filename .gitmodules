@@ -337,6 +337,21 @@
 [submodule "Project/191870191-王天翼"]
 	path = Project/191870191-王天翼
 	url = https://github.com/bulesky29/simple_file_manager_git_learning
+[submodule "Project/191220155-张浩宇"]
+	path = Project/191220155-张浩宇
+	url = https://github.com/gbakkk5951/AmazeFileManager
+[submodule "Project/191220067-刘斯哲"]
+	path = Project/191220067-刘斯哲
+	url = https://github.com/lszxb/lab3-MaterialFiles
+[submodule "Project/191240083-庄泽明"]
+	path = Project/191240083-庄泽明
+	url = https://github.com/A-urora/MaterialFiles
+[submodule "Project/191220117-王雪松"]
+	path = Project/191220117-王雪松
+	url = https://github.com/wxs191220117/lab3.git
+[submodule "Project/191220131-徐林"]
+	path = Project/191220131-徐林
+	url = https://github.com/Lionel1201/lab3-filemanager-0.5
 [submodule "Project/191220104-孙羽"]
 	path = Project/191220104-孙羽
 	url = https://github.com/Rookie-SY/SE6.git
