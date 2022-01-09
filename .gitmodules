@@ -337,12 +337,6 @@
 [submodule "Project/191870191-王天翼"]
 	path = Project/191870191-王天翼
 	url = https://github.com/bulesky29/simple_file_manager_git_learning
-[submodule "Project/lab3"]
-	path = Project/lab3
-	url = https://github.com/wxs191220117/lab3.git
-[submodule "191220117-王雪松"]
-	path = 191220117-王雪松
-	url = https://github.com/wxs191220117/lab3.git
 [submodule "Project/191220117-王雪松"]
 	path = Project/191220117-王雪松
 	url = https://github.com/wxs191220117/lab3.git
