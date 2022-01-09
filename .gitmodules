@@ -337,6 +337,9 @@
 [submodule "Project/191870191-王天翼"]
 	path = Project/191870191-王天翼
 	url = https://github.com/bulesky29/simple_file_manager_git_learning
+[submodule "Project/191220067-刘斯哲"]
+	path = Project/191220067-刘斯哲
+	url = https://github.com/lszxb/lab3-MaterialFiles
 [submodule "Project/191240083-庄泽明"]
 	path = Project/191240083-庄泽明
 	url = https://github.com/A-urora/MaterialFiles
