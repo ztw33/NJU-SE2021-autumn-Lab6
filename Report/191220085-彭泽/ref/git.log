@@ -1,0 +1,91 @@
+* commit e5178a01e9fe185843f13a2ff76f9c4c8e3ccc08
+| Author: cd <gyp>
+| Date:   Sun Nov 21 21:25:44 2021 +0800
+| 
+|     移除SeeAdsActivity中的未删除的实验代码
+|   
+*   commit ddd55b29fd816c87fe8160901a6787817a304dea
+|\  Merge: 103d64f 49b4742
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 21:23:00 2021 +0800
+| | 
+| |     将dev-see-ads合并到master
+| | 
+| * commit 49b4742e48e4730df8a107cf324a2f2aee79e227
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 18:23:06 2021 +0800
+| | 
+| |     在广告页面添加返回按钮
+| | 
+| * commit adc9faa4bec82f791d647447c406d2d71759912b
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 18:19:25 2021 +0800
+| | 
+| |     在AbountActivity中添加通向广告页面的按钮
+| | 
+| * commit 3cb8a09deb262469e009dae0ef467fc7f1384e0f
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 18:12:10 2021 +0800
+| | 
+| |     添加广告页面
+| |   
+* |   commit 103d64f0338257443f14c8f7f5fc3e97f5da51c0
+|\ \  Merge: 4061b1d 9f0490b
+| | | Author: cd <gyp>
+| | | Date:   Sun Nov 21 20:23:51 2021 +0800
+| | | 
+| | |     将dev-exit-confiermation合并到master
+| | | 
+| * | commit 9f0490b4f0e5db35c7d032a84b98b66627f6e422
+| |/  Author: cd <gyp>
+| |   Date:   Sun Nov 21 18:04:39 2021 +0800
+| |   
+| |       添加（使用菜单退出）退出确认
+| | 
+* | commit 4061b1d2038dea714dca3943b91ca351e84e3af4
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 20:15:31 2021 +0800
+| | 
+| |     将User Info按钮的处理移入menuAction函数
+| | 
+* | commit 0fd7f542b04e995b4337cba115771cf28c84149e
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 17:17:04 2021 +0800
+| | 
+| |     使UserInfo界面的控件布局更整齐
+| | 
+* | commit c25373b03f036242d8b026b03013ff158fdd2063
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 17:11:56 2021 +0800
+| | 
+| |     将UserInfo界面的修改保存
+| | 
+* | commit d0ad0304a737cef66db19ff9fa475c1f7cfcf68f
+| | Author: cd <gyp>
+| | Date:   Sun Nov 21 16:53:38 2021 +0800
+| | 
+| |     将UserInfo封装成类
+| | 
+* | commit 25c74ed518c8bd502d230845be4d98cc76e18aa9
+|/  Author: cd <gyp>
+|   Date:   Sun Nov 21 02:38:56 2021 +0800
+|   
+|       添加UserInfo活动及其在工具栏上的入口按钮
+| 
+* commit 0dad4282341dea702a1c347a8fb8745e3c0c0342
+| Author: cd <gyp>
+| Date:   Thu Nov 18 15:41:09 2021 +0800
+| 
+|     fix build problem
+| 
+* commit d8edfc825e4e4a02a0ea69b1742318129a09136f
+| Author: cd <gyp>
+| Date:   Thu Nov 18 15:36:13 2021 +0800
+| 
+|     init
+| 
+* commit 5c687dcf567806aa3330bd6877e83ddb9b41e6ea
+  Author: cdgyp <787586229@qq.com>
+  Date:   Thu Nov 18 14:51:36 2021 +0800
+  
+      Initial commit
