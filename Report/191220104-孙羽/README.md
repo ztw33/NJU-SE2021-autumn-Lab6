@@ -19,29 +19,31 @@
 
   * 安装`git`，在本地将开源项目目录初始化为`git`仓库
 
-    首先使用`git init`命令在本地新建仓库![GitInit](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\GitInit.png)之后将本地的项目目录移入新建的仓库内，再使用命令`git commit`将其上传![CommitInitialVersion](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\CommitInitialVersion.png)即可将本地的开源项目目录初始化为`git`仓库
+    首先使用`git init`命令在本地新建仓库
+
+    ![GitInit](ref/GitInit.png)之后将本地的项目目录移入新建的仓库内，再使用命令`git commit`将其上传![CommitInitialVersion](ref/CommitInitialVersion.png)即可将本地的开源项目目录初始化为`git`仓库
 
   * 本地尝试修改、提交、回退等过程，并使用`git diff`、`git log`、`git status`等命令展示操作前后的区别
 
     * 修改部分：
 
-      首先在本地修改项目代码：![CodeModify](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\CodeModify.png)可以看到修改目录为：`AnExplorer-4.1.1/app/build.gradle`，之后使用`git status`命令：可看到当前对应目录被修改了，但还没有准备提交的修改![StatusAfterModify](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\StatusAfterModify.png)使用`git diff`命令：可以查看到修改的具体内容为在文件末尾加上了如下字符串![DiffAfterModify](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\DiffAfterModify.png)
+      首先在本地修改项目代码：![CodeModify](ref/CodeModify.png)可以看到修改目录为：`AnExplorer-4.1.1/app/build.gradle`，之后使用`git status`命令：可看到当前对应目录被修改了，但还没有准备提交的修改![StatusAfterModify](ref/StatusAfterModify.png)使用`git diff`命令：可以查看到修改的具体内容为在文件末尾加上了如下字符串![DiffAfterModify](ref/DiffAfterModify.png)
 
       使用`git log`命令：可以看到目前的提交记录只有最开始的初始版本，没有修改过后的版本
 
     * 提交部分：
 
-      使用`git add`和`git commit`命令将修改后的文件提交![CommitAfterModify](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\CommitAfterModify.png)
+      使用`git add`和`git commit`命令将修改后的文件提交![CommitAfterModify](ref/CommitAfterModify.png)
 
-      使用`git status`、`git diff`、`git log`情况如下：![AfterCommit](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\AfterCommit.png)
+      使用`git status`、`git diff`、`git log`情况如下：![AfterCommit](ref/AfterCommit.png)
 
       可以看到，仓库内已无未提交的修改，且提交记录也加上了刚刚的修改部分
 
     * 回退部分：
 
-      使用`git reset`命令回退到上一个版本![GitReset](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\GitReset.png)
+      使用`git reset`命令回退到上一个版本![GitReset](ref/GitReset.png)
 
-      使用`git status`、`git diff`、`git log`查看：![image-20211127213108637](C:\Users\HP\AppData\Roaming\Typora\typora-user-images\image-20211127213108637.png)
+      使用`git status`、`git diff`、`git log`查看：![image-20211127213108637](ref/image-20211127213108637.png)
 
       可以看到当前版本是最开始的`Initial Version`版本，仓库回退到了上一个版本
 
@@ -49,16 +51,16 @@
 
     首先使用`git switch -c` 命令新建并从`master`切换到新的分支`FirstVersion`
 
-    ![CreateFirstVersion](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\CreateFirstVersion.png)
+    ![CreateFirstVersion](ref/CreateFirstVersion.png)
 
-    可以用`git branch`查看当前所有的分支：![FirstBranch](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\FirstBranch.png)
+    可以用`git branch`查看当前所有的分支：![FirstBranch](ref/FirstBranch.png)
 
-    在完成对`FirstVersion`的开发后，再新建新的分支`SecondVersion`，此分支是在`FirstVersion`的分支上得到的：![CreateSecondVersion](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\CreateSecondVersion.png)
+    在完成对`FirstVersion`的开发后，再新建新的分支`SecondVersion`，此分支是在`FirstVersion`的分支上得到的：![CreateSecondVersion](ref/CreateSecondVersion.png)
 
-    在完成这个分支的开发后，就可以将分支合并了，因为`SecondVersion`是在`FirstVersion`的基础上开发的，所以合并时只合并第二条分支即可，将`master`切换到`SecondVersion`并前一分支删除。![Merge](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\Merge.png)
+    在完成这个分支的开发后，就可以将分支合并了，因为`SecondVersion`是在`FirstVersion`的基础上开发的，所以合并时只合并第二条分支即可，将`master`切换到`SecondVersion`并前一分支删除。![Merge](ref/Merge.png)
 
-    使用`git log --graph`命令查看分支合并情况：![Graph](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\Graph.png)
-
+    使用`git log --graph`命令查看分支合并情况：![Graph](ref/Graph.png)
+  
     可见分支合并完成
     
   * 使用`jenkins`自动构建项目
@@ -69,19 +71,19 @@
   
     下载`.war`文件进行安装，在`D:\jenkins`内打开终端，执行命令：`java -jar jenkins.war`
   
-    ![image-20211222200315385](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222200315385.png)之后再在浏览器访问：`ip + port`，本机为：`192.168.1.190:8080`，进入`jenkins`配置：![image-20211222200341729](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222200341729.png)
+    ![image-20211222200315385](ref/image-20211222200315385.png)之后再在浏览器访问：`ip + port`，本机为：`192.168.1.190:8080`，进入`jenkins`配置：![image-20211222200341729](ref/image-20211222200341729.png)
   
-    输入密码登录后，选择安装推荐的插件之后进入`jenkins`：![image-20211222201856479](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222201856479.png)
+    输入密码登录后，选择安装推荐的插件之后进入`jenkins`：![image-20211222201856479](ref/image-20211222201856479.png)
   
-    进入系统设置之后，进入插件管理，管理插件安装：![image-20211222202250374](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222202250374.png)
+    进入系统设置之后，进入插件管理，管理插件安装：![image-20211222202250374](ref/image-20211222202250374.png)
   
-    之后再进入基本设置：添加编码全局属性：![image-20211222202600188](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222202600188.png)
+    之后再进入基本设置：添加编码全局属性：![image-20211222202600188](ref/image-20211222202600188.png)
     
-    增加系统管理员邮件地址：![image-20220109223127792](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20220109223127792.png)
+    增加系统管理员邮件地址：![image-20220109223127792](ref/image-20220109223127792.png)
     
-    添加全局配置：![image-20220109223148729](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20220109223148729.png)
+    添加全局配置：![image-20220109223148729](ref/image-20220109223148729.png)
     
-    完成之后，添加任务，类型选择自由风格：![image-20211222202925183](C:\Users\HP\Desktop\total\NJU-SE2021-autumn-Lab6\Report\191220104-孙羽\ref\image-20211222202925183.png)
+    完成之后，添加任务，类型选择自由风格：![image-20211222202925183](ref/image-20211222202925183.png)
     
     接下来设置`github`仓库和账号、配置`gradle`、`Post-build Actions`等，之后点击`build now`可以开始构建，由于网络问题无法成功`build`。
     
