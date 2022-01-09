@@ -46,5 +46,15 @@
 
 `git branch`命令执行分支的查看、创建、删除等操作
 
-​		我们使用`git branch`来查看当前**本地仓库**的分支情况
+​		我们使用`git branch`来查看当前**本地仓库**的分支情况：![](ref/image6.png)
+
+可以看到本地仓库只有一个main主分支，下面我们来创建新的分支，可以通过`git branch testbrach` `git checkout -b testbranch` `git switch -c testbrach` 这三个命令来创建一个叫做testbranch的分支，其中后两个命令在创建分支后会直接切换到新的分支下，这里我们使用第一个命令，然后再次通过`git branch`(也可以使用`git branch --list`)查看当前分支：![](ref/image7.png)
+
+可以看到现在有两个分支分别是主分支main和刚刚创建的分支testbranch，现在我们来切换到testbranch。
+
+#### git switch
+
+`git switch`命令进行分支的切换
+
+​		直接使用`git switch testbranch`可以切换到testbranch分支：
 
