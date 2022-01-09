@@ -8,13 +8,13 @@
 
 `git status`  查看仓库当前状态，是否有更改的文件
 
-![](D:\ruangong\NJU-SE2021-autumn-Lab6\Report\191220131-徐林\ref\1.png)
+![](ref/1.png)
 
 这张图中显示当前在分支dev上，并且有文件修改过，还没有更新，然后使用git add将文件添加到暂存区
 
 `git commit` 提交暂存区到本地仓库
 
-![](D:\ruangong\NJU-SE2021-autumn-Lab6\Report\191220131-徐林\ref\2.png)
+![](ref/2.png)
 
 这里将文件git add后，再使用git status，显示修改的文件已经在暂存区了。
 
@@ -22,13 +22,13 @@
 
 `git log` 查看历史提交记录
 
-![](D:\ruangong\NJU-SE2021-autumn-Lab6\Report\191220131-徐林\ref\3.png)
+![](ref/3.png)
 
 这里显示了提交的人，日期，还有修改的内容
 
 `git push` 上传远程代码并合并
 
-![](D:\ruangong\NJU-SE2021-autumn-Lab6\Report\191220131-徐林\ref\4.png)
+![](ref/4.png)
 
 这里显示上传成功
 
