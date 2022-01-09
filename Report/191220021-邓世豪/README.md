@@ -66,4 +66,6 @@
 
 ​		此前我们创建了testbranch分支，在testbranch分支下创建新的文件test.md，并在其中加上一行内容：![](ref\image9.png)
 
-然后依次`git add`、`git commit` 将修改**提交**到**本地仓库**的testbranch分支下，然后我们切换到main主分支来进行分支的合并，使用命令`git merge testbranch`
+然后依次`git add`、`git commit` 将修改**提交**到**本地仓库**的testbranch分支下，然后我们切换到main主分支来进行分支的合并，使用命令`git merge testbranch`：![](ref/image10.png)
+
+可以看到顺利的完成了分支合并，接下来我们修改main分支下的test.md文件为：
