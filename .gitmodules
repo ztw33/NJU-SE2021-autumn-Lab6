@@ -331,3 +331,6 @@
 [submodule "Project/191840104-黄盛"]
 	path = Project/191840104-黄盛
 	url = https://github.com/Hassium74/lab3-MaterialFiles.git
+[submodule "Project/SE_experiment"]
+	path = Project/SE_experiment
+	url = https://github.com/AssassinsAlex/SE_experiment
