@@ -2,7 +2,7 @@
 
 git log
 
-![image-20220110173848792](C:/Users/Likai/AppData/Roaming/Typora/typora-user-images/image-20220110173848792.png)
+![image-20220110173848792](./ref/image-20220110173848792.png)
 
 git tag
 
