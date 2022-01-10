@@ -8,55 +8,55 @@
 
 ​				如图，我在step2分支上进行了修改，add前git diff可以看到具体在哪个文件进行了什么修改。add后，工作区的文件添加到暂存区，则没有区别了。
 
-​				![image-20220110223540712](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110223540712.png)
+​				![1](ref/1.png)
 
-​				![image-20220110223633368](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110223633368.png)
+​				![2](ref/2.png)
 
 ##### 		2、提交（commit）
 
 ​				一个commit有一个序号
 
-​				![image-20220110224046037](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224046037.png)
+​				![3](ref/3.png)
 
 ##### 		3、回退
 
 ​				通过git log看到现在有两个提交
 
-​				<img src="C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110230112971.png" alt="image-20220110230112971" style="zoom:80%;" />
+​				![4](ref/4.png)
 
 ​				在git中HEAD表示当前版本，HEAD^为上个版本，使用reset回到上个版本后。
 
-​				<img src="C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110231101683.png" alt="image-20220110231101683" style="zoom:80%;" />
+​				![5](ref/5.png)
 
 ### 二、分支与合并
 
 ##### 		1、创建分支
 
-​				![image-20220110224432991](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224432991.png)
+​				![6](ref/6.png)
 
 ##### 		2、查看分支
 
 ​				带星号的为主分支
 
-​				![image-20220110224457665](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224457665.png)
+​				![7](ref/7.png)
 
 ##### 		3、合并分支
 
 ​				合并step1时，可以看到“Fast-forward”快速合并。
 
-​				![image-20220110224534895](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224534895.png)
+​				![8](ref/8.png)
 
 ​				合并step2，step3时，出现“**Merge made by the 'recursive' strategy.**”，因为在本地提交后没有切换分支，直接pull代码，导致分支切换后拉取、合并出现问题，可在本地分支先执行“git rebase step”,再切换远程分支pull代码。
 
-​				![image-20220110224543376](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224543376.png)
+​				![9](ref/9.png)
 
-​				![image-20220110224556696](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110224556696.png)
+​				![10](ref/10.png)
 
 ##### 		4、设置版本
 
 ​				git tag v1.0 commit序号
 
-​				![image-20220110225743916](C:\Users\hmssm\AppData\Roaming\Typora\typora-user-images\image-20220110225743916.png)
+​				![11](ref/11.png)
 
 ### 三、思考题
 
