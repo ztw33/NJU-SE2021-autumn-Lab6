@@ -1,3 +1,6 @@
 [submodule "Project/191220000-朱庭纬"]
 	path = Project/191220000-朱庭纬
 	url = https://github.com/ztw330/example-project.git
+[submodule "Project/191220101-孙思敏"]
+	path = Project/191220101-孙思敏
+	url = https://github.com/Simin-Sun/lab6-Amaze
