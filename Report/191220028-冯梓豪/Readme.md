@@ -8,15 +8,15 @@
 
 在项目目录下添加test.txt文件，输入`git status`查看状态：
 
-![4](ref\4.png)	
+![4](ref/4.png)	
 
 对test.txt内容进行修改，修改后输入`git diff`查看差异：
 
-![5](ref\5.png)	
+![5](ref/5.png)	
 
 使用`git log`查看日志，尝试回退，回退的目标是V1.0版本，在日志中获取到V1.0的序列号，所以使用`git reset 3e9eae`指令回退，成功后再次使用`git log`，确认顺利回退：
 
-![6](ref\6.png)	
+![6](ref/6.png)	
 
 ### 实验内容二：使用分支进行项目开发
 
@@ -24,15 +24,15 @@
 
 在Git Bash中新建分支branch1，查看并切换到新建分支
 
-![1](ref\1.png)		
+![1](ref/1.png)		
 
 在分支1开发完毕后，切换回主分支，并将分支合并，使用`git log --graph`指令展示分支合并图
 
-![2](ref\2.png)	
+![2](ref/2.png)	
 
 对修改后的最终版本打上tag
 
-![3](ref\3.png)	
+![3](ref/3.png)	
 
 
 
