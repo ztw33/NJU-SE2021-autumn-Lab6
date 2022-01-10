@@ -10,45 +10,45 @@
 
    本指令可以比较已提交和工作区的差异，也可以通过commit的id来比较两个提交版本的差异。
 
-   ![](ref\git_diff1.png)
+   ![](ref/git_diff1.png)
 
-   ![](ref\git_diff2.png)
+   ![](ref/git_diff2.png)
 
 2. git status
 
    展示此次修改与上次commit的区别
 
-   ![](ref\git_status.png)
+   ![](ref/git_status.png)
 
 3. git log
 
-   ![](ref\git_log.png)
+   ![](ref/git_log.png)
 
-   ![](ref\git_log_graph.png)
+   ![](ref/git_log_graph.png)
 
 ## 2. 分支合并
 
 1. 通过拉起两个分支（change_control和to_github）实现不同的功能之后，完成merge合并
 
-   ![](ref\git_merge1.png)
+   ![](ref/git_merge1.png)
 
-   ![](ref\git_merge2.png)
+   ![](ref/git_merge2.png)
 
 2. 再次检查git log的结果
 
-   ![](ref\git_log_1.png)
+   ![](ref/git_log_1.png)
 
-   ![](ref\git_log_2.png)
+   ![](ref/git_log_2.png)
 
 3. 重命名最后一个提交版本为final并打上tag
 
-   ![](ref\rename.png)
+   ![](ref/rename.png)
 
-   ![](ref\git_tag.png)
+   ![](ref/git_tag.png)
 
    通过git show展示tag对应信息，表示标签成功打上
 
-   ![](ref\git_show.png)
+   ![](ref/git_show.png)
 
 ## 3. 思考题
 
