@@ -1,14 +1,32 @@
+# 实验六
+
+| 姓名   | 学号     | 助教   | 日期      |
+| ------ | -------- | ------ | --------- |
+| 邓世豪 | 19122021 | 朱庭纬 | 2022.1.10 |
+
+## 实验名称
+
+ 项目协同开发管理与工具集成环境实验
+
+## 实验目的
+
+- 了解协同开发与持续集成过程
+- 学会使用项目协同开发管理工具 git/github
+- 了解持续集成并使用 jenkins 自动构建项目
+
+## 实验内容
+
 ### Git 指令展示
 
 > image0是编写本文件之前`git log`指令的截图
 
-![](ref/image0.png)
+![0](ref/image0.png)
 
 ​		在report/ref中添加了image0.png图片，并在README.md中写下以上内容后，分别执行 ``git status`` 和 ``git diff``：
 
 #### git status		
 
-`git status` 命令查看**工作区**的状态：![](ref/image1.png)
+`git status` 命令查看**工作区**的状态：![1](ref/image1.png)
 
 ​		可以看到显示修改了README.md文件(也即当前编辑的文件)，并且没有将这个修改**staged**，[之后](#git%20add)将使用 `git add` 指令将它从**工作区**添加到**暂存区**；另外还显示添加的image0.png是**untracked**状态，同样可用 `git add` 将其添加到**暂存区**。
 
@@ -16,7 +34,7 @@
 
 `git diff` 命令查看文件在**工作区**与**暂存区**的差别。如果还没 add 进暂存区，则查看文件自身**修改前后的差别**：
 
-![](ref/image2.png)
+![2](ref/image2.png)
 
 ​		可以看到 `git diff` 指令显示了工作区文件的修改情况，image0.png由于**untracked**所以没有显示。
 
@@ -24,7 +42,7 @@
 
 `git add`命令将文件从**工作区**添加到**暂存区**：
 
-​		这里我们使用 `git add -A` 可以将所有更新的文件添加到**暂存区**(包括ref文件夹下所有文件和README.md文件)，再使用`git status`查看**工作区**的状态![](ref/image3.png)
+​		这里我们使用 `git add -A` 可以将所有更新的文件添加到**暂存区**(包括ref文件夹下所有文件和README.md文件)，再使用`git status`查看**工作区**的状态![3](ref/image3.png)
 
 ​		可以看到README.md文件的修改以及ref文件夹下新添加的png图片都已经加入到了**暂存区**，现在，只需要将这些更改提交到**本地仓库**的到当前分支就可以随时回退到此刻的状态。
 
@@ -32,13 +50,13 @@
 
 `git commit`命令将**暂存区**内容添加到**本地仓库**中
 
-​		这里我们使用`git commit -m "将修改提交到本地仓库"`，其中-m参数可以对当前提交添加一个描述，方便以后回退版本时可以大致了解这个版本的主要修改：![](ref/image4.png)
+​		这里我们使用`git commit -m "将修改提交到本地仓库"`，其中-m参数可以对当前提交添加一个描述，方便以后回退版本时可以大致了解这个版本的主要修改：![4](ref/image4.png)
 
 #### git log
 
 `git log`命令用于显示**提交**日志信息
 
-​		这里我们使用`git log --stat -1`命令可以显示最近一次**提交**的简要增改行数，其中`--stat`选项显示简要的增改信息，`-1`选项指定最近一次提交：![](ref/image5.png)
+​		这里我们使用`git log --stat -1`命令可以显示最近一次**提交**的简要增改行数，其中`--stat`选项显示简要的增改信息，`-1`选项指定最近一次提交：![5](ref/image5.png)
 
 ​		可以看到最近一次的**提交**显示了简要的信息，包括README.md增加了24行，ref添加的图片占了多少bytes，总共有4个文件的更改，24行数据的增加。下面我们新建一个分支来展示其他git命令。
 
@@ -46,9 +64,9 @@
 
 `git branch`命令执行分支的查看、创建、删除等操作
 
-​		我们使用`git branch`来查看当前**本地仓库**的分支情况：![](ref/image6.png)
+​		我们使用`git branch`来查看当前**本地仓库**的分支情况：![6](ref/image6.png)
 
-可以看到本地仓库只有一个main主分支，下面我们来创建新的分支，可以通过`git branch testbrach` `git checkout -b testbranch` `git switch -c testbrach` 这三个命令来创建一个叫做testbranch的分支，其中后两个命令在创建分支后会直接切换到新的分支下，这里我们使用第一个命令，然后再次通过`git branch`(也可以使用`git branch --list`)查看当前分支：![](ref/image7.png)
+可以看到本地仓库只有一个main主分支，下面我们来创建新的分支，可以通过`git branch testbrach` `git checkout -b testbranch` `git switch -c testbrach` 这三个命令来创建一个叫做testbranch的分支，其中后两个命令在创建分支后会直接切换到新的分支下，这里我们使用第一个命令，然后再次通过`git branch`(也可以使用`git branch --list`)查看当前分支：![7](ref/image7.png)
 
 可以看到现在有两个分支分别是主分支main和刚刚创建的分支testbranch，现在我们来切换到testbranch。
 
@@ -56,7 +74,7 @@
 
 `git switch`命令进行分支的切换
 
-​		直接使用`git switch testbranch`可以切换到testbranch分支：![](ref\image8.png)
+​		直接使用`git switch testbranch`可以切换到testbranch分支：![8](ref\image8.png)
 
 接下来我们在这个分支上来创建一个test.md文件来模拟使用分支来开发的情形。
 
@@ -64,27 +82,27 @@
 
 `git merge`命令将两个或两个以上的开发历史加入(合并)一起
 
-​		此前我们创建了testbranch分支，在testbranch分支下创建新的文件test.md，并在其中加上一行内容：![](ref\image9.png)
+​		此前我们创建了testbranch分支，在testbranch分支下创建新的文件test.md，并在其中加上一行内容：![9](ref\image9.png)
 
-然后依次`git add`、`git commit` 将修改**提交**到**本地仓库**的testbranch分支下，然后我们切换到main主分支来进行分支的合并，使用命令`git merge testbranch`：![](ref/image10.png)
+然后依次`git add`、`git commit` 将修改**提交**到**本地仓库**的testbranch分支下，然后我们切换到main主分支来进行分支的合并，使用命令`git merge testbranch`：![10](ref/image10.png)
 
-可以看到顺利的完成了分支合并，接下来我们修改main分支下的test.md文件为：![](ref/image11.png)
+可以看到顺利的完成了分支合并，接下来我们修改main分支下的test.md文件为：![11](ref/image11.png)
 
-然后`git add`、`git commit`将修改提交到**本地仓库**的main分支。再切换到testbranch分支下，修改test.md文件为：![](ref/image12.png)
+然后`git add`、`git commit`将修改提交到**本地仓库**的main分支。再切换到testbranch分支下，修改test.md文件为：![12](ref/image12.png)
 
-再次`git add`、`git commit`将修改提交到**本地仓库**的testbranch分支。然后我们切换到main主分支再来尝试一次进行分支的合并，使用命令`git merge testbranch`：![](ref/image13.png)
+再次`git add`、`git commit`将修改提交到**本地仓库**的testbranch分支。然后我们切换到main主分支再来尝试一次进行分支的合并，使用命令`git merge testbranch`：![13](ref/image13.png)
 
-​		这次我们发现两个分支没法自动合并了，出现了冲突，需要解决冲突后再commit结果，此时用`git status`指令查看**工作区**的状态：![](ref/image14.png)
+​		这次我们发现两个分支没法自动合并了，出现了冲突，需要解决冲突后再commit结果，此时用`git status`指令查看**工作区**的状态：![14](ref/image14.png)
 
-打开Unmerged paths告诉我们的文件可以发现test.md有了变化：![](ref/image15.png)
+打开Unmerged paths告诉我们的文件可以发现test.md有了变化：![15](ref/image15.png)
 
-当产生合并冲突时，该部分会以`<<<<<<<`，`=======`和 `>>>>>>>`表示。在`=======`之前的部分是当前分支这边的情况，在`=======`之后的部分是对方分支(待合并)的情况。这里直接`git add`、`git commit -m "fixed the conflict"`将最终test.md的修改提交到**本地仓库**：![](ref/image16.png)
+当产生合并冲突时，该部分会以`<<<<<<<`，`=======`和 `>>>>>>>`表示。在`=======`之前的部分是当前分支这边的情况，在`=======`之后的部分是对方分支(待合并)的情况。这里直接`git add`、`git commit -m "fixed the conflict"`将最终test.md的修改提交到**本地仓库**：![16](ref/image16.png)
 
-检查一下**工作区**状态：![](ref/image17.png)
+检查一下**工作区**状态：![17](ref/image17.png)
 
-然后利用[` git log `](#git%20log)命令的功能查看提交日志：![](ref/image18.png)
+然后利用[` git log `](#git%20log)命令的功能查看提交日志：![18](ref/image18.png)
 
-至此，testbranch的工作就顺利完成了，可以用`git branch -d testbranch`命令来删掉该分支：![](ref/image19.png)
+至此，testbranch的工作就顺利完成了，可以用`git branch -d testbranch`命令来删掉该分支：![19](ref/image19.png)
 
 #### git reset
 
@@ -92,7 +110,7 @@
 
 ​		`git reset` 总共有三个模式，hard、soft、mixed，在了解这三个模式之前，先要理解之前**工作区**、**暂存区**、**本地仓库**的概念和相互关系：
 
-![图来自实验6的介绍](ref/image20.png)
+![图来自助教的实验6介绍](ref/image20.png)
 
 - --hard参数：重置HEAD位置的同时，直接将**工作区**、**暂存区**以及**本地仓库**都重置成reset目标节点的內容，效果等同于清空暂存区和工作区。
 - --soft参数：重置HEAD位置的同时，保留**工作区**和**暂存区**的内容，只让**本地仓库**中的内容和 reset 目标节点保持一致，因此原节点和reset节点之间的差异会放入**暂存区**中。结果为工作区、暂存区的内容不变，只是原节点和reset节点之间的所有差异会被放到暂存区中。
@@ -101,11 +119,11 @@
 
 ### 实验三中Git的使用
 
-`git log`查看本地仓库的提交记录：![](ref/image21.png)
+`git log`查看本地仓库的提交记录：![21](ref/image21.png)
 
 ###### v1.0: 
 
-第一个稳定版本，是开源软件本来的源码未经修改的版本，之后创建了新的分支Hello来对开源软件做修改![](ref/image22.png)
+第一个稳定版本，是开源软件本来的源码未经修改的版本，之后创建了新的分支Hello来对开源软件做修改![22](ref/image22.png)
 
 ###### v2.0:
 
@@ -159,7 +177,7 @@
 
 
 
-### 参考链接
+## 参考链接
 
 [SE_2021_autumn_lab6.pdf (nju.edu.cn)](https://seg.nju.edu.cn/curriculums/Software_Engineering_(Fall_2021)/Experiment/Experiment6/SE_2021_autumn_lab6.pdf)
 
