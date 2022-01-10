@@ -367,3 +367,6 @@
 [submodule "Project/191830204-张侃"]
 	path = Project/191830204-张侃
 	url = git@github.com:priority-queue/SE_Lab6.git
+[submodule "Project/191220101-孙思敏"]
+	path = Project/191220101-孙思敏
+	url = https://github.com/Simin-Sun/lab6-Amaze
